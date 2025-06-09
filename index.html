@@ -9,28 +9,112 @@
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 />
 <style>
-  /* Jouw CSS blijft hetzelfde, hier ter beknoptheid niet gekopieerd */
-  body { font-family: Arial, sans-serif; margin: 1em; background: #f7f9fb; color: #222; }
-  h1 { color: #5BA9C2; margin-bottom: 0.2em; }
-  .language-select { margin-bottom: 1em; }
-  select { font-size: 1em; padding: 0.3em; border-radius: 5px; border: 1px solid #5BA9C2; background: white; color: #115577; cursor: pointer; }
-  .filters { margin-bottom: 1em; }
-  label { margin-right: 0.5em; }
-  select { margin-right: 1.5em; }
-  ul.route-list { list-style: none; padding-left: 0; }
-  ul.route-list li { padding: 0.6em 0.3em; border-bottom: 1px solid #ddd; cursor: pointer; color: #115577; }
-  ul.route-list li:hover, ul.route-list li:focus { background: #d0e8fa; outline: none; }
-  #modal { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); }
-  #modal-content { background: white; max-width: 600px; margin: 5% auto; padding: 1em 1.5em 1.5em; border-radius: 10px; position: relative; }
-  #modal-close { position: absolute; right: 1em; top: 1em; cursor: pointer; font-size: 1.4em; font-weight: bold; color: #555; background: none; border: none; }
-  #map { height: 300px; margin-top: 0.5em; border-radius: 6px; }
-  .download-links { margin-top: 1em; }
-  .download-links a { display: inline-block; margin-right: 1em; text-decoration: none; background: #5BA9C2; color: white; padding: 0.5em 1em; border-radius: 6px; }
-  .download-links a:hover { background: #4a8cae; }
-  .extra-info { margin-top: 1em; font-size: 0.9em; color: #444; }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 1em;
+    background: #f7f9fb;
+    color: #222;
+  }
+  h1 {
+    color: #5BA9C2;
+    margin-bottom: 0.2em;
+  }
+  .language-select {
+    margin-bottom: 1em;
+  }
+  select {
+    font-size: 1em;
+    padding: 0.3em;
+    border-radius: 5px;
+    border: 1px solid #5BA9C2;
+    background: white;
+    color: #115577;
+    cursor: pointer;
+  }
+  .filters {
+    margin-bottom: 1em;
+  }
+  label {
+    margin-right: 0.5em;
+  }
+  select {
+    margin-right: 1.5em;
+  }
+  ul.route-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul.route-list li {
+    padding: 0.6em 0.3em;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color: #115577;
+  }
+  ul.route-list li:hover,
+  ul.route-list li:focus {
+    background: #d0e8fa;
+    outline: none;
+  }
+  #modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  #modal-content {
+    background: white;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 1em 1.5em 1.5em;
+    border-radius: 10px;
+    position: relative;
+  }
+  #modal-close {
+    position: absolute;
+    right: 1em; top: 1em;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #555;
+    background: none;
+    border: none;
+  }
+  #map {
+    height: 300px;
+    margin-top: 0.5em;
+    border-radius: 6px;
+  }
+  .download-links {
+    margin-top: 1em;
+  }
+  .download-links a {
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+    background: #5BA9C2;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+  }
+  .download-links a:hover {
+    background: #4a8cae;
+  }
+  .extra-info {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #444;
+  }
   @media(max-width: 640px) {
-    #modal-content { width: 95%; margin: 10% auto; }
-    select { margin-bottom: 0.7em; width: 100%; }
+    #modal-content {
+      width: 95%;
+      margin: 10% auto;
+    }
+    select {
+      margin-bottom: 0.7em;
+      width: 100%;
+    }
   }
 </style>
 </head>
@@ -47,7 +131,7 @@
   </div>
 
   <div class="filters" aria-label="Filter routes">
-    <!-- Filters blijven hetzelfde -->
+    <!-- Hier kun je filters toevoegen indien gewenst -->
   </div>
 
   <ul class="route-list" id="route-list" tabindex="0" aria-label="Lijst met routes"></ul>
@@ -67,9 +151,35 @@
 <script src="https://cdn.jsdelivr.net/npm/@tmcw/togeojson@0.16.0/togeojson.min.js"></script>
 
 <script>
-// Vertalingen blijven hetzelfde
+// Vertalingen (kan je uitbreiden)
+const translations = {
+  nl: {
+    title: 'Routes BienViennue',
+    selectLanguage: 'Selecteer taal:',
+    downloadGPX: 'Download GPX',
+    downloadPDF: 'Download PDF',
+    gpxLoadError: 'GPX bestand kon niet geladen worden.',
+    noRoutesFound: 'Geen routes gevonden.',
+  },
+  en: {
+    title: 'Routes BienViennue',
+    selectLanguage: 'Select language:',
+    downloadGPX: 'Download GPX',
+    downloadPDF: 'Download PDF',
+    gpxLoadError: 'Could not load GPX file.',
+    noRoutesFound: 'No routes found.',
+  },
+  fr: {
+    title: 'Itinéraires BienViennue',
+    selectLanguage: 'Choisissez la langue :',
+    downloadGPX: 'Télécharger GPX',
+    downloadPDF: 'Télécharger PDF',
+    gpxLoadError: 'Impossible de charger le fichier GPX.',
+    noRoutesFound: 'Aucun itinéraire trouvé.',
+  }
+};
 
-// Routes data met jouw correcte URLs:
+// Routes data, URL gecodeerd, mappen 'routes'
 const routes = [
   {
     id: 'r1',
@@ -78,10 +188,6 @@ const routes = [
       en: 'Au cœur du Ridellois – Azay-le-Rideau 1.6 km',
       fr: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km'
     },
-    type: ['walking', 'biking', 'mountainbiking'],
-    duur: 'Less than 2 hours',
-    regio: 'Région Azay-le-Rideau',
-    afstand: 1.6,
     gpxUrl: 'https://bienviennue.github.io/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.gpx',
     pdfUrl: 'https://bienviennue.github.io/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.pdf',
     gpxFilename: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.gpx',
@@ -94,12 +200,52 @@ const routes = [
   }
 ];
 
-// Helpers en elementen blijven hetzelfde
+// Elementen en variabelen
+const taalSelect = document.getElementById('language-select');
+const titelElem = document.querySelector('h1[data-i18n="title"]');
+const routeList = document.getElementById('route-list');
+const modal = document.getElementById('modal');
+const modalClose = document.getElementById('modal-close');
+const modalTitle = document.getElementById('modalTitle');
+const downloadLinks = document.getElementById('downloadLinks');
+const extraInfo = document.getElementById('extraInfo');
 
-// … (vertaalInterface, vulRouteList, closeModal etc blijven zoals in jouw code)
+let map, gpxLayer;
+let currentLanguage = taalSelect.value;
 
-// Open modal functie, aangepast met betere laagverwijdering en extra console output:
+// Vertaal interface
+function vertaalInterface() {
+  const t = translations[currentLanguage];
+  titelElem.textContent = t.title;
+  document.querySelector('label[for="language-select"]').textContent = t.selectLanguage;
+}
 
+// Vul lijst met routes
+function vulRouteList() {
+  routeList.innerHTML = '';
+  const t = translations[currentLanguage];
+
+  if(routes.length === 0) {
+    const li = document.createElement('li');
+    li.textContent = t.noRoutesFound;
+    li.style.fontStyle = 'italic';
+    routeList.appendChild(li);
+    return;
+  }
+
+  routes.forEach(route => {
+    const li = document.createElement('li');
+    li.textContent = route.naam[currentLanguage] || route.naam.nl || 'Unnamed route';
+    li.tabIndex = 0;
+    li.setAttribute('role', 'button');
+    li.style.outline = 'none';
+    li.addEventListener('click', () => openModal(route));
+    li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
+    routeList.appendChild(li);
+  });
+}
+
+// Open modal en laad map
 function openModal(route) {
   modal.style.display = 'block';
   modal.setAttribute('aria-hidden', 'false');
@@ -134,13 +280,12 @@ function openModal(route) {
         maxZoom: 18,
       }).addTo(map);
     }
-    // Verwijder bestaande gpxLayer netjes
+    // Verwijder vorige GPX-laag
     if (gpxLayer) {
       map.removeLayer(gpxLayer);
       gpxLayer = null;
     }
 
-    // Fetch GPX bestand
     fetch(route.gpxUrl)
       .then(r => {
         console.log('Fetch response status:', r.status);
@@ -163,12 +308,14 @@ function openModal(route) {
   }, 200);
 }
 
-// Event handlers en init code blijven ongewijzigd
-
-// Sluiten modal
+// Modal sluiten
 modalClose.onclick = closeModal;
 modal.onclick = e => { if(e.target === modal) closeModal(); };
 document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+function closeModal() {
+  modal.style.display = 'none';
+  modal.setAttribute('aria-hidden', 'true');
+}
 
 // Taalkeuze handler
 taalSelect.addEventListener('change', e => {
@@ -176,12 +323,6 @@ taalSelect.addEventListener('change', e => {
   vertaalInterface();
   vulRouteList();
 });
-
-// Filters
-filterActivity.addEventListener('change', vulRouteList);
-filterDuration.addEventListener('change', vulRouteList);
-filterRegion.addEventListener('change', vulRouteList);
-filterDistance.addEventListener('change', vulRouteList);
 
 // Init
 vertaalInterface();
