@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Routes BienViennue</title>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 1em;
+    background: #f7f9fb;
+    color: #222;
+  }
+  h1 {
+    color: #5BA9C2;
+    margin-bottom: 0.2em;
+  }
+  .language-select {
+    margin-bottom: 1em;
+  }
+  select {
+    font-size: 1em;
+    padding: 0.3em;
+    border-radius: 5px;
+    border: 1px solid #5BA9C2;
+    background: white;
+    color: #115577;
+    cursor: pointer;
+  }
+  .main-tabs, .sub-tabs {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .tab-button {
+    background: #e0f0fa;
+    border: none;
+    padding: 0.5em 1em;
+    margin-right: 0.3em;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #5BA9C2;
+  }
+  .tab-button.active {
+    background: white;
+    box-shadow: 0 -3px 6px #5BA9C2 inset;
+    color: #2f6f94;
+  }
+  .tab-content {
+    background: white;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 1em;
+  }
+  .section-title {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #4a8cae;
+    border-bottom: 1px solid #c3dce8;
+    padding-bottom: 0.3em;
+  }
+  ul.route-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul.route-list li {
+    padding: 0.6em 0.3em;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color: #115577;
+  }
+  ul.route-list li:hover,
+  ul.route-list li:focus {
+    background: #d0e8fa;
+    outline: none;
+  }
+
+  /* Popup modal styles */
+  #modal {
+    display: none; /* hidden by default */
+    position: fixed;
+    z-index: 9999;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  #modal-content {
+    background: white;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 1em 1.5em 1.5em;
+    border-radius: 10px;
+    position: relative;
+  }
+  #modal-close {
+    position: absolute;
+    right: 1em; top: 1em;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #555;
+    background: none;
+    border: none;
+  }
+  #map {
+    height: 300px;
+    margin-top: 0.5em;
+    border-radius: 6px;
+  }
+  .download-links {
+    margin-top: 1em;
+  }
+  .download-links a {
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+    background: #5BA9C2;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+  }
+  .download-links a:hover {
+    background: #4a8cae;
+  }
+  .extra-info {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  @media(max-width: 640px) {
+    #modal-content {
+      width: 95%;
+      margin: 10% auto;
+    }
+    .tab-button {
+      padding: 0.4em 0.7em;
+      font-size: 0.9em;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1 data-i18n="title">Routes BienViennue</h1>
+
+  <div class="language-select">
+    <label for="language-select" data-i18n="selectLanguage">Select language:</label>
+    <select id="language-select" aria-label="Language selector">
+      <option value="nl">Nederlands</option>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+    </select>
+  </div>
+
+  <p id="instruction" data-i18n="instruction">Click a route to view the map and download links.</p>
+
+  <div class="main-tabs" role="tablist" aria-label="Choose main view">
+    <button class="tab-button active" role="tab" aria-selected="true" aria-controls="tab-duration" id="tab-duration-btn" data-i18n="tabDuration">Walk/Bike by duration</button>
+    <button class="tab-button" role="tab" aria-selected="false" aria-controls="tab-region" id="tab-region-btn" data-i18n="tabRegion">Walk/Bike by region</button>
+  </div>
+
+  <!-- Duration view -->
+  <div id="tab-duration" class="tab-content" role="tabpanel" aria-labelledby="tab-duration-btn">
+    <div class="sub-tabs" role="tablist" aria-label="Choose activity type for duration view">
+      <button class="tab-button active" role="tab" aria-selected="true" aria-controls="duration-walking" id="duration-walking-btn" data-i18n="walking">Walking</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="duration-biking" id="duration-biking-btn" data-i18n="biking">Biking</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="duration-mtb" id="duration-mtb-btn" data-i18n="mountainbiking">Mountainbiking</button>
+    </div>
+
+    <div id="duration-walking" class="activity-content" role="tabpanel" aria-labelledby="duration-walking-btn">
+      <div class="section-title" data-i18n="lessThan2">Less than 2 hours</div>
+      <ul class="route-list" id="duration-walking-less2"></ul>
+      <div class="section-title" data-i18n="twoTo3">2 to 3 hours</div>
+      <ul class="route-list" id="duration-walking-2to3"></ul>
+      <div class="section-title" data-i18n="moreThan3">More than 3 hours</div>
+      <ul class="route-list" id="duration-walking-more3"></ul>
+    </div>
+    <div id="duration-biking" class="activity-content" role="tabpanel" aria-labelledby="duration-biking-btn" hidden>
+      <div class="section-title" data-i18n="lessThan2">Less than 2 hours</div>
+      <ul class="route-list" id="duration-biking-less2"></ul>
+      <div class="section-title" data-i18n="twoTo3">2 to 3 hours</div>
+      <ul class="route-list" id="duration-biking-2to3"></ul>
+      <div class="section-title" data-i18n="moreThan3">More than 3 hours</div>
+      <ul class="route-list" id="duration-biking-more3"></ul>
+    </div>
+    <div id="duration-mtb" class="activity-content" role="tabpanel" aria-labelledby="duration-mtb-btn" hidden>
+      <div class="section-title" data-i18n="lessThan2">Less than 2 hours</div>
+      <ul class="route-list" id="duration-mtb-less2"></ul>
+      <div class="section-title" data-i18n="twoTo3">2 to 3 hours</div>
+      <ul class="route-list" id="duration-mtb-2to3"></ul>
+      <div class="section-title" data-i18n="moreThan3">More than 3 hours</div>
+      <ul class="route-list" id="duration-mtb-more3"></ul>
+    </div>
+  </div>
+
+  <!-- Region view -->
+  <div id="tab-region" class="tab-content" role="tabpanel" aria-labelledby="tab-region-btn" hidden>
+    <div class="sub-tabs" role="tablist" aria-label="Choose activity type for region view">
+      <button class="tab-button active" role="tab" aria-selected="true" aria-controls="region-walking" id="region-walking-btn" data-i18n="walking">Walking</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="region-biking" id="region-biking-btn" data-i18n="biking">Biking</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="region-mtb" id="region-mtb-btn" data-i18n="mountainbiking">Mountainbiking</button>
+    </div>
+
+    <div id="region-walking" class="activity-content" role="tabpanel" aria-labelledby="region-walking-btn"></div>
+    <div id="region-biking" class="activity-content" role="tabpanel" aria-labelledby="region-biking-btn" hidden></div>
+    <div id="region-mtb" class="activity-content" role="tabpanel" aria-labelledby="region-mtb-btn" hidden></div>
+  </div>
+
+  <!-- Kayak routes (always visible below) -->
+  <div id="tab-kayak" class="tab-content" aria-label="Kayak routes section" style="margin-top:2em; background:white; border-radius:6px; padding:1em; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <h2 data-i18n="tabKayak">Kayak routes by river</h2>
+    <div class="section-title" data-i18n="kayakLoire">Kayak sur la Loire</div>
+    <ul class="route-list" id="kayak-loire"></ul>
+    <div class="section-title" data-i18n="kayakVienne">Kayak sur la Vienne</div>
+    <ul class="route-list" id="kayak-vienne"></ul>
+  </div>
+
+  <!-- Modal Popup -->
+  <div id="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" tabindex="-1">
+    <div id="modal-content">
+      <button id="modal-close" aria-label="Close popup">&times;</button>
+      <h2 id="modalTitle"></h2>
+      <div id="map"></div>
+      <div class="download-links" id="downloadLinks"></div>
+      <div class="extra-info" id="extraInfo"></div>
+    </div>
+  </div>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-oT3FZ+PxANyCBokOjV+7r0pOHNQxbY0zXk9fAJr9YtE="
+  crossorigin=""
+></script>
+<script src="https://cdn.jsdelivr.net/npm/@tmcw/togeojson@0.16.0/togeojson.min.js"></script>
+
+<script>
+// Vertalingen
+const translations = {
+  nl: {
+    title: 'Routes BienViennue',
+    selectLanguage: 'Selecteer taal:',
+    instruction: 'Klik op een route om de kaart en downloadlinks te bekijken.',
+    tabDuration: 'Wandel/Fiets per duur',
+    tabRegion: 'Wandel/Fiets per regio',
+    tabKayak: 'Kanoroutes per rivier',
+    walking: 'Wandelen',
+    biking: 'Fietsen',
+    mountainbiking: 'Mountainbiken',
+    lessThan2: 'Minder dan 2 uur',
+    twoTo3: '2 tot 3 uur',
+    moreThan3: 'Meer dan 3 uur',
+    kayakLoire: 'Kayak sur la Loire',
+    kayakVienne: 'Kayak sur la Vienne',
+    downloadGPX: 'Download GPX',
+    downloadPDF: 'Download PDF',
+    gpxLoadError: 'GPX bestand kon niet geladen worden.'
+  },
+  en: {
+    title: 'Routes BienViennue',
+    selectLanguage: 'Select language:',
+    instruction: 'Click a route to view the map and download links.',
+    tabDuration: 'Walk/Bike by duration',
+    tabRegion: 'Walk/Bike by region',
+    tabKayak: 'Kayak routes by river',
+    walking: 'Walking',
+    biking: 'Biking',
+    mountainbiking: 'Mountainbiking',
+    lessThan2: 'Less than 2 hours',
+    twoTo3: '2 to 3 hours',
+    moreThan3: 'More than 3 hours',
+    kayakLoire: 'Kayak on the Loire',
+    kayakVienne: 'Kayak on the Vienne',
+    downloadGPX: 'Download GPX',
+    downloadPDF: 'Download PDF',
+    gpxLoadError: 'Could not load GPX file.'
+  },
+  fr: {
+    title: 'Itinéraires BienViennue',
+    selectLanguage: 'Choisissez la langue :',
+    instruction: 'Cliquez sur un itinéraire pour voir la carte et les liens de téléchargement.',
+    tabDuration: 'Marche/Vélo par durée',
+    tabRegion: 'Marche/Vélo par région',
+    tabKayak: 'Itinéraires kayak par rivière',
+    walking: 'Marche',
+    biking: 'Vélo',
+    mountainbiking: 'VTT',
+    lessThan2: 'Moins de 2 heures',
+    twoTo3: '2 à 3 heures',
+    moreThan3: 'Plus de 3 heures',
+    kayakLoire: 'Kayak sur la Loire',
+    kayakVienne: 'Kayak sur la Vienne',
+    downloadGPX: 'Télécharger GPX',
+    downloadPDF: 'Télécharger PDF',
+    gpxLoadError: 'Impossible de charger le fichier GPX.'
+  }
+};
+
+// Routes met "type" array om op meerdere plekken te tonen
+const routes = [
+  {
+    id: 'r1',
+    naam: 'Rivierwandeling',
+    type: ['walking', 'biking'],
+    duur: 'Less than 2 hours',
+    regio: 'Région Azay-le-Rideau',
+    beschrijving: {
+      nl: 'Mooie route langs de rivier.',
+      en: 'Nice route along the river.',
+      fr: 'Belle balade le long de la rivière.'
+    },
+    gpxUrl: 'https://example.com/gpx/rivierwandeling.gpx',
+    pdfUrl: 'https://example.com/pdf/rivierwandeling.pdf',
+    gpxFilename: 'rivierwandeling.gpx',
+    pdfFilename: 'rivierwandeling.pdf'
+  },
+  {
+    id: 'r2',
+    naam: 'Fietstocht Loire kastelen',
+    type: ['biking'],
+    duur: '2 to 3 hours',
+    regio: 'Région Saumur',
+    beschrijving: {
+      nl: 'Ontspannende fietstocht langs kastelen, ca. 20 km.',
+      en: 'Relaxing bike ride along castles, about 20 km.',
+      fr: 'Balade à vélo relaxante le long des châteaux, environ 20 km.'
+    },
+    gpxUrl: 'https://example.com/gpx/fiets-loire.gpx',
+    pdfUrl: null,
+    gpxFilename: 'fiets-loire.gpx',
+    pdfFilename: null
+  },
+  {
+    id: 'r3',
+    naam: 'Mountainbike route Brissac',
+    type: ['mountainbiking'],
+    duur: 'More than 3 hours',
+    regio: 'Région Brissac Loire-Aubance',
+    beschrijving: {
+      nl: 'Uitdagende MTB route.',
+      en: 'Challenging MTB route.',
+      fr: 'Itinéraire VTT exigeant.'
+    },
+    gpxUrl: 'https://example.com/gpx/mbike-brissac.gpx',
+    pdfUrl: 'https://example.com/pdf/mbike-brissac.pdf',
+    gpxFilename: 'mbike-brissac.gpx',
+    pdfFilename: 'mbike-brissac.pdf'
+  },
+  {
+    id: 'r4',
+    naam: 'Rondwandeling Chinon',
+    type: ['walking'],
+    duur: '2 to 3 hours',
+    regio: 'Région Chinon',
+    beschrijving: {
+      nl: 'Historische wandeling door Chinon.',
+      en: 'Historic walk through Chinon.',
+      fr: 'Promenade historique à Chinon.'
+    },
+    gpxUrl: 'https://example.com/gpx/wandel-chinon.gpx',
+    pdfUrl: null,
+    gpxFilename: 'wandel-chinon.gpx',
+    pdfFilename: null
+  },
+  {
+    id: 'k1',
+    naam: 'Kanotocht Loire rivier',
+    type: ['kayak'],
+    rivier: 'Kayak sur la Loire',
+    beschrijving: {
+      nl: 'Rustige tocht met mooie natuur, ca. 15 km.',
+      en: 'Quiet trip with beautiful nature, approx. 15 km.',
+      fr: 'Balade tranquille avec une nature magnifique, environ 15 km.'
+    },
+    gpxUrl: 'https://example.com/gpx/kano-loire.gpx',
+    pdfUrl: 'https://example.com/pdf/kano-loire.pdf',
+    gpxFilename: 'kano-loire.gpx',
+    pdfFilename: 'kano-loire.pdf'
+  },
+  {
+    id: 'k2',
+    naam: 'Kanotocht Vienne rivier',
+    type: ['kayak'],
+    rivier: 'Kayak sur la Vienne',
+    beschrijving: {
+      nl: 'Prachtige route door valleien, ca. 12 km.',
+      en: 'Beautiful route through valleys, approx. 12 km.',
+      fr: 'Beau parcours à travers les vallées, environ 12 km.'
+    },
+    gpxUrl: 'https://example.com/gpx/kano-vienne.gpx',
+    pdfUrl: null,
+    gpxFilename: 'kano-vienne.gpx',
+    pdfFilename: null
+  }
+];
+
+// Helper functies
+function groupByDuration(routesList) {
+  const groups = { 'Less than 2 hours': [], '2 to 3 hours': [], 'More than 3 hours': [] };
+  routesList.forEach(r => {
+    if(groups[r.duur]) groups[r.duur].push(r);
+  });
+  return groups;
+}
+
+function groupByRegionAndDuration(routesList) {
+  const grouped = {};
+  routesList.forEach(r => {
+    if(!grouped[r.regio]) grouped[r.regio] = { 'Less than 2 hours': [], '2 to 3 hours': [], 'More than 3 hours': [] };
+    if(grouped[r.regio][r.duur]) grouped[r.regio][r.duur].push(r);
+  });
+  return grouped;
+}
+
+// Elementen
+const taalSelect = document.getElementById('language-select');
+const titelElem = document.querySelector('h1[data-i18n="title"]');
+const instructie = document.getElementById('instruction');
+
+const tabDurationBtn = document.getElementById('tab-duration-btn');
+const tabRegionBtn = document.getElementById('tab-region-btn');
+
+const tabDuration = document.getElementById('tab-duration');
+const tabRegion = document.getElementById('tab-region');
+
+const subTabsDuration = document.querySelectorAll('#tab-duration .sub-tabs .tab-button');
+const subTabsRegion = document.querySelectorAll('#tab-region .sub-tabs .tab-button');
+
+const durationWalking = document.getElementById('duration-walking');
+const durationBiking = document.getElementById('duration-biking');
+const durationMtb = document.getElementById('duration-mtb');
+
+const regionWalking = document.getElementById('region-walking');
+const regionBiking = document.getElementById('region-biking');
+const regionMtb = document.getElementById('region-mtb');
+
+const kayakLoire = document.getElementById('kayak-loire');
+const kayakVienne = document.getElementById('kayak-vienne');
+
+const modal = document.getElementById('modal');
+const modalClose = document.getElementById('modal-close');
+const modalTitle = document.getElementById('modalTitle');
+const downloadLinks = document.getElementById('downloadLinks');
+const extraInfo = document.getElementById('extraInfo');
+
+let map, gpxLayer;
+let currentLanguage = taalSelect.value;
+
+// Vertaal interface
+function vertaalInterface() {
+  const t = translations[currentLanguage];
+  titelElem.textContent = t.title;
+  instructie.textContent = t.instruction;
+  taalSelect.previousElementSibling.textContent = t.selectLanguage;
+
+  tabDurationBtn.textContent = t.tabDuration;
+  tabRegionBtn.textContent = t.tabRegion;
+
+  subTabsDuration.forEach(btn => {
+    const key = btn.getAttribute('data-i18n');
+    btn.textContent = t[key];
+  });
+  subTabsRegion.forEach(btn => {
+    const key = btn.getAttribute('data-i18n');
+    btn.textContent = t[key];
+  });
+
+  durationWalking.querySelector('[data-i18n="lessThan2"]').textContent = t.lessThan2;
+  durationWalking.querySelector('[data-i18n="twoTo3"]').textContent = t.twoTo3;
+  durationWalking.querySelector('[data-i18n="moreThan3"]').textContent = t.moreThan3;
+  durationBiking.querySelector('[data-i18n="lessThan2"]').textContent = t.lessThan2;
+  durationBiking.querySelector('[data-i18n="twoTo3"]').textContent = t.twoTo3;
+  durationBiking.querySelector('[data-i18n="moreThan3"]').textContent = t.moreThan3;
+  durationMtb.querySelector('[data-i18n="lessThan2"]').textContent = t.lessThan2;
+  durationMtb.querySelector('[data-i18n="twoTo3"]').textContent = t.twoTo3;
+  durationMtb.querySelector('[data-i18n="moreThan3"]').textContent = t.moreThan3;
+
+  kayakLoire.previousElementSibling.textContent = t.kayakLoire;
+  kayakVienne.previousElementSibling.textContent = t.kayakVienne;
+
+  modalClose.setAttribute('aria-label', currentLanguage === 'nl' ? 'Sluit popup' : currentLanguage === 'fr' ? 'Fermer popup' : 'Close popup');
+}
+
+// Vul duur tab (filtert op type)
+function vulTabDuration() {
+  ['walking','biking','mountainbiking'].forEach(type => {
+    ['less2','2to3','more3'].forEach(cat => {
+      const ul = document.getElementById(`duration-${type}-${cat}`);
+      if(ul) ul.innerHTML = '';
+    });
+  });
+
+  const duurKeys = {'Less than 2 hours':'less2','2 to 3 hours':'2to3','More than 3 hours':'more3'};
+
+  ['walking','biking','mountainbiking'].forEach(type => {
+    const filteredRoutes = routes.filter(r => r.type.includes(type) && r.duur);
+    const groups = groupByDuration(filteredRoutes);
+    for(let duur in groups) {
+      const ul = document.getElementById(`duration-${type}-${duurKeys[duur]}`);
+      if(!ul) continue;
+      groups[duur].forEach(route => {
+        const li = document.createElement('li');
+        li.textContent = route.naam;
+        li.tabIndex = 0;
+        li.setAttribute('role', 'button');
+        li.style.outline = 'none';
+        li.addEventListener('click', () => openModal(route));
+        li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
+        ul.appendChild(li);
+      });
+    }
+  });
+}
+
+// Vul regio tab (filtert op type)
+function vulTabRegion() {
+  [regionWalking, regionBiking, regionMtb].forEach(el => el.innerHTML = '');
+
+  const duurCategorieen = ['Less than 2 hours','2 to 3 hours','More than 3 hours'];
+
+  ['walking','biking','mountainbiking'].forEach(type => {
+    const filteredRoutes = routes.filter(r => r.type.includes(type) && r.regio);
+    const grouped = groupByRegionAndDuration(filteredRoutes);
+    const containerMap = {'walking': regionWalking, 'biking': regionBiking, 'mountainbiking': regionMtb};
+    const container = containerMap[type];
+    if(!container) return;
+
+    Object.keys(grouped).sort().forEach(regio => {
+      const regioDiv = document.createElement('div');
+      regioDiv.className = 'section-title';
+      regioDiv.textContent = regio;
+      container.appendChild(regioDiv);
+
+      duurCategorieen.forEach(duur => {
+        const routesInDuur = grouped[regio][duur];
+        if(routesInDuur.length === 0) return;
+
+        const duurTitle = document.createElement('div');
+        duurTitle.className = 'section-title';
+        duurTitle.style.fontSize = '1em';
+        duurTitle.style.marginTop = '0.3em';
+        duurTitle.style.color = '#3377aa';
+        duurTitle.textContent = translations[currentLanguage][duur === 'Less than 2 hours' ? 'lessThan2' : duur === '2 to 3 hours' ? 'twoTo3' : 'moreThan3'];
+        container.appendChild(duurTitle);
+
+        const ul = document.createElement('ul');
+        ul.className = 'route-list';
+        routesInDuur.forEach(route => {
+          const li = document.createElement('li');
+          li.textContent = route.naam;
+          li.tabIndex = 0;
+          li.setAttribute('role', 'button');
+          li.style.outline = 'none';
+          li.addEventListener('click', () => openModal(route));
+          li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
+          ul.appendChild(li);
+        });
+        container.appendChild(ul);
+      });
+    });
+  });
+}
+
+// Vul kano tab (altijd alle kayak routes)
+function vulTabKayak() {
+  kayakLoire.innerHTML = '';
+  kayakVienne.innerHTML = '';
+  routes.filter(r => r.type.includes('kayak')).forEach(route => {
+    const li = document.createElement('li');
+    li.textContent = route.naam;
+    li.tabIndex = 0;
+    li.setAttribute('role', 'button');
+    li.style.outline = 'none';
+    li.addEventListener('click', () => openModal(route));
+    li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
+    if(route.rivier === 'Kayak sur la Loire') kayakLoire.appendChild(li);
+    else if(route.rivier === 'Kayak sur la Vienne') kayakVienne.appendChild(li);
+  });
+}
+
+// Hoofd tabs wisselen
+const mainTabs = document.querySelectorAll('.main-tabs .tab-button');
+mainTabs.forEach(btn => {
+  btn.addEventListener('click', () => {
+    mainTabs.forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+
+    tabDuration.hidden = true;
+    tabRegion.hidden = true;
+
+    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
+  });
+});
+
+// Sub tabs duur
+subTabsDuration.forEach(btn => {
+  btn.addEventListener('click', () => {
+    subTabsDuration.forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+
+    durationWalking.hidden = true;
+    durationBiking.hidden = true;
+    durationMtb.hidden = true;
+
+    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
+  });
+});
+
+// Sub tabs regio
+subTabsRegion.forEach(btn => {
+  btn.addEventListener('click', () => {
+    subTabsRegion.forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+
+    regionWalking.hidden = true;
+    regionBiking.hidden = true;
+    regionMtb.hidden = true;
+
+    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
+  });
+});
+
+// Modal openen
+function openModal(route) {
+  modal.style.display = 'block';
+  modal.setAttribute('aria-hidden', 'false');
+  modal.focus();
+  modalTitle.textContent = route.naam;
+  extraInfo.textContent = route.beschrijving[currentLanguage] || '';
+
+  downloadLinks.innerHTML = '';
+  const t = translations[currentLanguage];
+  if (route.gpxUrl) {
+    const a1 = document.createElement('a');
+    a1.href = route.gpxUrl;
+    a1.download = route.gpxFilename || '';
+    a1.textContent = t.downloadGPX;
+    a1.target = '_blank';
+    downloadLinks.appendChild(a1);
+  }
+  if (route.pdfUrl) {
+    const a2 = document.createElement('a');
+    a2.href = route.pdfUrl;
+    a2.download = route.pdfFilename || '';
+    a2.textContent = t.downloadPDF;
+    a2.target = '_blank';
+    downloadLinks.appendChild(a2);
+  }
+
+  setTimeout(() => {
+    if (!map) {
+      map = L.map('map').setView([47.2, 0.2], 10);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 18,
+      }).addTo(map);
+    } else {
+      map.eachLayer(layer => {
+        if (layer instanceof L.GeoJSON) {
+          map.removeLayer(layer);
+        }
+      });
+    }
+
+    fetch(route.gpxUrl)
+      .then(r => r.text())
+      .then(gpxText => {
+        const parser = new DOMParser();
+        const gpxDoc = parser.parseFromString(gpxText, 'application/xml');
+        const geojson = toGeoJSON.gpx(gpxDoc);
+        if (gpxLayer) map.removeLayer(gpxLayer);
+        gpxLayer = L.geoJSON(geojson).addTo(map);
+        map.fitBounds(gpxLayer.getBounds());
+      })
+      .catch(() => alert(t.gpxLoadError));
+  }, 200);
+}
+
+// Modal sluiten
+modalClose.onclick = closeModal;
+modal.onclick = e => { if(e.target === modal) closeModal(); };
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+function closeModal() {
+  modal.style.display = 'none';
+  modal.setAttribute('aria-hidden', 'true');
+}
+
+// Taalkeuze handler
+taalSelect.addEventListener('change', e => {
+  currentLanguage = e.target.value;
+  vertaalInterface();
+  vulTabDuration();
+  vulTabRegion();
+  vulTabKayak();
+});
+
+// Init
+vertaalInterface();
+vulTabDuration();
+vulTabRegion();
+vulTabKayak();
+
+</script>
+</body>
+</html>
