@@ -447,16 +447,24 @@ function openModal(route) {
     }
 
     fetch(route.gpxUrl)
-      .then(r => r.text())
+      .then(r => {
+        console.log('Fetch response status:', r.status);
+        return r.text();
+      })
       .then(gpxText => {
+        console.log('GPX text length:', gpxText.length);
         const parser = new DOMParser();
         const gpxDoc = parser.parseFromString(gpxText, 'application/xml');
         const geojson = toGeoJSON.gpx(gpxDoc);
+        console.log('GeoJSON:', geojson);
         if (gpxLayer) map.removeLayer(gpxLayer);
         gpxLayer = L.geoJSON(geojson).addTo(map);
         map.fitBounds(gpxLayer.getBounds());
       })
-      .catch(() => alert(t.gpxLoadError));
+      .catch((err) => {
+        console.error('Error loading GPX:', err);
+        alert(t.gpxLoadError);
+      });
   }, 200);
 }
 
