@@ -157,15 +157,15 @@
     <label for="filter-distance" data-i18n="filterDistance">Afstand:</label>
     <select id="filter-distance">
       <option value="all" data-i18n="allDistances">Alle</option>
-      <option value="0-5">Minder dan 5 km</option>
-      <option value="5-10">5 tot 10 km</option>
-      <option value="10-15">10 tot 15 km</option>
-      <option value="15-20">15 tot 20 km</option>
-      <option value="20-25">20 tot 25 km</option>
-      <option value="25-30">25 tot 30 km</option>
-      <option value="30-40">30 tot 40 km</option>
-      <option value="40-50">40 tot 50 km</option>
-      <option value="50+">Meer dan 50 km</option>
+      <option value="0-5" data-i18n="distance0to5">Minder dan 5 km</option>
+      <option value="5-10" data-i18n="distance5to10">5 tot 10 km</option>
+      <option value="10-15" data-i18n="distance10to15">10 tot 15 km</option>
+      <option value="15-20" data-i18n="distance15to20">15 tot 20 km</option>
+      <option value="20-25" data-i18n="distance20to25">20 tot 25 km</option>
+      <option value="25-30" data-i18n="distance25to30">25 tot 30 km</option>
+      <option value="30-40" data-i18n="distance30to40">30 tot 40 km</option>
+      <option value="40-50" data-i18n="distance40to50">40 tot 50 km</option>
+      <option value="50+" data-i18n="distance50plus">Meer dan 50 km</option>
     </select>
   </div>
 
@@ -183,7 +183,6 @@
   </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@tmcw/togeojson@0.16.0/togeojson.min.js"></script>
 
 <script>
@@ -207,7 +206,16 @@ const translations = {
     downloadGPX: 'Download GPX',
     downloadPDF: 'Download PDF',
     gpxLoadError: 'GPX bestand kon niet geladen worden.',
-    noRoutesFound: 'Geen routes gevonden.'
+    noRoutesFound: 'Geen routes gevonden.',
+    distance0to5: 'Minder dan 5 km',
+    distance5to10: '5 tot 10 km',
+    distance10to15: '10 tot 15 km',
+    distance15to20: '15 tot 20 km',
+    distance20to25: '20 tot 25 km',
+    distance25to30: '25 tot 30 km',
+    distance30to40: '30 tot 40 km',
+    distance40to50: '40 tot 50 km',
+    distance50plus: 'Meer dan 50 km'
   },
   en: {
     title: 'Routes BienViennue',
@@ -227,7 +235,16 @@ const translations = {
     downloadGPX: 'Download GPX',
     downloadPDF: 'Download PDF',
     gpxLoadError: 'Could not load GPX file.',
-    noRoutesFound: 'No routes found.'
+    noRoutesFound: 'No routes found.',
+    distance0to5: 'Less than 5 km',
+    distance5to10: '5 to 10 km',
+    distance10to15: '10 to 15 km',
+    distance15to20: '15 to 20 km',
+    distance20to25: '20 to 25 km',
+    distance25to30: '25 to 30 km',
+    distance30to40: '30 to 40 km',
+    distance40to50: '40 to 50 km',
+    distance50plus: 'More than 50 km'
   },
   fr: {
     title: 'Itinéraires BienViennue',
@@ -247,29 +264,45 @@ const translations = {
     downloadGPX: 'Télécharger GPX',
     downloadPDF: 'Télécharger PDF',
     gpxLoadError: 'Impossible de charger le fichier GPX.',
-    noRoutesFound: 'Aucun itinéraire trouvé.'
+    noRoutesFound: 'Aucun itinéraire trouvé.',
+    distance0to5: 'Moins de 5 km',
+    distance5to10: '5 à 10 km',
+    distance10to15: '10 à 15 km',
+    distance15to20: '15 à 20 km',
+    distance20to25: '20 à 25 km',
+    distance25to30: '25 à 30 km',
+    distance30to40: '30 à 40 km',
+    distance40to50: '40 à 50 km',
+    distance50plus: 'Plus de 50 km'
   }
 };
 
-// Jouw testroute (alleen deze)
+// Routes data (voorbeeld)
 const routes = [
+  // Voeg hier je route-objecten toe, bijvoorbeeld:
+  /*
   {
     id: 'ridellois-azay-1-6',
-    naam: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km',
+    naam: {
+      nl: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km',
+      en: 'Au cœur du Ridellois – Azay-le-Rideau 1.6 km',
+      fr: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km'
+    },
     type: ['walking', 'biking', 'mountainbiking', 'kayak'],
     duur: 'Less than 2 hours',
     regio: 'Région Azay-le-Rideau',
     afstand: 1.6,
     beschrijving: {
-      nl: '',
-      en: '',
-      fr: ''
+      nl: 'Mooie route langs de rivier.',
+      en: 'Nice route along the river.',
+      fr: 'Belle balade le long de la rivière.'
     },
-    gpxUrl: 'https://github.com/BienViennue/bienviennue-routes/raw/main/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.gpx',
-    pdfUrl: 'https://github.com/BienViennue/bienviennue-routes/raw/main/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.pdf',
+    gpxUrl: 'https://raw.githubusercontent.com/BienViennue/bienviennue-routes/main/Au cœur du Ridellois – Azay-le-Rideau 1,6 km.gpx',
+    pdfUrl: 'https://raw.githubusercontent.com/BienViennue/bienviennue-routes/main/Au cœur du Ridellois – Azay-le-Rideau 1,6 km.pdf',
     gpxFilename: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.gpx',
     pdfFilename: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.pdf'
   }
+  */
 ];
 
 // Helpers om unieke regio's te halen voor filter
@@ -316,11 +349,11 @@ function vertaalInterface() {
   filterRegion.querySelector('option[value="all"]').textContent = t.allRegions;
   filterDistance.querySelector('option[value="all"]').textContent = t.allDistances;
 
-  // update opties in filters voor activiteiten, duur
   ['walking','biking','mountainbiking','kayak'].forEach(type => {
     const optA = filterActivity.querySelector(`option[value="${type}"]`);
     if(optA) optA.textContent = t[type];
   });
+
   ['Less than 2 hours','2 to 3 hours','More than 3 hours'].forEach(dur => {
     const durMap = {
       'Less than 2 hours': 'lessThan2',
@@ -331,7 +364,6 @@ function vertaalInterface() {
     if(optD) optD.textContent = t[durMap[dur]];
   });
 
-  // vul regio filter
   const regions = getUniqueRegions();
   filterRegion.innerHTML = `<option value="all">${t.allRegions}</option>`;
   regions.forEach(r => {
@@ -340,26 +372,8 @@ function vertaalInterface() {
     opt.textContent = r;
     filterRegion.appendChild(opt);
   });
-
+  
   modalClose.setAttribute('aria-label', currentLanguage === 'nl' ? 'Sluit popup' : currentLanguage === 'fr' ? 'Fermer popup' : 'Close popup');
-}
-
-// Check of afstand in geselecteerde afstandscategorie valt
-function matchesDistanceRange(distance, range) {
-  if (range === 'all') return true;
-  if (!distance) return false;
-  switch(range) {
-    case '0-5': return distance < 5;
-    case '5-10': return distance >= 5 && distance < 10;
-    case '10-15': return distance >= 10 && distance < 15;
-    case '15-20': return distance >= 15 && distance < 20;
-    case '20-25': return distance >= 20 && distance < 25;
-    case '25-30': return distance >= 25 && distance < 30;
-    case '30-40': return distance >= 30 && distance < 40;
-    case '40-50': return distance >= 40 && distance < 50;
-    case '50+': return distance >= 50;
-    default: return false;
-  }
 }
 
 // Filters toepassen en lijst vullen
@@ -372,12 +386,27 @@ function vulRouteList() {
   const fRegion = filterRegion.value;
   const fDistance = filterDistance.value;
 
-  // Filter routes
   const filtered = routes.filter(r => {
     const matchesActivity = (fActivity === 'all') || r.type.includes(fActivity);
     const matchesDuration = (fDuration === 'all') || (r.duur === fDuration);
     const matchesRegion = (fRegion === 'all') || (r.regio === fRegion);
-    const matchesDistance = matchesDistanceRange(r.afstand, fDistance);
+    
+    let matchesDistance = true;
+    if(fDistance !== 'all' && r.afstand !== undefined && r.afstand !== null) {
+      const dist = r.afstand;
+      switch(fDistance) {
+        case '0-5': matchesDistance = dist < 5; break;
+        case '5-10': matchesDistance = dist >= 5 && dist < 10; break;
+        case '10-15': matchesDistance = dist >= 10 && dist < 15; break;
+        case '15-20': matchesDistance = dist >= 15 && dist < 20; break;
+        case '20-25': matchesDistance = dist >= 20 && dist < 25; break;
+        case '25-30': matchesDistance = dist >= 25 && dist < 30; break;
+        case '30-40': matchesDistance = dist >= 30 && dist < 40; break;
+        case '40-50': matchesDistance = dist >= 40 && dist < 50; break;
+        case '50+': matchesDistance = dist >= 50; break;
+      }
+    }
+
     return matchesActivity && matchesDuration && matchesRegion && matchesDistance;
   });
 
@@ -391,7 +420,7 @@ function vulRouteList() {
 
   filtered.forEach(route => {
     const li = document.createElement('li');
-    li.textContent = route.naam;
+    li.textContent = route.naam[currentLanguage] || route.naam.nl || 'Unnamed route';
     li.tabIndex = 0;
     li.setAttribute('role', 'button');
     li.style.outline = 'none';
@@ -406,7 +435,7 @@ function openModal(route) {
   modal.style.display = 'block';
   modal.setAttribute('aria-hidden', 'false');
   modal.focus();
-  modalTitle.textContent = route.naam;
+  modalTitle.textContent = route.naam[currentLanguage] || route.naam.nl || 'Unnamed route';
   extraInfo.textContent = route.beschrijving[currentLanguage] || '';
 
   downloadLinks.innerHTML = '';
