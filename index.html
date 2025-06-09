@@ -31,38 +31,14 @@
     color: #115577;
     cursor: pointer;
   }
-  .main-tabs, .sub-tabs {
-    margin-top: 1em;
+  .filters {
     margin-bottom: 1em;
   }
-  .tab-button {
-    background: #e0f0fa;
-    border: none;
-    padding: 0.5em 1em;
-    margin-right: 0.3em;
-    border-radius: 6px 6px 0 0;
-    cursor: pointer;
-    font-weight: bold;
-    color: #5BA9C2;
+  label {
+    margin-right: 0.5em;
   }
-  .tab-button.active {
-    background: white;
-    box-shadow: 0 -3px 6px #5BA9C2 inset;
-    color: #2f6f94;
-  }
-  .tab-content {
-    background: white;
-    border-radius: 0 6px 6px 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    padding: 1em;
-  }
-  .section-title {
-    font-size: 1.2em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    color: #4a8cae;
-    border-bottom: 1px solid #c3dce8;
-    padding-bottom: 0.3em;
+  select {
+    margin-right: 1.5em;
   }
   ul.route-list {
     list-style: none;
@@ -79,10 +55,9 @@
     background: #d0e8fa;
     outline: none;
   }
-
-  /* Popup modal styles */
+  /* Modal popup */
   #modal {
-    display: none; /* hidden by default */
+    display: none;
     position: fixed;
     z-index: 9999;
     left: 0; top: 0;
@@ -132,15 +107,14 @@
     font-size: 0.9em;
     color: #444;
   }
-
   @media(max-width: 640px) {
     #modal-content {
       width: 95%;
       margin: 10% auto;
     }
-    .tab-button {
-      padding: 0.4em 0.7em;
-      font-size: 0.9em;
+    select {
+      margin-bottom: 0.7em;
+      width: 100%;
     }
   }
 </style>
@@ -149,7 +123,7 @@
   <h1 data-i18n="title">Routes BienViennue</h1>
 
   <div class="language-select">
-    <label for="language-select" data-i18n="selectLanguage">Select language:</label>
+    <label for="language-select" data-i18n="selectLanguage">Selecteer taal:</label>
     <select id="language-select" aria-label="Language selector">
       <option value="nl">Nederlands</option>
       <option value="en">English</option>
@@ -157,70 +131,33 @@
     </select>
   </div>
 
-  <p id="instruction" data-i18n="instruction">Click a route to view the map and download links.</p>
+  <div class="filters" aria-label="Filter routes">
+    <label for="filter-activity" data-i18n="filterActivity">Activiteit:</label>
+    <select id="filter-activity">
+      <option value="all" data-i18n="allActivities">Alle</option>
+      <option value="walking" data-i18n="walking">Wandelen</option>
+      <option value="biking" data-i18n="biking">Fietsen</option>
+      <option value="mountainbiking" data-i18n="mountainbiking">Mountainbiken</option>
+      <option value="kayak" data-i18n="kayak">Kajakken</option>
+    </select>
 
-  <div class="main-tabs" role="tablist" aria-label="Choose main view">
-    <button class="tab-button active" role="tab" aria-selected="true" aria-controls="tab-duration" id="tab-duration-btn" data-i18n="tabDuration">Walk/Bike by duration</button>
-    <button class="tab-button" role="tab" aria-selected="false" aria-controls="tab-region" id="tab-region-btn" data-i18n="tabRegion">Walk/Bike by region</button>
+    <label for="filter-duration" data-i18n="filterDuration">Duur:</label>
+    <select id="filter-duration">
+      <option value="all" data-i18n="allDurations">Alle</option>
+      <option value="Less than 2 hours" data-i18n="lessThan2">Minder dan 2 uur</option>
+      <option value="2 to 3 hours" data-i18n="twoTo3">2 tot 3 uur</option>
+      <option value="More than 3 hours" data-i18n="moreThan3">Meer dan 3 uur</option>
+    </select>
+
+    <label for="filter-region" data-i18n="filterRegion">Regio:</label>
+    <select id="filter-region">
+      <option value="all" data-i18n="allRegions">Alle</option>
+    </select>
   </div>
 
-  <!-- Duration view -->
-  <div id="tab-duration" class="tab-content" role="tabpanel" aria-labelledby="tab-duration-btn">
-    <div class="sub-tabs" role="tablist" aria-label="Choose activity type for duration view">
-      <button class="tab-button active" role="tab" aria-selected="true" aria-controls="duration-walking" id="duration-walking-btn" data-i18n="walking">Walking</button>
-      <button class="tab-button" role="tab" aria-selected="false" aria-controls="duration-biking" id="duration-biking-btn" data-i18n="biking">Biking</button>
-      <button class="tab-button" role="tab" aria-selected="false" aria-controls="duration-mtb" id="duration-mtb-btn" data-i18n="mountainbiking">Mountainbiking</button>
-    </div>
+  <ul class="route-list" id="route-list" tabindex="0" aria-label="Lijst met routes"></ul>
 
-    <div id="duration-walking" class="activity-content" role="tabpanel" aria-labelledby="duration-walking-btn">
-      <div class="section-title" data-i18n="lessThan2">Less than 2 hours</div>
-      <ul class="route-list" id="duration-walking-less2"></ul>
-      <div class="section-title" data-i18n="twoTo3">2 to 3 hours</div>
-      <ul class="route-list" id="duration-walking-2to3"></ul>
-      <div class="section-title" data-i18n="moreThan3">More than 3 hours</div>
-      <ul class="route-list" id="duration-walking-more3"></ul>
-    </div>
-    <div id="duration-biking" class="activity-content" role="tabpanel" aria-labelledby="duration-biking-btn" hidden>
-      <div class="section-title" data-i18n="lessThan2">Less than 2 hours</div>
-      <ul class="route-list" id="duration-biking-less2"></ul>
-      <div class="section-title" data-i18n="twoTo3">2 to 3 hours</div>
-      <ul class="route-list" id="duration-biking-2to3"></ul>
-      <div class="section-title" data-i18n="moreThan3">More than 3 hours</div>
-      <ul class="route-list" id="duration-biking-more3"></ul>
-    </div>
-    <div id="duration-mtb" class="activity-content" role="tabpanel" aria-labelledby="duration-mtb-btn" hidden>
-      <div class="section-title" data-i18n="lessThan2">Less than 2 hours</div>
-      <ul class="route-list" id="duration-mtb-less2"></ul>
-      <div class="section-title" data-i18n="twoTo3">2 to 3 hours</div>
-      <ul class="route-list" id="duration-mtb-2to3"></ul>
-      <div class="section-title" data-i18n="moreThan3">More than 3 hours</div>
-      <ul class="route-list" id="duration-mtb-more3"></ul>
-    </div>
-  </div>
-
-  <!-- Region view -->
-  <div id="tab-region" class="tab-content" role="tabpanel" aria-labelledby="tab-region-btn" hidden>
-    <div class="sub-tabs" role="tablist" aria-label="Choose activity type for region view">
-      <button class="tab-button active" role="tab" aria-selected="true" aria-controls="region-walking" id="region-walking-btn" data-i18n="walking">Walking</button>
-      <button class="tab-button" role="tab" aria-selected="false" aria-controls="region-biking" id="region-biking-btn" data-i18n="biking">Biking</button>
-      <button class="tab-button" role="tab" aria-selected="false" aria-controls="region-mtb" id="region-mtb-btn" data-i18n="mountainbiking">Mountainbiking</button>
-    </div>
-
-    <div id="region-walking" class="activity-content" role="tabpanel" aria-labelledby="region-walking-btn"></div>
-    <div id="region-biking" class="activity-content" role="tabpanel" aria-labelledby="region-biking-btn" hidden></div>
-    <div id="region-mtb" class="activity-content" role="tabpanel" aria-labelledby="region-mtb-btn" hidden></div>
-  </div>
-
-  <!-- Kayak routes (always visible below) -->
-  <div id="tab-kayak" class="tab-content" aria-label="Kayak routes section" style="margin-top:2em; background:white; border-radius:6px; padding:1em; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-    <h2 data-i18n="tabKayak">Kayak routes by river</h2>
-    <div class="section-title" data-i18n="kayakLoire">Kayak sur la Loire</div>
-    <ul class="route-list" id="kayak-loire"></ul>
-    <div class="section-title" data-i18n="kayakVienne">Kayak sur la Vienne</div>
-    <ul class="route-list" id="kayak-vienne"></ul>
-  </div>
-
-  <!-- Modal Popup -->
+  <!-- Modal -->
   <div id="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" tabindex="-1">
     <div id="modal-content">
       <button id="modal-close" aria-label="Close popup">&times;</button>
@@ -239,68 +176,65 @@
 <script src="https://cdn.jsdelivr.net/npm/@tmcw/togeojson@0.16.0/togeojson.min.js"></script>
 
 <script>
-// Vertalingen
+// Translations
 const translations = {
   nl: {
     title: 'Routes BienViennue',
     selectLanguage: 'Selecteer taal:',
-    instruction: 'Klik op een route om de kaart en downloadlinks te bekijken.',
-    tabDuration: 'Wandel/Fiets per duur',
-    tabRegion: 'Wandel/Fiets per regio',
-    tabKayak: 'Kanoroutes per rivier',
+    filterActivity: 'Activiteit:',
+    filterDuration: 'Duur:',
+    filterRegion: 'Regio:',
+    allActivities: 'Alle',
+    allDurations: 'Alle',
+    allRegions: 'Alle',
     walking: 'Wandelen',
     biking: 'Fietsen',
     mountainbiking: 'Mountainbiken',
-    lessThan2: 'Minder dan 2 uur',
-    twoTo3: '2 tot 3 uur',
-    moreThan3: 'Meer dan 3 uur',
-    kayakLoire: 'Kayak sur la Loire',
-    kayakVienne: 'Kayak sur la Vienne',
+    kayak: 'Kajakken',
     downloadGPX: 'Download GPX',
     downloadPDF: 'Download PDF',
-    gpxLoadError: 'GPX bestand kon niet geladen worden.'
+    gpxLoadError: 'GPX bestand kon niet geladen worden.',
+    noRoutesFound: 'Geen routes gevonden.'
   },
   en: {
     title: 'Routes BienViennue',
     selectLanguage: 'Select language:',
-    instruction: 'Click a route to view the map and download links.',
-    tabDuration: 'Walk/Bike by duration',
-    tabRegion: 'Walk/Bike by region',
-    tabKayak: 'Kayak routes by river',
+    filterActivity: 'Activity:',
+    filterDuration: 'Duration:',
+    filterRegion: 'Region:',
+    allActivities: 'All',
+    allDurations: 'All',
+    allRegions: 'All',
     walking: 'Walking',
     biking: 'Biking',
     mountainbiking: 'Mountainbiking',
-    lessThan2: 'Less than 2 hours',
-    twoTo3: '2 to 3 hours',
-    moreThan3: 'More than 3 hours',
-    kayakLoire: 'Kayak on the Loire',
-    kayakVienne: 'Kayak on the Vienne',
+    kayak: 'Kayaking',
     downloadGPX: 'Download GPX',
     downloadPDF: 'Download PDF',
-    gpxLoadError: 'Could not load GPX file.'
+    gpxLoadError: 'Could not load GPX file.',
+    noRoutesFound: 'No routes found.'
   },
   fr: {
     title: 'Itinéraires BienViennue',
     selectLanguage: 'Choisissez la langue :',
-    instruction: 'Cliquez sur un itinéraire pour voir la carte et les liens de téléchargement.',
-    tabDuration: 'Marche/Vélo par durée',
-    tabRegion: 'Marche/Vélo par région',
-    tabKayak: 'Itinéraires kayak par rivière',
+    filterActivity: 'Activité :',
+    filterDuration: 'Durée :',
+    filterRegion: 'Région :',
+    allActivities: 'Tous',
+    allDurations: 'Tous',
+    allRegions: 'Tous',
     walking: 'Marche',
     biking: 'Vélo',
     mountainbiking: 'VTT',
-    lessThan2: 'Moins de 2 heures',
-    twoTo3: '2 à 3 heures',
-    moreThan3: 'Plus de 3 heures',
-    kayakLoire: 'Kayak sur la Loire',
-    kayakVienne: 'Kayak sur la Vienne',
+    kayak: 'Kayak',
     downloadGPX: 'Télécharger GPX',
     downloadPDF: 'Télécharger PDF',
-    gpxLoadError: 'Impossible de charger le fichier GPX.'
+    gpxLoadError: 'Impossible de charger le fichier GPX.',
+    noRoutesFound: 'Aucun itinéraire trouvé.'
   }
 };
 
-// Routes met "type" array om op meerdere plekken te tonen
+// Routes data (voorbeeld)
 const routes = [
   {
     id: 'r1',
@@ -351,22 +285,6 @@ const routes = [
     pdfFilename: 'mbike-brissac.pdf'
   },
   {
-    id: 'r4',
-    naam: 'Rondwandeling Chinon',
-    type: ['walking'],
-    duur: '2 to 3 hours',
-    regio: 'Région Chinon',
-    beschrijving: {
-      nl: 'Historische wandeling door Chinon.',
-      en: 'Historic walk through Chinon.',
-      fr: 'Promenade historique à Chinon.'
-    },
-    gpxUrl: 'https://example.com/gpx/wandel-chinon.gpx',
-    pdfUrl: null,
-    gpxFilename: 'wandel-chinon.gpx',
-    pdfFilename: null
-  },
-  {
     id: 'k1',
     naam: 'Kanotocht Loire rivier',
     type: ['kayak'],
@@ -380,66 +298,28 @@ const routes = [
     pdfUrl: 'https://example.com/pdf/kano-loire.pdf',
     gpxFilename: 'kano-loire.gpx',
     pdfFilename: 'kano-loire.pdf'
-  },
-  {
-    id: 'k2',
-    naam: 'Kanotocht Vienne rivier',
-    type: ['kayak'],
-    rivier: 'Kayak sur la Vienne',
-    beschrijving: {
-      nl: 'Prachtige route door valleien, ca. 12 km.',
-      en: 'Beautiful route through valleys, approx. 12 km.',
-      fr: 'Beau parcours à travers les vallées, environ 12 km.'
-    },
-    gpxUrl: 'https://example.com/gpx/kano-vienne.gpx',
-    pdfUrl: null,
-    gpxFilename: 'kano-vienne.gpx',
-    pdfFilename: null
   }
 ];
 
-// Helper functies
-function groupByDuration(routesList) {
-  const groups = { 'Less than 2 hours': [], '2 to 3 hours': [], 'More than 3 hours': [] };
-  routesList.forEach(r => {
-    if(groups[r.duur]) groups[r.duur].push(r);
+// Helpers om unieke regio's te halen voor filter
+function getUniqueRegions() {
+  const regioSet = new Set();
+  routes.forEach(r => {
+    if (r.regio) regioSet.add(r.regio);
   });
-  return groups;
+  return Array.from(regioSet).sort();
 }
 
-function groupByRegionAndDuration(routesList) {
-  const grouped = {};
-  routesList.forEach(r => {
-    if(!grouped[r.regio]) grouped[r.regio] = { 'Less than 2 hours': [], '2 to 3 hours': [], 'More than 3 hours': [] };
-    if(grouped[r.regio][r.duur]) grouped[r.regio][r.duur].push(r);
-  });
-  return grouped;
-}
-
-// Elementen
+// Elements
 const taalSelect = document.getElementById('language-select');
 const titelElem = document.querySelector('h1[data-i18n="title"]');
 const instructie = document.getElementById('instruction');
 
-const tabDurationBtn = document.getElementById('tab-duration-btn');
-const tabRegionBtn = document.getElementById('tab-region-btn');
+const filterActivity = document.getElementById('filter-activity');
+const filterDuration = document.getElementById('filter-duration');
+const filterRegion = document.getElementById('filter-region');
 
-const tabDuration = document.getElementById('tab-duration');
-const tabRegion = document.getElementById('tab-region');
-
-const subTabsDuration = document.querySelectorAll('#tab-duration .sub-tabs .tab-button');
-const subTabsRegion = document.querySelectorAll('#tab-region .sub-tabs .tab-button');
-
-const durationWalking = document.getElementById('duration-walking');
-const durationBiking = document.getElementById('duration-biking');
-const durationMtb = document.getElementById('duration-mtb');
-
-const regionWalking = document.getElementById('region-walking');
-const regionBiking = document.getElementById('region-biking');
-const regionMtb = document.getElementById('region-mtb');
-
-const kayakLoire = document.getElementById('kayak-loire');
-const kayakVienne = document.getElementById('kayak-vienne');
+const routeList = document.getElementById('route-list');
 
 const modal = document.getElementById('modal');
 const modalClose = document.getElementById('modal-close');
@@ -454,122 +334,69 @@ let currentLanguage = taalSelect.value;
 function vertaalInterface() {
   const t = translations[currentLanguage];
   titelElem.textContent = t.title;
-  instructie.textContent = t.instruction;
-  taalSelect.previousElementSibling.textContent = t.selectLanguage;
+  document.querySelector('label[for="language-select"]').textContent = t.selectLanguage;
+  document.querySelector('label[for="filter-activity"]').textContent = t.filterActivity;
+  document.querySelector('label[for="filter-duration"]').textContent = t.filterDuration;
+  document.querySelector('label[for="filter-region"]').textContent = t.filterRegion;
 
-  tabDurationBtn.textContent = t.tabDuration;
-  tabRegionBtn.textContent = t.tabRegion;
+  filterActivity.querySelector('option[value="all"]').textContent = t.allActivities;
+  filterDuration.querySelector('option[value="all"]').textContent = t.allDurations;
+  filterRegion.querySelector('option[value="all"]').textContent = t.allRegions;
 
-  subTabsDuration.forEach(btn => {
-    const key = btn.getAttribute('data-i18n');
-    btn.textContent = t[key];
+  // update opties in filters voor activiteiten, duur
+  ['walking','biking','mountainbiking','kayak'].forEach(type => {
+    const optA = filterActivity.querySelector(`option[value="${type}"]`);
+    if(optA) optA.textContent = t[type];
   });
-  subTabsRegion.forEach(btn => {
-    const key = btn.getAttribute('data-i18n');
-    btn.textContent = t[key];
+  ['Less than 2 hours','2 to 3 hours','More than 3 hours'].forEach(dur => {
+    const durMap = {
+      'Less than 2 hours': 'lessThan2',
+      '2 to 3 hours': 'twoTo3',
+      'More than 3 hours': 'moreThan3'
+    };
+    const optD = filterDuration.querySelector(`option[value="${dur}"]`);
+    if(optD) optD.textContent = t[durMap[dur]];
   });
 
-  durationWalking.querySelector('[data-i18n="lessThan2"]').textContent = t.lessThan2;
-  durationWalking.querySelector('[data-i18n="twoTo3"]').textContent = t.twoTo3;
-  durationWalking.querySelector('[data-i18n="moreThan3"]').textContent = t.moreThan3;
-  durationBiking.querySelector('[data-i18n="lessThan2"]').textContent = t.lessThan2;
-  durationBiking.querySelector('[data-i18n="twoTo3"]').textContent = t.twoTo3;
-  durationBiking.querySelector('[data-i18n="moreThan3"]').textContent = t.moreThan3;
-  durationMtb.querySelector('[data-i18n="lessThan2"]').textContent = t.lessThan2;
-  durationMtb.querySelector('[data-i18n="twoTo3"]').textContent = t.twoTo3;
-  durationMtb.querySelector('[data-i18n="moreThan3"]').textContent = t.moreThan3;
-
-  kayakLoire.previousElementSibling.textContent = t.kayakLoire;
-  kayakVienne.previousElementSibling.textContent = t.kayakVienne;
+  // vul regio filter
+  const regions = getUniqueRegions();
+  filterRegion.innerHTML = `<option value="all">${t.allRegions}</option>`;
+  regions.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r;
+    opt.textContent = r;
+    filterRegion.appendChild(opt);
+  });
 
   modalClose.setAttribute('aria-label', currentLanguage === 'nl' ? 'Sluit popup' : currentLanguage === 'fr' ? 'Fermer popup' : 'Close popup');
 }
 
-// Vul duur tab (filtert op type)
-function vulTabDuration() {
-  ['walking','biking','mountainbiking'].forEach(type => {
-    ['less2','2to3','more3'].forEach(cat => {
-      const ul = document.getElementById(`duration-${type}-${cat}`);
-      if(ul) ul.innerHTML = '';
-    });
+// Filters toepassen en lijst vullen
+function vulRouteList() {
+  routeList.innerHTML = '';
+  const t = translations[currentLanguage];
+
+  const fActivity = filterActivity.value;
+  const fDuration = filterDuration.value;
+  const fRegion = filterRegion.value;
+
+  // Filter routes
+  const filtered = routes.filter(r => {
+    const matchesActivity = (fActivity === 'all') || r.type.includes(fActivity);
+    const matchesDuration = (fDuration === 'all') || (r.duur === fDuration);
+    const matchesRegion = (fRegion === 'all') || (r.regio === fRegion);
+    return matchesActivity && matchesDuration && matchesRegion;
   });
 
-  const duurKeys = {'Less than 2 hours':'less2','2 to 3 hours':'2to3','More than 3 hours':'more3'};
+  if(filtered.length === 0) {
+    const li = document.createElement('li');
+    li.textContent = t.noRoutesFound;
+    li.style.fontStyle = 'italic';
+    routeList.appendChild(li);
+    return;
+  }
 
-  ['walking','biking','mountainbiking'].forEach(type => {
-    const filteredRoutes = routes.filter(r => r.type.includes(type) && r.duur);
-    const groups = groupByDuration(filteredRoutes);
-    for(let duur in groups) {
-      const ul = document.getElementById(`duration-${type}-${duurKeys[duur]}`);
-      if(!ul) continue;
-      groups[duur].forEach(route => {
-        const li = document.createElement('li');
-        li.textContent = route.naam;
-        li.tabIndex = 0;
-        li.setAttribute('role', 'button');
-        li.style.outline = 'none';
-        li.addEventListener('click', () => openModal(route));
-        li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
-        ul.appendChild(li);
-      });
-    }
-  });
-}
-
-// Vul regio tab (filtert op type)
-function vulTabRegion() {
-  [regionWalking, regionBiking, regionMtb].forEach(el => el.innerHTML = '');
-
-  const duurCategorieen = ['Less than 2 hours','2 to 3 hours','More than 3 hours'];
-
-  ['walking','biking','mountainbiking'].forEach(type => {
-    const filteredRoutes = routes.filter(r => r.type.includes(type) && r.regio);
-    const grouped = groupByRegionAndDuration(filteredRoutes);
-    const containerMap = {'walking': regionWalking, 'biking': regionBiking, 'mountainbiking': regionMtb};
-    const container = containerMap[type];
-    if(!container) return;
-
-    Object.keys(grouped).sort().forEach(regio => {
-      const regioDiv = document.createElement('div');
-      regioDiv.className = 'section-title';
-      regioDiv.textContent = regio;
-      container.appendChild(regioDiv);
-
-      duurCategorieen.forEach(duur => {
-        const routesInDuur = grouped[regio][duur];
-        if(routesInDuur.length === 0) return;
-
-        const duurTitle = document.createElement('div');
-        duurTitle.className = 'section-title';
-        duurTitle.style.fontSize = '1em';
-        duurTitle.style.marginTop = '0.3em';
-        duurTitle.style.color = '#3377aa';
-        duurTitle.textContent = translations[currentLanguage][duur === 'Less than 2 hours' ? 'lessThan2' : duur === '2 to 3 hours' ? 'twoTo3' : 'moreThan3'];
-        container.appendChild(duurTitle);
-
-        const ul = document.createElement('ul');
-        ul.className = 'route-list';
-        routesInDuur.forEach(route => {
-          const li = document.createElement('li');
-          li.textContent = route.naam;
-          li.tabIndex = 0;
-          li.setAttribute('role', 'button');
-          li.style.outline = 'none';
-          li.addEventListener('click', () => openModal(route));
-          li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
-          ul.appendChild(li);
-        });
-        container.appendChild(ul);
-      });
-    });
-  });
-}
-
-// Vul kano tab (altijd alle kayak routes)
-function vulTabKayak() {
-  kayakLoire.innerHTML = '';
-  kayakVienne.innerHTML = '';
-  routes.filter(r => r.type.includes('kayak')).forEach(route => {
+  filtered.forEach(route => {
     const li = document.createElement('li');
     li.textContent = route.naam;
     li.tabIndex = 0;
@@ -577,64 +404,9 @@ function vulTabKayak() {
     li.style.outline = 'none';
     li.addEventListener('click', () => openModal(route));
     li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
-    if(route.rivier === 'Kayak sur la Loire') kayakLoire.appendChild(li);
-    else if(route.rivier === 'Kayak sur la Vienne') kayakVienne.appendChild(li);
+    routeList.appendChild(li);
   });
 }
-
-// Hoofd tabs wisselen
-const mainTabs = document.querySelectorAll('.main-tabs .tab-button');
-mainTabs.forEach(btn => {
-  btn.addEventListener('click', () => {
-    mainTabs.forEach(b => {
-      b.classList.remove('active');
-      b.setAttribute('aria-selected', 'false');
-    });
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected', 'true');
-
-    tabDuration.hidden = true;
-    tabRegion.hidden = true;
-
-    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
-  });
-});
-
-// Sub tabs duur
-subTabsDuration.forEach(btn => {
-  btn.addEventListener('click', () => {
-    subTabsDuration.forEach(b => {
-      b.classList.remove('active');
-      b.setAttribute('aria-selected', 'false');
-    });
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected', 'true');
-
-    durationWalking.hidden = true;
-    durationBiking.hidden = true;
-    durationMtb.hidden = true;
-
-    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
-  });
-});
-
-// Sub tabs regio
-subTabsRegion.forEach(btn => {
-  btn.addEventListener('click', () => {
-    subTabsRegion.forEach(b => {
-      b.classList.remove('active');
-      b.setAttribute('aria-selected', 'false');
-    });
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected', 'true');
-
-    regionWalking.hidden = true;
-    regionBiking.hidden = true;
-    regionMtb.hidden = true;
-
-    document.getElementById(btn.getAttribute('aria-controls')).hidden = false;
-  });
-});
 
 // Modal openen
 function openModal(route) {
@@ -705,16 +477,17 @@ function closeModal() {
 taalSelect.addEventListener('change', e => {
   currentLanguage = e.target.value;
   vertaalInterface();
-  vulTabDuration();
-  vulTabRegion();
-  vulTabKayak();
+  vulRouteList();
 });
+
+// Filter handlers
+filterActivity.addEventListener('change', vulRouteList);
+filterDuration.addEventListener('change', vulRouteList);
+filterRegion.addEventListener('change', vulRouteList);
 
 // Init
 vertaalInterface();
-vulTabDuration();
-vulTabRegion();
-vulTabKayak();
+vulRouteList();
 
 </script>
 </body>
