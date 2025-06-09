@@ -153,6 +153,20 @@
     <select id="filter-region">
       <option value="all" data-i18n="allRegions">Alle</option>
     </select>
+
+    <label for="filter-distance" data-i18n="filterDistance">Afstand:</label>
+    <select id="filter-distance">
+      <option value="all" data-i18n="allDistances">Alle</option>
+      <option value="0-5">Minder dan 5 km</option>
+      <option value="5-10">5 tot 10 km</option>
+      <option value="10-15">10 tot 15 km</option>
+      <option value="15-20">15 tot 20 km</option>
+      <option value="20-25">20 tot 25 km</option>
+      <option value="25-30">25 tot 30 km</option>
+      <option value="30-40">30 tot 40 km</option>
+      <option value="40-50">40 tot 50 km</option>
+      <option value="50+">Meer dan 50 km</option>
+    </select>
   </div>
 
   <ul class="route-list" id="route-list" tabindex="0" aria-label="Lijst met routes"></ul>
@@ -184,9 +198,11 @@ const translations = {
     filterActivity: 'Activiteit:',
     filterDuration: 'Duur:',
     filterRegion: 'Regio:',
+    filterDistance: 'Afstand:',
     allActivities: 'Alle',
     allDurations: 'Alle',
     allRegions: 'Alle',
+    allDistances: 'Alle',
     walking: 'Wandelen',
     biking: 'Fietsen',
     mountainbiking: 'Mountainbiken',
@@ -202,9 +218,11 @@ const translations = {
     filterActivity: 'Activity:',
     filterDuration: 'Duration:',
     filterRegion: 'Region:',
+    filterDistance: 'Distance:',
     allActivities: 'All',
     allDurations: 'All',
     allRegions: 'All',
+    allDistances: 'All',
     walking: 'Walking',
     biking: 'Biking',
     mountainbiking: 'Mountainbiking',
@@ -220,9 +238,11 @@ const translations = {
     filterActivity: 'Activité :',
     filterDuration: 'Durée :',
     filterRegion: 'Région :',
+    filterDistance: 'Distance :',
     allActivities: 'Tous',
     allDurations: 'Tous',
     allRegions: 'Tous',
+    allDistances: 'Tous',
     walking: 'Marche',
     biking: 'Vélo',
     mountainbiking: 'VTT',
@@ -242,6 +262,7 @@ const routes = [
     type: ['walking', 'biking'],
     duur: 'Less than 2 hours',
     regio: 'Région Azay-le-Rideau',
+    afstand: 4.8,
     beschrijving: {
       nl: 'Mooie route langs de rivier.',
       en: 'Nice route along the river.',
@@ -258,6 +279,7 @@ const routes = [
     type: ['biking'],
     duur: '2 to 3 hours',
     regio: 'Région Saumur',
+    afstand: 21,
     beschrijving: {
       nl: 'Ontspannende fietstocht langs kastelen, ca. 20 km.',
       en: 'Relaxing bike ride along castles, about 20 km.',
@@ -274,6 +296,7 @@ const routes = [
     type: ['mountainbiking'],
     duur: 'More than 3 hours',
     regio: 'Région Brissac Loire-Aubance',
+    afstand: 12.4,
     beschrijving: {
       nl: 'Uitdagende MTB route.',
       en: 'Challenging MTB route.',
@@ -289,6 +312,7 @@ const routes = [
     naam: 'Kanotocht Loire rivier',
     type: ['kayak'],
     rivier: 'Kayak sur la Loire',
+    afstand: 15,
     beschrijving: {
       nl: 'Rustige tocht met mooie natuur, ca. 15 km.',
       en: 'Quiet trip with beautiful nature, approx. 15 km.',
@@ -313,11 +337,11 @@ function getUniqueRegions() {
 // Elements
 const taalSelect = document.getElementById('language-select');
 const titelElem = document.querySelector('h1[data-i18n="title"]');
-const instructie = document.getElementById('instruction');
 
 const filterActivity = document.getElementById('filter-activity');
 const filterDuration = document.getElementById('filter-duration');
 const filterRegion = document.getElementById('filter-region');
+const filterDistance = document.getElementById('filter-distance');
 
 const routeList = document.getElementById('route-list');
 
@@ -338,10 +362,12 @@ function vertaalInterface() {
   document.querySelector('label[for="filter-activity"]').textContent = t.filterActivity;
   document.querySelector('label[for="filter-duration"]').textContent = t.filterDuration;
   document.querySelector('label[for="filter-region"]').textContent = t.filterRegion;
+  document.querySelector('label[for="filter-distance"]').textContent = t.filterDistance;
 
   filterActivity.querySelector('option[value="all"]').textContent = t.allActivities;
   filterDuration.querySelector('option[value="all"]').textContent = t.allDurations;
   filterRegion.querySelector('option[value="all"]').textContent = t.allRegions;
+  filterDistance.querySelector('option[value="all"]').textContent = t.allDistances;
 
   // update opties in filters voor activiteiten, duur
   ['walking','biking','mountainbiking','kayak'].forEach(type => {
@@ -371,6 +397,24 @@ function vertaalInterface() {
   modalClose.setAttribute('aria-label', currentLanguage === 'nl' ? 'Sluit popup' : currentLanguage === 'fr' ? 'Fermer popup' : 'Close popup');
 }
 
+// Check of afstand in geselecteerde afstandscategorie valt
+function matchesDistanceRange(distance, range) {
+  if (range === 'all') return true;
+  if (!distance) return false;
+  switch(range) {
+    case '0-5': return distance < 5;
+    case '5-10': return distance >= 5 && distance < 10;
+    case '10-15': return distance >= 10 && distance < 15;
+    case '15-20': return distance >= 15 && distance < 20;
+    case '20-25': return distance >= 20 && distance < 25;
+    case '25-30': return distance >= 25 && distance < 30;
+    case '30-40': return distance >= 30 && distance < 40;
+    case '40-50': return distance >= 40 && distance < 50;
+    case '50+': return distance >= 50;
+    default: return false;
+  }
+}
+
 // Filters toepassen en lijst vullen
 function vulRouteList() {
   routeList.innerHTML = '';
@@ -379,13 +423,15 @@ function vulRouteList() {
   const fActivity = filterActivity.value;
   const fDuration = filterDuration.value;
   const fRegion = filterRegion.value;
+  const fDistance = filterDistance.value;
 
   // Filter routes
   const filtered = routes.filter(r => {
     const matchesActivity = (fActivity === 'all') || r.type.includes(fActivity);
     const matchesDuration = (fDuration === 'all') || (r.duur === fDuration);
     const matchesRegion = (fRegion === 'all') || (r.regio === fRegion);
-    return matchesActivity && matchesDuration && matchesRegion;
+    const matchesDistance = matchesDistanceRange(r.afstand, fDistance);
+    return matchesActivity && matchesDuration && matchesRegion && matchesDistance;
   });
 
   if(filtered.length === 0) {
@@ -484,6 +530,7 @@ taalSelect.addEventListener('change', e => {
 filterActivity.addEventListener('change', vulRouteList);
 filterDuration.addEventListener('change', vulRouteList);
 filterRegion.addEventListener('change', vulRouteList);
+filterDistance.addEventListener('change', vulRouteList);
 
 // Init
 vertaalInterface();
