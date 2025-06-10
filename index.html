@@ -17,7 +17,7 @@
   }
   h1 {
     color: #5BA9C2;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
   }
   .language-select {
     margin-bottom: 1em;
@@ -30,19 +30,19 @@
     background: white;
     color: #115577;
     cursor: pointer;
-    margin-right: 1em;
   }
   .filters {
     margin-bottom: 1em;
   }
   label {
-    margin-right: 0.3em;
-    font-weight: bold;
+    margin-right: 0.5em;
+  }
+  select {
+    margin-right: 1.5em;
   }
   ul.route-list {
     list-style: none;
     padding-left: 0;
-    border-top: 1px solid #ddd;
   }
   ul.route-list li {
     padding: 0.6em 0.3em;
@@ -56,7 +56,7 @@
     outline: none;
   }
   /* Modal popup */
-  #modal {
+  #modal, #map-modal {
     display: none;
     position: fixed;
     z-index: 9999;
@@ -64,16 +64,15 @@
     width: 100%; height: 100%;
     background-color: rgba(0,0,0,0.5);
   }
-  #modal-content {
+  #modal-content, #map-modal-content {
     background: white;
-    max-width: 400px;
-    margin: 7% auto;
-    padding: 1.5em;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 1em 1.5em 1.5em;
     border-radius: 10px;
     position: relative;
-    text-align: center;
   }
-  #modal-close {
+  #modal-close, #map-modal-close {
     position: absolute;
     right: 1em; top: 1em;
     cursor: pointer;
@@ -83,27 +82,44 @@
     background: none;
     border: none;
   }
-  #modal-title {
-    margin-bottom: 1em;
-    font-size: 1.25em;
-    color: #5BA9C2;
+  #map {
+    height: 300px;
+    margin-top: 0.5em;
+    border-radius: 6px;
   }
-  #download-links a {
+  #mapDisplay {
+    height: 400px;
+    border-radius: 6px;
+  }
+  .download-links {
+    margin-top: 1em;
+  }
+  .download-links a,
+  .download-links button {
     display: inline-block;
-    margin: 0.5em 1em;
+    margin-right: 1em;
     text-decoration: none;
     background: #5BA9C2;
     color: white;
     padding: 0.5em 1em;
     border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
   }
-  #download-links a:hover {
+  .download-links a:hover,
+  .download-links button:hover {
     background: #4a8cae;
   }
-  @media(max-width: 480px) {
-    #modal-content {
-      width: 90%;
-      margin: 15% auto;
+  .extra-info {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #444;
+  }
+  @media(max-width: 640px) {
+    #modal-content, #map-modal-content {
+      width: 95%;
+      margin: 10% auto;
     }
     select {
       margin-bottom: 0.7em;
@@ -113,357 +129,427 @@
 </style>
 </head>
 <body>
+  <h1 data-i18n="title">Routes BienViennue</h1>
 
-<h1 id="page-title">Routes BienViennue</h1>
-
-<div class="language-select">
-  <label for="language-select">Selecteer taal:</label>
-  <select id="language-select" aria-label="Language selector">
-    <option value="nl">Nederlands</option>
-    <option value="en">English</option>
-    <option value="fr">Français</option>
-  </select>
-</div>
-
-<div class="filters" aria-label="Filter routes">
-  <label for="filter-activity">Activiteit:</label>
-  <select id="filter-activity">
-    <option value="all">Alle</option>
-    <option value="walking">Wandelen</option>
-    <option value="biking">Fietsen</option>
-    <option value="mountainbiking">Mountainbiken</option>
-    <option value="kayak">Kajakken</option>
-  </select>
-
-  <label for="filter-duration">Duur:</label>
-  <select id="filter-duration">
-    <option value="all">Alle</option>
-    <option value="less2">Minder dan 2 uur</option>
-    <option value="2to3">2 tot 3 uur</option>
-    <option value="more3">Meer dan 3 uur</option>
-  </select>
-
-  <label for="filter-region">Regio:</label>
-  <select id="filter-region">
-    <option value="all">Alle</option>
-  </select>
-
-  <label for="filter-distance">Afstand:</label>
-  <select id="filter-distance">
-    <option value="all">Alle</option>
-    <option value="0-5">Minder dan 5 km</option>
-    <option value="5-10">5 tot 10 km</option>
-    <option value="10-15">10 tot 15 km</option>
-    <option value="15-20">15 tot 20 km</option>
-    <option value="20-25">20 tot 25 km</option>
-    <option value="25-30">25 tot 30 km</option>
-    <option value="30-40">30 tot 40 km</option>
-    <option value="40-50">40 tot 50 km</option>
-    <option value="50+">Meer dan 50 km</option>
-  </select>
-</div>
-
-<ul id="route-list" class="route-list" tabindex="0" aria-label="Lijst met routes"></ul>
-
-<!-- Modal -->
-<div id="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" tabindex="-1">
-  <div id="modal-content">
-    <button id="modal-close" aria-label="Sluit popup">&times;</button>
-    <div id="modal-title"></div>
-    <div id="download-links"></div>
+  <div class="language-select">
+    <label for="language-select" data-i18n="selectLanguage">Taalkeuze:</label>
+    <select id="language-select" aria-label="Language selector">
+      <option value="nl">Nederlands</option>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+    </select>
   </div>
-</div>
+
+  <div class="filters" aria-label="Filter routes">
+    <label for="filter-activity" data-i18n="filterActivity">Activiteit:</label>
+    <select id="filter-activity">
+      <option value="all" data-i18n="allActivities">Alle</option>
+      <option value="walking" data-i18n="walking">Wandelen</option>
+      <option value="biking" data-i18n="biking">Fietsen</option>
+      <option value="mountainbiking" data-i18n="mountainbiking">Mountainbiken</option>
+      <option value="kayak" data-i18n="kayak">Kajakken</option>
+    </select>
+
+    <label for="filter-duration" data-i18n="filterDuration">Duur:</label>
+    <select id="filter-duration">
+      <option value="all" data-i18n="allDurations">Alle</option>
+      <option value="Less than 2 hours" data-i18n="lessThan2">Minder dan 2 uur</option>
+      <option value="2 to 3 hours" data-i18n="twoTo3">2 tot 3 uur</option>
+      <option value="More than 3 hours" data-i18n="moreThan3">Meer dan 3 uur</option>
+    </select>
+
+    <label for="filter-region" data-i18n="filterRegion">Regio:</label>
+    <select id="filter-region">
+      <option value="all" data-i18n="allRegions">Alle</option>
+    </select>
+
+    <label for="filter-distance" data-i18n="filterDistance">Afstand:</label>
+    <select id="filter-distance">
+      <option value="all" data-i18n="allDistances">Alle</option>
+      <option value="0-5" data-i18n="distance0to5">Minder dan 5 km</option>
+      <option value="5-10" data-i18n="distance5to10">5 tot 10 km</option>
+      <option value="10-15" data-i18n="distance10to15">10 tot 15 km</option>
+      <option value="15-20" data-i18n="distance15to20">15 tot 20 km</option>
+      <option value="20-25" data-i18n="distance20to25">20 tot 25 km</option>
+      <option value="25-30" data-i18n="distance25to30">25 tot 30 km</option>
+      <option value="30-40" data-i18n="distance30to40">30 tot 40 km</option>
+      <option value="40-50" data-i18n="distance40to50">40 tot 50 km</option>
+      <option value="50+" data-i18n="distance50plus">Meer dan 50 km</option>
+    </select>
+  </div>
+
+  <ul class="route-list" id="route-list" tabindex="0" aria-label="Lijst met routes"></ul>
+
+  <!-- Modal 1: Info + Download -->
+  <div id="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle" tabindex="-1">
+    <div id="modal-content">
+      <button id="modal-close" aria-label="Close popup">&times;</button>
+      <h2 id="modalTitle"></h2>
+      <div class="download-links" id="downloadLinks"></div>
+      <div class="extra-info" id="extraInfo"></div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Map View -->
+  <div id="map-modal" aria-hidden="true" role="dialog" aria-labelledby="mapModalTitle" tabindex="-1">
+    <div id="map-modal-content">
+      <button id="map-modal-close" aria-label="Close map popup">&times;</button>
+      <h2 id="mapModalTitle"></h2>
+      <div id="mapDisplay"></div>
+    </div>
+  </div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tmcw/togeojson@0.16.0/togeojson.min.js"></script>
 
 <script>
-// Meertalige teksten
-const texts = {
+const translations = {
   nl: {
-    pageTitle: "Routes BienViennue",
-    filter: {
-      activity: "Activiteit:",
-      duration: "Duur:",
-      region: "Regio:",
-      distance: "Afstand:",
-      all: "Alle",
-      activities: {
-        walking: "Wandelen",
-        biking: "Fietsen",
-        mountainbiking: "Mountainbiken",
-        kayak: "Kajakken",
-      },
-      durations: {
-        less2: "Minder dan 2 uur",
-        "2to3": "2 tot 3 uur",
-        more3: "Meer dan 3 uur",
-      },
-    },
-    noRoutesFound: "Geen routes gevonden.",
-    downloadGPX: "Download GPX",
-    downloadPDF: "Download PDF",
-    closePopup: "Sluit popup",
+    title: 'Routes BienViennue',
+    selectLanguage: 'Taalkeuze:',
+    filterActivity: 'Activiteit:',
+    filterDuration: 'Duur:',
+    filterRegion: 'Regio:',
+    filterDistance: 'Afstand:',
+    allActivities: 'Alle',
+    allDurations: 'Alle',
+    allRegions: 'Alle',
+    allDistances: 'Alle',
+    walking: 'Wandelen',
+    biking: 'Fietsen',
+    mountainbiking: 'Mountainbiken',
+    kayak: 'Kajakken',
+    downloadGPX: 'Download GPX',
+    downloadPDF: 'Download PDF',
+    noRoutesFound: 'Geen routes gevonden.',
+    distance0to5: 'Minder dan 5 km',
+    distance5to10: '5 tot 10 km',
+    distance10to15: '10 tot 15 km',
+    distance15to20: '15 tot 20 km',
+    distance20to25: '20 tot 25 km',
+    distance25to30: '25 tot 30 km',
+    distance30to40: '30 tot 40 km',
+    distance40to50: '40 tot 50 km',
+    distance50plus: 'Meer dan 50 km'
   },
   en: {
-    pageTitle: "Routes BienViennue",
-    filter: {
-      activity: "Activity:",
-      duration: "Duration:",
-      region: "Region:",
-      distance: "Distance:",
-      all: "All",
-      activities: {
-        walking: "Walking",
-        biking: "Biking",
-        mountainbiking: "Mountainbiking",
-        kayak: "Kayaking",
-      },
-      durations: {
-        less2: "Less than 2 hours",
-        "2to3": "2 to 3 hours",
-        more3: "More than 3 hours",
-      },
-    },
-    noRoutesFound: "No routes found.",
-    downloadGPX: "Download GPX",
-    downloadPDF: "Download PDF",
-    closePopup: "Close popup",
+    title: 'Routes BienViennue',
+    selectLanguage: 'Language choice:',
+    filterActivity: 'Activity:',
+    filterDuration: 'Duration:',
+    filterRegion: 'Region:',
+    filterDistance: 'Distance:',
+    allActivities: 'All',
+    allDurations: 'All',
+    allRegions: 'All',
+    allDistances: 'All',
+    walking: 'Walking',
+    biking: 'Biking',
+    mountainbiking: 'Mountainbiking',
+    kayak: 'Kayaking',
+    downloadGPX: 'Download GPX',
+    downloadPDF: 'Download PDF',
+    noRoutesFound: 'No routes found.',
+    distance0to5: 'Less than 5 km',
+    distance5to10: '5 to 10 km',
+    distance10to15: '10 to 15 km',
+    distance15to20: '15 to 20 km',
+    distance20to25: '20 to 25 km',
+    distance25to30: '25 to 30 km',
+    distance30to40: '30 to 40 km',
+    distance40to50: '40 to 50 km',
+    distance50plus: 'More than 50 km'
   },
   fr: {
-    pageTitle: "Itinéraires BienViennue",
-    filter: {
-      activity: "Activité :",
-      duration: "Durée :",
-      region: "Région :",
-      distance: "Distance :",
-      all: "Tous",
-      activities: {
-        walking: "Marche",
-        biking: "Vélo",
-        mountainbiking: "VTT",
-        kayak: "Kayak",
-      },
-      durations: {
-        less2: "Moins de 2 heures",
-        "2to3": "2 à 3 heures",
-        more3: "Plus de 3 heures",
-      },
-    },
-    noRoutesFound: "Aucun itinéraire trouvé.",
-    downloadGPX: "Télécharger GPX",
-    downloadPDF: "Télécharger PDF",
-    closePopup: "Fermer popup",
-  },
+    title: 'Itinéraires BienViennue',
+    selectLanguage: 'Choix de la langue :',
+    filterActivity: 'Activité :',
+    filterDuration: 'Durée :',
+    filterRegion: 'Région :',
+    filterDistance: 'Distance :',
+    allActivities: 'Tous',
+    allDurations: 'Tous',
+    allRegions: 'Tous',
+    allDistances: 'Tous',
+    walking: 'Marche',
+    biking: 'Vélo',
+    mountainbiking: 'VTT',
+    kayak: 'Kayak',
+    downloadGPX: 'Télécharger GPX',
+    downloadPDF: 'Télécharger PDF',
+    noRoutesFound: 'Aucun itinéraire trouvé.',
+    distance0to5: 'Moins de 5 km',
+    distance5to10: '5 à 10 km',
+    distance10to15: '10 à 15 km',
+    distance15to20: '15 à 20 km',
+    distance20to25: '20 à 25 km',
+    distance25to30: '25 à 30 km',
+    distance30to40: '30 à 40 km',
+    distance40to50: '40 à 50 km',
+    distance50plus: 'Plus de 50 km'
+  }
 };
 
-// Routes data
+// Jouw routes: 
 const routes = [
   {
-    id: "r1",
+    id: 'r1',
     naam: {
-      nl: "Au cœur du Ridellois – Azay-le-Rideau 1,6 km",
-      en: "Au cœur du Ridellois – Azay-le-Rideau 1.6 km",
-      fr: "Au cœur du Ridellois – Azay-le-Rideau 1,6 km",
+      nl: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km',
+      en: 'Au cœur du Ridellois – Azay-le-Rideau 1.6 km',
+      fr: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km'
     },
-    activiteit: ["walking", "biking", "mountainbiking"],
-    duur: "less2", // less2, 2to3, more3
-    regio: "Région Azay-le-Rideau",
+    type: ['walking', 'biking', 'mountainbiking'],
+    duur: 'Less than 2 hours',
+    regio: 'Région Azay-le-Rideau',
     afstand: 1.6,
-    gpxUrl: "routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.gpx",
-    pdfUrl: "routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.pdf",
-  },
+    gpxUrl: 'https://bienviennue.github.io/bienviennue-routes/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.gpx',
+    pdfUrl: 'https://bienviennue.github.io/bienviennue-routes/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.pdf',
+    gpxFilename: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.gpx',
+    pdfFilename: 'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.pdf',
+    beschrijving: {
+      nl: 'Mooie route langs de rivier.',
+      en: 'Nice route along the river.',
+      fr: 'Belle balade le long de la rivière.'
+    }
+  }
 ];
 
-// Helpers
+// Helpers om unieke regio's te halen
 function getUniqueRegions() {
   const regioSet = new Set();
-  routes.forEach((r) => {
+  routes.forEach(r => {
     if (r.regio) regioSet.add(r.regio);
   });
   return Array.from(regioSet).sort();
 }
 
-// Elements
-const languageSelect = document.getElementById("language-select");
-const pageTitle = document.getElementById("page-title");
+const taalSelect = document.getElementById('language-select');
+const titelElem = document.querySelector('h1[data-i18n="title"]');
 
-const filterActivity = document.getElementById("filter-activity");
-const filterDuration = document.getElementById("filter-duration");
-const filterRegion = document.getElementById("filter-region");
-const filterDistance = document.getElementById("filter-distance");
+const filterActivity = document.getElementById('filter-activity');
+const filterDuration = document.getElementById('filter-duration');
+const filterRegion = document.getElementById('filter-region');
+const filterDistance = document.getElementById('filter-distance');
 
-const routeList = document.getElementById("route-list");
+const routeList = document.getElementById('route-list');
 
-const modal = document.getElementById("modal");
-const modalClose = document.getElementById("modal-close");
-const modalTitle = document.getElementById("modal-title");
-const downloadLinks = document.getElementById("download-links");
+const modal = document.getElementById('modal');
+const modalClose = document.getElementById('modal-close');
+const modalTitle = document.getElementById('modalTitle');
+const downloadLinks = document.getElementById('downloadLinks');
+const extraInfo = document.getElementById('extraInfo');
 
-let currentLanguage = languageSelect.value;
+const mapModal = document.getElementById('map-modal');
+const mapModalClose = document.getElementById('map-modal-close');
+const mapModalTitle = document.getElementById('mapModalTitle');
+const mapDisplay = document.getElementById('mapDisplay');
 
-// Translate UI
-function translateUI() {
-  const t = texts[currentLanguage];
+let map, gpxLayer, mapView;
+let currentLanguage = taalSelect.value;
 
-  pageTitle.textContent = t.pageTitle;
-  document.querySelector('label[for="language-select"]').textContent = t.filter.activity;
-  document.querySelector('label[for="filter-activity"]').textContent = t.filter.activity;
-  document.querySelector('label[for="filter-duration"]').textContent = t.filter.duration;
-  document.querySelector('label[for="filter-region"]').textContent = t.filter.region;
-  document.querySelector('label[for="filter-distance"]').textContent = t.filter.distance;
+// Vertaal interface
+function vertaalInterface() {
+  const t = translations[currentLanguage];
+  titelElem.textContent = t.title;
+  document.querySelector('label[for="language-select"]').textContent = t.selectLanguage;
+  document.querySelector('label[for="filter-activity"]').textContent = t.filterActivity;
+  document.querySelector('label[for="filter-duration"]').textContent = t.filterDuration;
+  document.querySelector('label[for="filter-region"]').textContent = t.filterRegion;
+  document.querySelector('label[for="filter-distance"]').textContent = t.filterDistance;
 
-  // Fill filter select options
-  filterActivity.options[0].text = t.filter.all;
-  filterDuration.options[0].text = t.filter.all;
-  filterRegion.options[0].text = t.filter.all;
-  filterDistance.options[0].text = t.filter.all;
+  filterActivity.querySelector('option[value="all"]').textContent = t.allActivities;
+  filterDuration.querySelector('option[value="all"]').textContent = t.allDurations;
+  filterRegion.querySelector('option[value="all"]').textContent = t.allRegions;
+  filterDistance.querySelector('option[value="all"]').textContent = t.allDistances;
 
-  // Fill activity options translation
-  ["walking", "biking", "mountainbiking", "kayak"].forEach((act) => {
-    const opt = filterActivity.querySelector(`option[value="${act}"]`);
-    if (opt) opt.text = t.filter.activities[act];
+  ['walking','biking','mountainbiking','kayak'].forEach(type => {
+    const optA = filterActivity.querySelector(`option[value="${type}"]`);
+    if(optA) optA.textContent = t[type];
   });
 
-  // Fill duration options translation
-  ["less2", "2to3", "more3"].forEach((dur) => {
-    const opt = filterDuration.querySelector(`option[value="${dur}"]`);
-    if (opt) opt.text = t.filter.durations[dur];
+  ['Less than 2 hours','2 to 3 hours','More than 3 hours'].forEach(dur => {
+    const durMap = {
+      'Less than 2 hours': 'lessThan2',
+      '2 to 3 hours': 'twoTo3',
+      'More than 3 hours': 'moreThan3'
+    };
+    const optD = filterDuration.querySelector(`option[value="${dur}"]`);
+    if(optD) optD.textContent = t[durMap[dur]];
   });
 
-  // Fill region options dynamically
   const regions = getUniqueRegions();
-  filterRegion.innerHTML = "";
-  filterRegion.appendChild(new Option(t.filter.all, "all"));
-  regions.forEach((r) => {
-    filterRegion.appendChild(new Option(r, r));
+  filterRegion.innerHTML = `<option value="all">${t.allRegions}</option>`;
+  regions.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r;
+    opt.textContent = r;
+    filterRegion.appendChild(opt);
   });
+  
+  modalClose.setAttribute('aria-label', currentLanguage === 'nl' ? 'Sluit popup' : currentLanguage === 'fr' ? 'Fermer popup' : 'Close popup');
+  mapModalClose.setAttribute('aria-label', currentLanguage === 'nl' ? 'Sluit kaart popup' : currentLanguage === 'fr' ? 'Fermer popup carte' : 'Close map popup');
 }
 
-// Filter routes and fill list
-function filterRoutes() {
-  routeList.innerHTML = "";
-  const t = texts[currentLanguage];
+// Filters toepassen en lijst vullen
+function vulRouteList() {
+  routeList.innerHTML = '';
+  const t = translations[currentLanguage];
 
   const fActivity = filterActivity.value;
   const fDuration = filterDuration.value;
   const fRegion = filterRegion.value;
   const fDistance = filterDistance.value;
 
-  const filtered = routes.filter((r) => {
-    const matchActivity = fActivity === "all" || r.activiteit.includes(fActivity);
-    const matchDuration = fDuration === "all" || r.duur === fDuration;
-    const matchRegion = fRegion === "all" || r.regio === fRegion;
-
-    let matchDistance = true;
-    if (fDistance !== "all" && r.afstand != null) {
-      const d = r.afstand;
-      switch (fDistance) {
-        case "0-5":
-          matchDistance = d < 5;
-          break;
-        case "5-10":
-          matchDistance = d >= 5 && d < 10;
-          break;
-        case "10-15":
-          matchDistance = d >= 10 && d < 15;
-          break;
-        case "15-20":
-          matchDistance = d >= 15 && d < 20;
-          break;
-        case "20-25":
-          matchDistance = d >= 20 && d < 25;
-          break;
-        case "25-30":
-          matchDistance = d >= 25 && d < 30;
-          break;
-        case "30-40":
-          matchDistance = d >= 30 && d < 40;
-          break;
-        case "40-50":
-          matchDistance = d >= 40 && d < 50;
-          break;
-        case "50+":
-          matchDistance = d >= 50;
-          break;
+  const filtered = routes.filter(r => {
+    const matchesActivity = (fActivity === 'all') || r.type.includes(fActivity);
+    const matchesDuration = (fDuration === 'all') || (r.duur === fDuration);
+    const matchesRegion = (fRegion === 'all') || (r.regio === fRegion);
+    
+    let matchesDistance = true;
+    if(fDistance !== 'all' && r.afstand !== undefined && r.afstand !== null) {
+      const dist = r.afstand;
+      switch(fDistance) {
+        case '0-5': matchesDistance = dist < 5; break;
+        case '5-10': matchesDistance = dist >= 5 && dist < 10; break;
+        case '10-15': matchesDistance = dist >= 10 && dist < 15; break;
+        case '15-20': matchesDistance = dist >= 15 && dist < 20; break;
+        case '20-25': matchesDistance = dist >= 20 && dist < 25; break;
+        case '25-30': matchesDistance = dist >= 25 && dist < 30; break;
+        case '30-40': matchesDistance = dist >= 30 && dist < 40; break;
+        case '40-50': matchesDistance = dist >= 40 && dist < 50; break;
+        case '50+': matchesDistance = dist >= 50; break;
       }
     }
 
-    return matchActivity && matchDuration && matchRegion && matchDistance;
+    return matchesActivity && matchesDuration && matchesRegion && matchesDistance;
   });
 
-  if (filtered.length === 0) {
-    const li = document.createElement("li");
+  if(filtered.length === 0) {
+    const li = document.createElement('li');
     li.textContent = t.noRoutesFound;
-    li.style.fontStyle = "italic";
+    li.style.fontStyle = 'italic';
     routeList.appendChild(li);
     return;
   }
 
-  filtered.forEach((route) => {
-    const li = document.createElement("li");
-    li.textContent = route.naam[currentLanguage] || route.naam.nl || "Unnamed route";
+  filtered.forEach(route => {
+    const li = document.createElement('li');
+    li.textContent = route.naam[currentLanguage] || route.naam.nl || 'Unnamed route';
     li.tabIndex = 0;
-    li.setAttribute("role", "button");
-    li.style.outline = "none";
-    li.addEventListener("click", () => openModal(route));
-    li.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") openModal(route);
-    });
+    li.setAttribute('role', 'button');
+    li.style.outline = 'none';
+    li.addEventListener('click', () => openModal(route));
+    li.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' ') openModal(route); });
     routeList.appendChild(li);
   });
 }
 
-// Modal open
+// Modal openen
 function openModal(route) {
-  modal.style.display = "block";
-  modal.setAttribute("aria-hidden", "false");
+  modal.style.display = 'block';
+  modal.setAttribute('aria-hidden', 'false');
   modal.focus();
+  modalTitle.textContent = route.naam[currentLanguage] || route.naam.nl || 'Unnamed route';
+  extraInfo.textContent = route.beschrijving[currentLanguage] || '';
 
-  modalTitle.textContent = route.naam[currentLanguage] || route.naam.nl || "Unnamed route";
+  downloadLinks.innerHTML = '';
+  const t = translations[currentLanguage];
+  if (route.gpxUrl) {
+    const a1 = document.createElement('a');
+    a1.href = route.gpxUrl;
+    a1.download = route.gpxFilename || '';
+    a1.textContent = t.downloadGPX;
+    a1.target = '_blank';
+    downloadLinks.appendChild(a1);
+  }
+  if (route.pdfUrl) {
+    const a2 = document.createElement('a');
+    a2.href = route.pdfUrl;
+    a2.download = route.pdfFilename || '';
+    a2.textContent = t.downloadPDF;
+    a2.target = '_blank';
+    downloadLinks.appendChild(a2);
+  }
 
-  downloadLinks.innerHTML = "";
-  const t = texts[currentLanguage];
-
-  const gpxLink = document.createElement("a");
-  gpxLink.href = route.gpxUrl;
-  gpxLink.textContent = t.downloadGPX;
-  gpxLink.download = "";
-  gpxLink.target = "_blank";
-  downloadLinks.appendChild(gpxLink);
-
-  const pdfLink = document.createElement("a");
-  pdfLink.href = route.pdfUrl;
-  pdfLink.textContent = t.downloadPDF;
-  pdfLink.download = "";
-  pdfLink.target = "_blank";
-  downloadLinks.appendChild(pdfLink);
+  // Voeg de 'Weergave' knop toe
+  const viewBtn = document.createElement('button');
+  viewBtn.textContent = currentLanguage === 'nl' ? 'Weergave' : currentLanguage === 'fr' ? 'Affichage' : 'View';
+  viewBtn.style.marginLeft = '10px';
+  downloadLinks.appendChild(viewBtn);
+  viewBtn.addEventListener('click', () => openMapPopup(route));
 }
 
-// Modal close
-document.getElementById("modal-close").onclick = closeModal;
-modal.onclick = (e) => {
-  if (e.target === modal) closeModal();
-};
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeModal();
-});
+// Modal sluiten
+modalClose.onclick = closeModal;
+modal.onclick = e => { if(e.target === modal) closeModal(); };
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
 function closeModal() {
-  modal.style.display = "none";
-  modal.setAttribute("aria-hidden", "true");
+  modal.style.display = 'none';
+  modal.setAttribute('aria-hidden', 'true');
 }
 
-// Event listeners for filters and language
-languageSelect.addEventListener("change", () => {
-  currentLanguage = languageSelect.value;
-  translateUI();
-  filterRoutes();
+// Map-popup openen
+function openMapPopup(route) {
+  mapModal.style.display = 'block';
+  mapModal.setAttribute('aria-hidden', 'false');
+  mapModalTitle.textContent = route.naam[currentLanguage] || route.naam.nl || 'Unnamed route';
+
+  if (!mapView) {
+    mapView = L.map('mapDisplay').setView([47.2, 0.2], 10);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 18,
+    }).addTo(mapView);
+  } else {
+    mapView.eachLayer(layer => {
+      if (layer instanceof L.GeoJSON) {
+        mapView.removeLayer(layer);
+      }
+    });
+  }
+
+  fetch(route.gpxUrl)
+    .then(r => r.text())
+    .then(gpxText => {
+      const parser = new DOMParser();
+      const gpxDoc = parser.parseFromString(gpxText, 'application/xml');
+      const geojson = toGeoJSON.gpx(gpxDoc);
+      if (mapView.gpxLayer) mapView.removeLayer(mapView.gpxLayer);
+      mapView.gpxLayer = L.geoJSON(geojson).addTo(mapView);
+      mapView.fitBounds(mapView.gpxLayer.getBounds());
+    })
+    .catch(() => {
+      alert(currentLanguage === 'nl' ? 'Kan de GPX-route niet laden op de kaart.' : currentLanguage === 'fr' ? 'Impossible de charger le parcours GPX sur la carte.' : 'Could not load GPX route on map.');
+    });
+}
+
+// Map-popup sluiten
+mapModalClose.onclick = () => {
+  mapModal.style.display = 'none';
+  mapModal.setAttribute('aria-hidden', 'true');
+};
+mapModal.onclick = e => { if (e.target === mapModal) {
+  mapModal.style.display = 'none';
+  mapModal.setAttribute('aria-hidden', 'true');
+}};
+
+// Taalkeuze handler
+taalSelect.addEventListener('change', e => {
+  currentLanguage = e.target.value;
+  vertaalInterface();
+  vulRouteList();
 });
-filterActivity.addEventListener("change", filterRoutes);
-filterDuration.addEventListener("change", filterRoutes);
-filterRegion.addEventListener("change", filterRoutes);
-filterDistance.addEventListener("change", filterRoutes);
+
+// Filter handlers
+filterActivity.addEventListener('change', vulRouteList);
+filterDuration.addEventListener('change', vulRouteList);
+filterRegion.addEventListener('change', vulRouteList);
+filterDistance.addEventListener('change', vulRouteList);
 
 // Init
-translateUI();
-filterRoutes();
+vertaalInterface();
+vulRouteList();
 
 </script>
 </body>
