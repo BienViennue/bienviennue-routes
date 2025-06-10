@@ -510,11 +510,15 @@ function openMapPopup(route) {
   }
 
   fetch(route.gpxUrl)
-    .then(r => r.text())
+    .then(r => {
+      console.log('Fetch status:', r.status);  // Log de status van de fetch
+      return r.text();
+    })
     .then(gpxText => {
       const parser = new DOMParser();
       const gpxDoc = parser.parseFromString(gpxText, 'application/xml');
       const geojson = toGeoJSON.gpx(gpxDoc);
+      console.log('GeoJSON:', geojson);  // Log het GeoJSON object
       if (mapView.gpxLayer) mapView.removeLayer(mapView.gpxLayer);
       mapView.gpxLayer = L.geoJSON(geojson).addTo(mapView);
       mapView.fitBounds(mapView.gpxLayer.getBounds());
