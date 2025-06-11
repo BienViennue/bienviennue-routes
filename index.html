@@ -31,6 +31,18 @@
     #modal-content{width:95%;margin:10% auto;}
     select{margin-bottom:0.7em;width:100%;}
   }
+
+/* ─── 1. GROTER POPUPVENSTER EN GROTERE KAART OP DESKTOP ─── */
+@media (min-width:1024px){
+  #modal-content{max-width:900px;}   /* breder popup */
+  #routeMap{height:500px;}           /* hogere kaart */
+}
+
+/* ─── 2. POPUP PAST ZICH BETER AAN OP SMARTPHONE ─── */
+@media (max-width:480px){
+  #modal-content{max-height:90vh;overflow-y:auto;} /* niet buiten scherm */
+  #routeMap{height:300px;}                         /* iets lagere kaart */
+}
 </style>
 </head>
 <body>
