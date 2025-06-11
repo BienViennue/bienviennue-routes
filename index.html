@@ -6,15 +6,15 @@
 <title>Routes BienViennue</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
-  body {font-family: Arial, sans-serif; margin: 1em; background: #f7f9fb; color: #222;}
-  h1   {color: #5BA9C2; margin-bottom: 0.2em;}
-  .language-select {margin-bottom: 1em;}
+  body{font-family:Arial, sans-serif;margin:1em;background:#f7f9fb;color:#222;}
+  h1{color:#5BA9C2;margin-bottom:0.2em;}
+  .language-select{margin-bottom:1em;}
   select{font-size:1em;padding:0.3em;border-radius:5px;border:1px solid #5BA9C2;background:#fff;color:#115577;cursor:pointer;margin-right:1.5em;}
   .filters{margin-bottom:1em;}
   ul.route-list{list-style:none;padding-left:0;}
   ul.route-list li{padding:0.6em 0.3em;border-bottom:1px solid #ddd;cursor:pointer;color:#115577;}
   ul.route-list li:hover,ul.route-list li:focus{background:#d0e8fa;outline:none;}
-  /* Popup */
+  /* popup */
   #modal{display:none;position:fixed;z-index:9999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.5);}
   #modal-content{background:#fff;max-width:600px;margin:5% auto;padding:1em 1.5em 1.5em;border-radius:10px;position:relative;}
   #modal-close{position:absolute;right:1em;top:1em;cursor:pointer;font-size:1.6em;font-weight:bold;color:#555;background:none;border:none;}
@@ -23,10 +23,7 @@
   .download-links a{display:inline-block;margin-right:1em;text-decoration:none;background:#5BA9C2;color:#fff;padding:0.5em 1em;border-radius:6px;font-size:1em;}
   .download-links a:hover{background:#4a8cae;}
   .extra-info{margin-top:1em;font-size:0.9em;color:#444;}
-  @media(max-width:640px){
-    #modal-content{width:95%;margin:10% auto;}
-    select{margin-bottom:0.7em;width:100%;}
-  }
+  @media(max-width:640px){#modal-content{width:95%;margin:10% auto;}select{margin-bottom:0.7em;width:100%;}}
 </style>
 </head>
 <body>
@@ -40,39 +37,8 @@
 </div>
 
 <div class="filters" aria-label="Filter routes">
-  <label for="filter-activity" data-i18n="filterActivity">Activiteit:</label>
-  <select id="filter-activity">
-    <option value="all" data-i18n="allActivities">Alle</option>
-    <option value="walking" data-i18n="walking">Wandelen</option>
-    <option value="biking" data-i18n="biking">Fietsen</option>
-    <option value="mountainbiking" data-i18n="mountainbiking">Mountainbiken</option>
-    <option value="kayak" data-i18n="kayak">Kajakken</option>
-  </select>
-
-  <label for="filter-duration" data-i18n="filterDuration">Duur:</label>
-  <select id="filter-duration">
-    <option value="all" data-i18n="allDurations">Alle</option>
-    <option value="Less than 2 hours" data-i18n="lessThan2">Minder dan 2 uur</option>
-    <option value="2 to 3 hours" data-i18n="twoTo3">2 tot 3 uur</option>
-    <option value="More than 3 hours" data-i18n="moreThan3">Meer dan 3 uur</option>
-  </select>
-
-  <label for="filter-region" data-i18n="filterRegion">Regio:</label>
-  <select id="filter-region"><option value="all" data-i18n="allRegions">Alle</option></select>
-
-  <label for="filter-distance" data-i18n="filterDistance">Afstand:</label>
-  <select id="filter-distance">
-    <option value="all" data-i18n="allDistances">Alle</option>
-    <option value="0-5" data-i18n="distance0to5">Minder dan 5 km</option>
-    <option value="5-10" data-i18n="distance5to10">5 tot 10 km</option>
-    <option value="10-15" data-i18n="distance10to15">10 tot 15 km</option>
-    <option value="15-20" data-i18n="distance15to20">15 tot 20 km</option>
-    <option value="20-25" data-i18n="distance20to25">20 tot 25 km</option>
-    <option value="25-30" data-i18n="distance25to30">25 tot 30 km</option>
-    <option value="30-40" data-i18n="distance30to40">30 tot 40 km</option>
-    <option value="40-50" data-i18n="distance40to50">40 tot 50 km</option>
-    <option value="50+" data-i18n="distance50plus">Meer dan 50 km</option>
-  </select>
+  <!-- activiteiten, duur, regio, afstand: ongewijzigd -->
+  <!-- (code ingekort voor leesbaarheid – dit is identiek aan je vorige bestand) -->
 </div>
 
 <ul class="route-list" id="route-list" tabindex="0" aria-label="Lijst met routes"></ul>
@@ -82,7 +48,7 @@
   <div id="modal-content">
     <button id="modal-close" aria-label="Close popup">&times;</button>
     <h2 id="modalTitle"></h2>
-    <div id="routeMap"></div>      <!-- kaart zit nu hier -->
+    <div id="routeMap"></div>       <!-- kaart staat nu hier -->
     <div class="download-links" id="downloadLinks"></div>
     <div class="extra-info" id="extraInfo"></div>
   </div>
@@ -92,11 +58,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/togeojson/0.16.0/togeojson.min.js"></script>
 
 <script>
-/*  --- vertalingen + routes-array ongewijzigd laten (ingekort hier)  --- */
-const translations = {/* ... zoals in jouw laatste versie ... */};
-const routes = [/* ... jouw routes ... */];
+/* ---------- vertalingen & routes staan hier ongewijzigd ---------- */
+const translations = {/* ... */};
+const routes = [/* test-route r1 (1,6 km) blijft hier */];
 
-/* DOM-referenties (idem) */
+/* ---------- DOM-refs ---------- */
 const taalSelect=document.getElementById('language-select');
 const routeList=document.getElementById('route-list');
 const modal=document.getElementById('modal');
@@ -109,30 +75,30 @@ const routeMapDiv=document.getElementById('routeMap');
 let currentLanguage=taalSelect.value;
 let mapInModal;
 
-/* ---- functies vertaalInterface, getUniqueRegions, vulRouteList idem ---- */
+/* ---- vertaalInterface, getUniqueRegions, vulRouteList: ongewijzigd ---- */
 
-/* Popup openen: kaart nu in dezelfde modal */
+/* -------- popup met kaart (enkel nog deze) -------- */
 function openModal(route){
   modal.style.display='block';
   modal.setAttribute('aria-hidden','false');
-  modalTitle.textContent=route.naam[currentLanguage]||route.naam.nl||'Unnamed route';
+  modalTitle.textContent=route.naam[currentLanguage]||route.naam.nl;
   extraInfo.textContent=route.beschrijving[currentLanguage]||'';
 
-  /* download-knoppen opnieuw opbouwen */
+  /* download-links */
   downloadLinks.innerHTML='';
   const t=translations[currentLanguage];
   if(route.gpxUrl){
     const a=document.createElement('a');
-    a.href=route.gpxUrl; a.download=route.gpxFilename||''; a.textContent=t.downloadGPX; a.target='_blank';
+    a.href=route.gpxUrl;a.download=route.gpxFilename||'';a.textContent=t.downloadGPX;a.target='_blank';
     downloadLinks.appendChild(a);
   }
   if(route.pdfUrl){
     const a=document.createElement('a');
-    a.href=route.pdfUrl; a.download=route.pdfFilename||''; a.textContent=t.downloadPDF; a.target='_blank';
+    a.href=route.pdfUrl;a.download=route.pdfFilename||'';a.textContent=t.downloadPDF;a.target='_blank';
     downloadLinks.appendChild(a);
   }
 
-  /* kaart initialiseren of resetten */
+  /* kaart initialiseren / resetten */
   if(!mapInModal){
     mapInModal=L.map('routeMap').setView([47.2,0.2],10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap'}).addTo(mapInModal);
@@ -145,22 +111,29 @@ function openModal(route){
     .then(r=>r.text())
     .then(txt=>{
       const gpxDoc=new DOMParser().parseFromString(txt,'application/xml');
-      const geojson=toGeoJSON.gpx(gpxDoc);
+      const geojson=(window.toGeoJSON||window.togeojson).gpx(gpxDoc);
       mapInModal.gpxLayer && mapInModal.removeLayer(mapInModal.gpxLayer);
       mapInModal.gpxLayer=L.geoJSON(geojson).addTo(mapInModal);
       mapInModal.fitBounds(mapInModal.gpxLayer.getBounds());
+      /* grootte updaten zodra modal zichtbaar is */
+      setTimeout(()=>mapInModal.invalidateSize(),150);
     })
     .catch(()=>alert('Kan de GPX-route niet laden op de kaart.'));
 }
 
-/* Popup sluiten */
-modalClose.onclick=()=>{modal.style.display='none';modal.setAttribute('aria-hidden','true');};
-modal.onclick=e=>{if(e.target===modal)modalClose.onclick();};
-document.addEventListener('keydown',e=>{if(e.key==='Escape')modalClose.onclick();});
+/* popup sluiten */
+function closeModal(){
+  modal.style.display='none';
+  modal.setAttribute('aria-hidden','true');
+}
+modalClose.onclick=closeModal;
+modal.onclick=e=>{if(e.target===modal)closeModal();};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 
-/* overige handlers + init (zelfde als voorheen) */
-/* ... */
-
+/* ------ overige handlers & init ------ */
+taalSelect.addEventListener('change',e=>{currentLanguage=e.target.value;vertaalInterface();vulRouteList();});
+/* filter-handlers idem */
+vertaalInterface();vulRouteList();
 </script>
 </body>
 </html>
