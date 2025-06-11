@@ -518,7 +518,7 @@ function openMapPopup(route) {
     .then(gpxText => {
       const parser = new DOMParser();
       const gpxDoc = parser.parseFromString(gpxText, 'application/xml');
-      const geojson = toGeoJSON.gpx(gpxDoc);
+      const geojson = (window.toGeoJSON || window.togeojson).gpx(gpxDoc);
       console.log('GeoJSON:', geojson);  // Log het GeoJSON object
       if (mapView.gpxLayer) mapView.removeLayer(mapView.gpxLayer);
       mapView.gpxLayer = L.geoJSON(geojson).addTo(mapView);
