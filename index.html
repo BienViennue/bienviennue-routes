@@ -6,7 +6,6 @@
 <title>Routes BienViennue</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
 <style>
   body{font-family:Arial,sans-serif;margin:1em;background:#f7f9fb;color:#222;}
   h1{color:#5BA9C2;margin-bottom:0.2em;}
@@ -46,8 +45,7 @@
   </select>
 </div>
 
-<div class="filters" aria-label="Filter routes">
-  <!-- Activiteit -->
+<div class="filters">
   <label for="filter-activity" data-i18n="filterActivity">Activiteit:</label>
   <select id="filter-activity">
     <option value="all" data-i18n="allActivities">Alle</option>
@@ -57,7 +55,6 @@
     <option value="kayak" data-i18n="kayak">Kajakken</option>
   </select>
 
-  <!-- Duur -->
   <label for="filter-duration" data-i18n="filterDuration">Duur:</label>
   <select id="filter-duration">
     <option value="all" data-i18n="allDurations">Alle</option>
@@ -66,11 +63,9 @@
     <option value="More than 3 hours" data-i18n="moreThan3">Meer dan 3 uur</option>
   </select>
 
-  <!-- Regio -->
   <label for="filter-region" data-i18n="filterRegion">Regio:</label>
   <select id="filter-region"><option value="all" data-i18n="allRegions">Alle</option></select>
 
-  <!-- Afstand -->
   <label for="filter-distance" data-i18n="filterDistance">Afstand:</label>
   <select id="filter-distance">
     <option value="all" data-i18n="allDistances">Alle</option>
@@ -86,12 +81,12 @@
   </select>
 </div>
 
-<ul class="route-list" id="route-list" aria-label="Lijst met routes"></ul>
+<ul class="route-list" id="route-list"></ul>
 
-<!-- Info-popup -->
+<!-- Popup -->
 <div id="modal" aria-hidden="true">
   <div id="modal-content">
-    <button id="modal-close" aria-label="Sluit popup">&times;</button>
+    <button id="modal-close">&times;</button>
     <h2 id="modalTitle"></h2>
     <div id="routeMap"></div>
     <div class="download-links" id="downloadLinks"></div>
@@ -103,54 +98,150 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/togeojson/0.16.0/togeojson.min.js"></script>
 
 <script>
-/* -------- vertalingen -------- */
-const translations = {/* jouw volledige vertaalobject hier (ongewijzigd) */};
+/* ------- vertalingen ------- */
+const translations={
+ nl:{title:'Routes BienViennue',selectLanguage:'Taalkeuze:',filterActivity:'Activiteit:',filterDuration:'Duur:',filterRegion:'Regio:',filterDistance:'Afstand:',allActivities:'Alle',allDurations:'Alle',allRegions:'Alle',allDistances:'Alle',walking:'Wandelen',biking:'Fietsen',mountainbiking:'Mountainbiken',kayak:'Kajakken',downloadGPX:'Download GPX',downloadPDF:'Download PDF',noRoutesFound:'Geen routes gevonden.',lessThan2:'Minder dan 2 uur',twoTo3:'2 tot 3 uur',moreThan3:'Meer dan 3 uur',distance0to5:'Minder dan 5 km',distance5to10:'5 tot 10 km',distance10to15:'10 tot 15 km',distance15to20:'15 tot 20 km',distance20to25:'20 tot 25 km',distance25to30:'25 tot 30 km',distance30to40:'30 tot 40 km',distance40to50:'40 tot 50 km',distance50plus:'Meer dan 50 km'},
+ en:{title:'Routes BienViennue',selectLanguage:'Language choice:',filterActivity:'Activity:',filterDuration:'Duration:',filterRegion:'Region:',filterDistance:'Distance:',allActivities:'All',allDurations:'All',allRegions:'All',allDistances:'All',walking:'Walking',biking:'Biking',mountainbiking:'Mountainbiking',kayak:'Kayaking',downloadGPX:'Download GPX',downloadPDF:'Download PDF',noRoutesFound:'No routes found.',lessThan2:'Less than 2 hours',twoTo3:'2 to 3 hours',moreThan3:'More than 3 hours',distance0to5:'Less than 5 km',distance5to10:'5 to 10 km',distance10to15:'10 to 15 km',distance15to20:'15 to 20 km',distance20to25:'20 to 25 km',distance25to30:'25 to 30 km',distance30to40:'30 to 40 km',distance40to50:'40 to 50 km',distance50plus:'More than 50 km'},
+ fr:{title:'Itinéraires BienViennue',selectLanguage:'Choix de la langue :',filterActivity:'Activité :',filterDuration:'Durée :',filterRegion:'Région :',filterDistance:'Distance :',allActivities:'Tous',allDurations:'Tous',allRegions:'Tous',allDistances:'Tous',walking:'Marche',biking:'Vélo',mountainbiking:'VTT',kayak:'Kayak',downloadGPX:'Télécharger GPX',downloadPDF:'Télécharger PDF',noRoutesFound:'Aucun itinéraire trouvé.',lessThan2:'Moins de 2 h',twoTo3:'2 à 3 h',moreThan3:'Plus de 3 h',distance0to5:'Moins de 5 km',distance5to10:'5 à 10 km',distance10to15:'10 à 15 km',distance15to20:'15 à 20 km',distance20to25:'20 à 25 km',distance25to30:'25 à 30 km',distance30to40:'30 à 40 km',distance40to50:'40 à 50 km',distance50plus:'Plus de 50 km'}
+};
 
-/* -------- routes (test-route blijft) -------- */
-const routes = [{
-  id:'r1',
-  naam:{nl:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km',en:'Au cœur du Ridellois – Azay-le-Rideau 1.6 km',fr:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km'},
-  type:['walking','biking','mountainbiking'],
-  duur:'Less than 2 hours',
-  regio:'Région Azay-le-Rideau',
-  afstand:1.6,
-  gpxUrl:'https://bienviennue.github.io/bienviennue-routes/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.gpx',
-  pdfUrl:'https://bienviennue.github.io/bienviennue-routes/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.pdf',
-  gpxFilename:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.gpx',
-  pdfFilename:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.pdf',
-  beschrijving:{nl:'Mooie route langs de rivier.',en:'Nice route along the river.',fr:'Belle balade le long de la rivière.'}
+/* ------- routes ------- */
+const routes=[{
+ id:'r1',
+ naam:{
+   nl:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km',
+   en:'Au cœur du Ridellois – Azay-le-Rideau 1.6 km',
+   fr:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km'},
+ type:['walking'],
+ duur:'Less than 2 hours',
+ regio:'Région Azay-le-Rideau',
+ afstand:1.6,
+ gpxUrl:'https://bienviennue.github.io/bienviennue-routes/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.gpx',
+ pdfUrl:'https://bienviennue.github.io/bienviennue-routes/routes/Au%20c%C5%93ur%20du%20Ridellois%20%E2%80%93%20Azay-le-Rideau%201%2C6%20km.pdf',
+ gpxFilename:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.gpx',
+ pdfFilename:'Au cœur du Ridellois – Azay-le-Rideau 1,6 km.pdf',
+ beschrijving:{
+   nl:'Mooie route langs de rivier.',
+   en:'Nice route along the river.',
+   fr:'Belle balade le long de la rivière.'}
 }];
 
-/* -------- DOM-refs -------- */
-const taalSelect = document.getElementById('language-select');
-const routeList  = document.getElementById('route-list');
-const modal      = document.getElementById('modal');
-const modalClose = document.getElementById('modal-close');
-const modalTitle = document.getElementById('modalTitle');
-const downloadLinks = document.getElementById('downloadLinks');
-const extraInfo     = document.getElementById('extraInfo');
-const routeMapDiv   = document.getElementById('routeMap');
+/* ------- DOM refs ------- */
+const taalSelect=document.getElementById('language-select');
+const routeList=document.getElementById('route-list');
+const modal=document.getElementById('modal');
+const modalClose=document.getElementById('modal-close');
+const modalTitle=document.getElementById('modalTitle');
+const downloadLinks=document.getElementById('downloadLinks');
+const extraInfo=document.getElementById('extraInfo');
+const routeMapDiv=document.getElementById('routeMap');
+const filterActivity=document.getElementById('filter-activity');
+const filterDuration=document.getElementById('filter-duration');
+const filterRegion=document.getElementById('filter-region');
+const filterDistance=document.getElementById('filter-distance');
+
+let currentLanguage=taalSelect.value;
+let mapInModal;
 
 /* helpers */
 function getUniqueRegions(){
   return [...new Set(routes.map(r=>r.regio).filter(Boolean))].sort();
 }
 
-/* vertaling + lijst */
-let currentLanguage=taalSelect.value;
-function vertaalInterface(){/* ... identiek aan je vorige code ... */}
-function vulRouteList(){/* ... identiek ... */}
-vertaalInterface();vulRouteList();
+/* vertaal interface */
+function vertaalInterface(){
+  const t=translations[currentLanguage];
+  document.querySelector('h1').textContent=t.title;
+  document.querySelector('label[for="language-select"]').textContent=t.selectLanguage;
+  document.querySelector('label[for="filter-activity"]').textContent=t.filterActivity;
+  document.querySelector('label[for="filter-duration"]').textContent=t.filterDuration;
+  document.querySelector('label[for="filter-region"]').textContent=t.filterRegion;
+  document.querySelector('label[for="filter-distance"]').textContent=t.filterDistance;
 
-/* ------ kaart binnen popup ------ */
-let mapInModal;
+  /* opties vertalen */
+  filterActivity.options[0].textContent=t.allActivities;
+  ['walking','biking','mountainbiking','kayak'].forEach((v,i)=>filterActivity.options[i+1].textContent=t[v]);
+
+  filterDuration.options[0].textContent=t.allDurations;
+  filterDuration.options[1].textContent=t.lessThan2;
+  filterDuration.options[2].textContent=t.twoTo3;
+  filterDuration.options[3].textContent=t.moreThan3;
+
+  filterRegion.options[0].textContent=t.allRegions;
+
+  filterDistance.options[0].textContent=t.allDistances;
+  filterDistance.options[1].textContent=t.distance0to5;
+  filterDistance.options[2].textContent=t.distance5to10;
+  filterDistance.options[3].textContent=t.distance10to15;
+  filterDistance.options[4].textContent=t.distance15to20;
+  filterDistance.options[5].textContent=t.distance20to25;
+  filterDistance.options[6].textContent=t.distance25to30;
+  filterDistance.options[7].textContent=t.distance30to40;
+  filterDistance.options[8].textContent=t.distance40to50;
+  filterDistance.options[9].textContent=t.distance50plus;
+
+  /* regio-opties opbouwen */
+  const regions=getUniqueRegions();
+  filterRegion.length=1;
+  regions.forEach(r=>{
+    const o=new Option(r,r);filterRegion.add(o);
+  });
+}
+
+/* lijst vullen */
+function vulRouteList(){
+  routeList.innerHTML='';
+  const t=translations[currentLanguage];
+  const fActivity=filterActivity.value;
+  const fDuration=filterDuration.value;
+  const fRegion=filterRegion.value;
+  const fDistance=filterDistance.value;
+
+  const filtered=routes.filter(r=>{
+    const a=fActivity==='all'||r.type.includes(fActivity);
+    const d=fDuration==='all'||r.duur===fDuration;
+    const g=fRegion==='all'||r.regio===fRegion;
+    let distOK=true;
+    if(fDistance!=='all'){
+      const dkm=r.afstand;
+      switch(fDistance){
+        case'0-5':distOK=dkm<5;break;
+        case'5-10':distOK=dkm>=5&&dkm<10;break;
+        case'10-15':distOK=dkm>=10&&dkm<15;break;
+        case'15-20':distOK=dkm>=15&&dkm<20;break;
+        case'20-25':distOK=dkm>=20&&dkm<25;break;
+        case'25-30':distOK=dkm>=25&&dkm<30;break;
+        case'30-40':distOK=dkm>=30&&dkm<40;break;
+        case'40-50':distOK=dkm>=40&&dkm<50;break;
+        case'50+':distOK=dkm>=50;break;
+      }
+    }
+    return a&&d&&g&&distOK;
+  });
+
+  if(!filtered.length){
+    const li=document.createElement('li');
+    li.textContent=t.noRoutesFound;li.style.fontStyle='italic';
+    routeList.appendChild(li);return;
+  }
+
+  filtered.forEach(r=>{
+    const li=document.createElement('li');
+    li.textContent=r.naam[currentLanguage]||r.naam.nl;
+    li.tabIndex=0;
+    li.addEventListener('click',()=>openModal(r));
+    li.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')openModal(r);});
+    routeList.appendChild(li);
+  });
+}
+
+/* popup openen */
 function openModal(route){
-  modal.style.display='block';
-  modal.setAttribute('aria-hidden','false');
-  modalTitle.textContent = route.naam[currentLanguage]||route.naam.nl;
+  modal.style.display='block';modal.setAttribute('aria-hidden','false');
+  modalTitle.textContent=route.naam[currentLanguage]||route.naam.nl;
+  extraInfo.textContent=route.beschrijving[currentLanguage]||'';
 
-  /* beschrijving + downloads */
-  extraInfo.textContent = route.beschrijving[currentLanguage]||'';
+  /* download-knoppen */
   downloadLinks.innerHTML='';
   const t=translations[currentLanguage];
   if(route.gpxUrl){
@@ -162,7 +253,7 @@ function openModal(route){
     downloadLinks.appendChild(a);
   }
 
-  /* kaart aanmaken/resetten */
+  /* kaart init/reset */
   if(!mapInModal){
     mapInModal=L.map(routeMapDiv).setView([47.2,0.2],10);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap'}).addTo(mapInModal);
@@ -170,32 +261,29 @@ function openModal(route){
     mapInModal.eachLayer(l=>{if(l instanceof L.GeoJSON)mapInModal.removeLayer(l);});
   }
 
-  /* GPX laden */
-  fetch(route.gpxUrl)
-    .then(r=>r.text())
-    .then(txt=>{
-      const gpxDoc=new DOMParser().parseFromString(txt,'application/xml');
-      const geojson=(window.toGeoJSON||window.togeojson).gpx(gpxDoc);
-      mapInModal.gpxLayer && mapInModal.removeLayer(mapInModal.gpxLayer);
-      mapInModal.gpxLayer=L.geoJSON(geojson).addTo(mapInModal);
-      mapInModal.fitBounds(mapInModal.gpxLayer.getBounds());
-      setTimeout(()=>mapInModal.invalidateSize(),150);
-    })
-    .catch(()=>alert('Kan de GPX-route niet laden op de kaart.'));
+  /* GPX -> GeoJSON */
+  fetch(route.gpxUrl).then(r=>r.text()).then(txt=>{
+    const g=new DOMParser().parseFromString(txt,'application/xml');
+    const geojson=(window.toGeoJSON||window.togeojson).gpx(g);
+    mapInModal.gpxLayer&&mapInModal.removeLayer(mapInModal.gpxLayer);
+    mapInModal.gpxLayer=L.geoJSON(geojson).addTo(mapInModal);
+    mapInModal.fitBounds(mapInModal.gpxLayer.getBounds());
+    setTimeout(()=>mapInModal.invalidateSize(),150);
+  }).catch(()=>alert('Kan de GPX-route niet laden op de kaart.'));
 }
 
-/* event-bindingen */
-modalClose.onclick=()=>{modal.style.display='none';modal.setAttribute('aria-hidden','true');};
-modal.onclick=e=>{if(e.target===modal)modalClose.onclick();};
-document.addEventListener('keydown',e=>{if(e.key==='Escape')modalClose.onclick();});
+/* popup sluiten */
+function closeModal(){modal.style.display='none';modal.setAttribute('aria-hidden','true');}
+modalClose.onclick=closeModal;
+modal.onclick=e=>{if(e.target===modal)closeModal();};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 
+/* events */
 taalSelect.onchange=e=>{currentLanguage=e.target.value;vertaalInterface();vulRouteList();};
-routeList.addEventListener('click',e=>{
-  if(e.target.tagName==='LI')openModal(routes.find(r=>e.target.textContent.startsWith(r.naam[currentLanguage]||r.naam.nl)));
-});
-routeList.addEventListener('keydown',e=>{
-  if((e.key==='Enter'||e.key===' ')&&e.target.tagName==='LI')openModal(routes.find(r=>e.target.textContent.startsWith(r.naam[currentLanguage]||r.naam.nl)));
-});
+[filterActivity,filterDuration,filterRegion,filterDistance].forEach(sel=>sel.onchange=vulRouteList);
+
+/* init */
+vertaalInterface();vulRouteList();
 </script>
 </body>
 </html>
