@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (0)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39823894412355" lon="-0.3166255248816089">
+        <ele>25.223101395515823</ele>
+      </trkpt>
+      <trkpt lat="47.39822999624515" lon="-0.3164544231552323">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39821847844055" lon="-0.3162341863571787">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39814948619515" lon="-0.3162019998489988">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39796792661294" lon="-0.3161912709402763">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39778636701511" lon="-0.3161805421042168">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="47.39760480740164" lon="-0.316169813340821">
+        <ele>29.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (1)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.397633331850194" lon="-0.3161696553259266">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.39762999998275" lon="-0.31617000000000034">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.397606667339964" lon="-0.3158866664200549">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.39758333400664" lon="-0.315603333086719">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.39755999998275" lon="-0.3153199999999993">
+        <ele>30.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (2)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39755999998275" lon="-0.3153199999999993">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.397369999997636" lon="-0.31536000014174903">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.397179999982725" lon="-0.3153999999999988">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.397000000167566" lon="-0.3155125011330586">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.396820000229184" lon="-0.31562500151074024">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39664000016755" lon="-0.3157375011330513">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.396459999982746" lon="-0.31584999999999974">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.396276000012854" lon="-0.31585200002745384">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39609200002792" lon="-0.3158540000411811">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.395908000027895" lon="-0.31585600004118064">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.395724000012834" lon="-0.31585800002745373">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39553999998274" lon="-0.31585999999999953">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.395500000822565" lon="-0.3156049994292927">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.395460001102514" lon="-0.31534999923905416">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39542000082259" lon="-0.31509499942928826">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.395379999982765" lon="-0.3148400000000002">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.3953180016819" lon="-0.3145259985476516">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39525600253146" lon="-0.3142119978214698">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39519400253144" lon="-0.3138979978214627">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39513200168187" lon="-0.3135839985476367">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="47.395069999982745" lon="-0.3132699999999988">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="47.39503250306697" lon="-0.31294999843339577">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="47.39499500526997" lon="-0.31262999731437463">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="47.39495750659178" lon="-0.3123099966429438">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="47.394920007032376" lon="-0.3119899964191136">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="47.39488250659176" lon="-0.3116699966428961">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="47.394845005269964" lon="-0.311349997314297">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="47.39480750306696" lon="-0.31102999843332807">
+        <ele>35.0</ele>
+      </trkpt>
+      <trkpt lat="47.39476999998275" lon="-0.3107099999999991">
+        <ele>36.0</ele>
+      </trkpt>
+      <trkpt lat="47.394580000072594" lon="-0.31076800082210526">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="47.39439000011751" lon="-0.3108260012331541">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="47.394200000117515" lon="-0.31088400123315046">
+        <ele>39.0</ele>
+      </trkpt>
+      <trkpt lat="47.39401000007259" lon="-0.3109420008220975">
+        <ele>40.0</ele>
+      </trkpt>
+      <trkpt lat="47.393819999982746" lon="-0.3110000000000008">
+        <ele>41.0</ele>
+      </trkpt>
+      <trkpt lat="47.39382444807297" lon="-0.3106744446603764">
+        <ele>42.0</ele>
+      </trkpt>
+      <trkpt lat="47.39382889525177" lon="-0.31034888926674387">
+        <ele>43.0</ele>
+      </trkpt>
+      <trkpt lat="47.39383334151912" lon="-0.31002333381911384">
+        <ele>44.0</ele>
+      </trkpt>
+      <trkpt lat="47.39383778687502" lon="-0.3096977783174971">
+        <ele>44.0</ele>
+      </trkpt>
+      <trkpt lat="47.393842231319454" lon="-0.30937222276190396">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="47.393846674852455" lon="-0.3090466671523479">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="47.39385111747401" lon="-0.30872111148883696">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="47.39385555918411" lon="-0.30839555577138494">
+        <ele>46.0</ele>
+      </trkpt>
+      <trkpt lat="47.393859999982745" lon="-0.3080699999999999">
+        <ele>46.0</ele>
+      </trkpt>
+      <trkpt lat="47.393798573418394" lon="-0.3077914266565812">
+        <ele>47.0</ele>
+      </trkpt>
+      <trkpt lat="47.39373714618499" lon="-0.30751285395143735">
+        <ele>47.0</ele>
+      </trkpt>
+      <trkpt lat="47.39367571828257" lon="-0.3072342818845728">
+        <ele>48.0</ele>
+      </trkpt>
+      <trkpt lat="47.393614289711145" lon="-0.3069557104559915">
+        <ele>49.0</ele>
+      </trkpt>
+      <trkpt lat="47.393552860470706" lon="-0.30667713966569987">
+        <ele>50.0</ele>
+      </trkpt>
+      <trkpt lat="47.39349143056123" lon="-0.306398569513701">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.39342999998274" lon="-0.30612000000000006">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.39321666670002" lon="-0.3061233333996439">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.39300333339704" lon="-0.30612666677276273">
+        <ele>53.0</ele>
+      </trkpt>
+      <trkpt lat="47.39279000007384" lon="-0.3061300001193581">
+        <ele>54.0</ele>
+      </trkpt>
+      <trkpt lat="47.39257666673039" lon="-0.3061333334394293">
+        <ele>55.0</ele>
+      </trkpt>
+      <trkpt lat="47.39236333336669" lon="-0.3061366667329758">
+        <ele>56.0</ele>
+      </trkpt>
+      <trkpt lat="47.39214999998274" lon="-0.30613999999999963">
+        <ele>57.0</ele>
+      </trkpt>
+      <trkpt lat="47.39202000005915" lon="-0.306009999684825">
+        <ele>58.0</ele>
+      </trkpt>
+      <trkpt lat="47.39188999998272" lon="-0.3058800000000005">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.391793333829405" lon="-0.3056366657893204">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39169666716274" lon="-0.3053933324559864">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39159999998273" lon="-0.30515000000000003">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.391546667105594" lon="-0.3049199995424723">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39149333377227" lon="-0.3046899995424705">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39143999998274" lon="-0.3044599999999995">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39136666708073" lon="-0.30423666605580296">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.3912933337474" lon="-0.3040133327224693">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39121999998274" lon="-0.3037900000000005">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39122000035696" lon="-0.3034950000000002">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39121999998274" lon="-0.3032000000000006">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.391161278140565" lon="-0.3028938796938077">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39110255549096" lon="-0.30258776005808846">
+        <ele>62.0</ele>
+      </trkpt>
+      <trkpt lat="47.391043832033915" lon="-0.30228164109285005">
+        <ele>62.0</ele>
+      </trkpt>
+      <trkpt lat="47.39098510776946" lon="-0.3019755227981016">
+        <ele>63.0</ele>
+      </trkpt>
+      <trkpt lat="47.390926382697586" lon="-0.3016694051738486">
+        <ele>64.0</ele>
+      </trkpt>
+      <trkpt lat="47.39086765681827" lon="-0.3013632882200971">
+        <ele>66.0</ele>
+      </trkpt>
+      <trkpt lat="47.390808930131556" lon="-0.3010571719368555">
+        <ele>66.0</ele>
+      </trkpt>
+      <trkpt lat="47.39075020263743" lon="-0.3007510563241308">
+        <ele>67.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (3)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39075020263743" lon="-0.3007510563241308">
+        <ele>67.0</ele>
+      </trkpt>
+      <trkpt lat="47.39074999998273" lon="-0.3007500000000001">
+        <ele>69.0</ele>
+      </trkpt>
+      <trkpt lat="47.3907741223552" lon="-0.30073927926392907">
+        <ele>69.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (4)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.3907741223552" lon="-0.30073927926392907">
+        <ele>69.0</ele>
+      </trkpt>
+      <trkpt lat="47.390989248027815" lon="-0.3006436702420001">
+        <ele>70.0</ele>
+      </trkpt>
+      <trkpt lat="47.39120437360136" lon="-0.30054806045292415">
+        <ele>70.0</ele>
+      </trkpt>
+      <trkpt lat="47.391419499075816" lon="-0.30045244989668923">
+        <ele>69.0</ele>
+      </trkpt>
+      <trkpt lat="47.39163462445118" lon="-0.3003568385732879">
+        <ele>69.0</ele>
+      </trkpt>
+      <trkpt lat="47.39184974972747" lon="-0.3002612264827124">
+        <ele>68.0</ele>
+      </trkpt>
+      <trkpt lat="47.39206487490465" lon="-0.3001656136249534">
+        <ele>66.0</ele>
+      </trkpt>
+      <trkpt lat="47.392279999982755" lon="-0.3000700000000009">
+        <ele>65.0</ele>
+      </trkpt>
+      <trkpt lat="47.39243000001144" lon="-0.3001166664055736">
+        <ele>63.0</ele>
+      </trkpt>
+      <trkpt lat="47.392580000011435" lon="-0.30016333307223886">
+        <ele>62.0</ele>
+      </trkpt>
+      <trkpt lat="47.392729999982755" lon="-0.30020999999999987">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.392926000047105" lon="-0.3001680006140979">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.393122000079295" lon="-0.3001260009211511">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.393318000079276" lon="-0.300084000921154">
+        <ele>57.0</ele>
+      </trkpt>
+      <trkpt lat="47.39351400004711" lon="-0.30004200061410496">
+        <ele>55.0</ele>
+      </trkpt>
+      <trkpt lat="47.39370999998274" lon="-0.2999999999999992">
+        <ele>53.0</ele>
+      </trkpt>
+      <trkpt lat="47.39390428578558" lon="-0.2999614294099966">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.39409857155893" lon="-0.29992285854047607">
+        <ele>49.0</ele>
+      </trkpt>
+      <trkpt lat="47.39429285730274" lon="-0.2998842873914353">
+        <ele>47.0</ele>
+      </trkpt>
+      <trkpt lat="47.39448714301702" lon="-0.29984571596286946">
+        <ele>44.0</ele>
+      </trkpt>
+      <trkpt lat="47.39468142870179" lon="-0.29980714425477784">
+        <ele>42.0</ele>
+      </trkpt>
+      <trkpt lat="47.394875714357035" lon="-0.29976857226715475">
+        <ele>41.0</ele>
+      </trkpt>
+      <trkpt lat="47.395069999982745" lon="-0.2997299999999995">
+        <ele>39.0</ele>
+      </trkpt>
+      <trkpt lat="47.39511000015509" lon="-0.29953000014920406">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="47.395149999982756" lon="-0.2993299999999999">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="47.395363284100945" lon="-0.2992832539079438">
+        <ele>36.0</ele>
+      </trkpt>
+      <trkpt lat="47.395576568180154" lon="-0.29923650744398594">
+        <ele>35.0</ele>
+      </trkpt>
+      <trkpt lat="47.3957898522204" lon="-0.2991897606081218">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="47.39600313622168" lon="-0.2991430134003471">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39621642018399" lon="-0.2990962658206574">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.39642970410732" lon="-0.29904951786904793">
+        <ele>29.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (5)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39642970410732" lon="-0.29904951786904793">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="47.39660999998276" lon="-0.2990099999999996">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39665857403257" lon="-0.2993285696969652">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.396707147208645" lon="-0.29964713997114784">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39675571951098" lon="-0.29996571082253787">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.396804290939535" lon="-0.300284282251127">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39685286149438" lon="-0.3006028542569058">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.396901431175436" lon="-0.30092142683986695">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39694999998274" lon="-0.30124000000000056">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.3970083351278" lon="-0.30152999842240735">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39706666954818" lon="-0.30181999747586">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39712500324387" lon="-0.30210999716035025">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39718333621485" lon="-0.30239999747587526">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.397241668461156" lon="-0.30268999842242633">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39729999998275" lon="-0.3029800000000002">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="47.39749625027969" lon="-0.3028912522739812">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39769250049181" lon="-0.3028025038982664">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39788875061906" lon="-0.3027137548728509">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.398085000661496" lon="-0.3026250051977264">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.398281250619085" lon="-0.302536254872885">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39847750049182" lon="-0.3024475038983218">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39867375027971" lon="-0.30235875227402775">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.39886999998275" lon="-0.3022699999999997">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.39905166724795" lon="-0.30243166392768206">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.39923333427373" lon="-0.30259332895094465">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.39941500106011" lon="-0.30275499506979864">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.39959666760708" lon="-0.3029166622842523">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.39977833391464" lon="-0.30307833059431644">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39995999998276" lon="-0.3032400000000009">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.400091669787095" lon="-0.30349582642201517">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40022333902097" lon="-0.3037516541006209">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.400355007684354" lon="-0.3040074830358208">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.400486675777266" lon="-0.3042633132276181">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40061834329969" lon="-0.304519144676018">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40075001025162" lon="-0.3047749773810236">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40088167663308" lon="-0.3050308113426394">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40101334244402" lon="-0.3052866465608684">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40114500768448" lon="-0.3055424830357156">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40127667235441" lon="-0.3057983207671831">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.40140833645385" lon="-0.3060541597552771">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40153999998277" lon="-0.3063100000000003">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40168333624375" lon="-0.30655665941231935">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40182667197244" lon="-0.30680332014359174">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40197000716886" lon="-0.307049982193823">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40211334183299" lon="-0.30729664556301844">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40225667596481" lon="-0.3075433102511839">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40240000956432" lon="-0.307789976258327">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.402543342631525" lon="-0.3080366435844509">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40268667516643" lon="-0.3082833122295615">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40283000716901" lon="-0.3085299821936669">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40297333863925" lon="-0.3087766534767713">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40311666957719" lon="-0.30902332607888">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40325999998277" lon="-0.30927000000000016">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.4033133337722" lon="-0.3094999995423682">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.403366667105544" lon="-0.3097299995423692">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40341999998276" lon="-0.30995999999999985">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.403423753040286" lon="-0.31027874984388637">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.403427505224236" lon="-0.31059749973239803">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40343125653461" lon="-0.3109162496655237">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.4034350069714" lon="-0.3112349996432515">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.403438756534605" lon="-0.3115537496655747">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40344250522425" lon="-0.3118724997324805">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40344625304029" lon="-0.3121912498439598">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40344999998277" lon="-0.31251000000000023">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40349625264952" lon="-0.31280749820334736">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40354250455434" lon="-0.31310499692003796">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40358875569722" lon="-0.31340249615006455">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.403635006078204" lon="-0.3136999958934211">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.403681255697265" lon="-0.3139974961501013">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40372750455437" lon="-0.31429499692009444">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40377375264953" lon="-0.3145924982033957">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40381999998278" lon="-0.3148899999999991">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40385583806123" lon="-0.31520666433823724">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40389167527696" lon="-0.3155233290998577">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.403927511629924" lon="-0.3158399942848497">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.403963347120154" lon="-0.3161566598932054">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40399918174762" lon="-0.31647332592491356">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40403501551234" lon="-0.3167899923799671">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40407084841431" lon="-0.3171066592583564">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.404104925202574" lon="-0.317407814261292">
+        <ele>21.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (6)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.404104925202574" lon="-0.317407814261292">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40410668045352" lon="-0.31742332656007083">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40414251162998" lon="-0.31773999428510113">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40417834194367" lon="-0.318056662433439">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.4042141713946" lon="-0.31837333100507537">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40424999998276" lon="-0.31868999999999936">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40424999998276" lon="-0.31893000000000093">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40425415763928" lon="-0.3189311968860213">
+        <ele>21.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (7)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.40425415763928" lon="-0.3189311968860213">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40442690635362" lon="-0.3189809271184174">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40459965503337" lon="-0.31903065767131766">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40477240367856" lon="-0.3190803885447268">
+        <ele>24.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (8)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.40477240367856" lon="-0.3190803885447268">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.40490999998276" lon="-0.3191199999999988">
+        <ele>24.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (9)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.40490999998276" lon="-0.3191199999999988">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.40491853251011" lon="-0.3191657647119427">
+        <ele>22.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (10)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.40491853251011" lon="-0.3191657647119427">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.404960304029494" lon="-0.3193898103182168">
+        <ele>22.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (11)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.404960304029494" lon="-0.3193898103182168">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.404990152116504" lon="-0.3195499050699695">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40501999998277" lon="-0.3197099999999991">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.405052001572805" lon="-0.32001399927412316">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.405084002367836" lon="-0.32031799891119417">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.405116002367855" lon="-0.3206219989112031">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40514800157285" lon="-0.3209259992741415">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40517999998278" lon="-0.3212299999999995">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40519333565704" lon="-0.3215599995895899">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.405206670394946" lon="-0.3218899993433597">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40522000419646" lon="-0.322219999261297">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.4052333370616" lon="-0.3225499993433899">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.405246668990365" lon="-0.32287999958962804">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.405259999982775" lon="-0.32320999999999955">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405220001263515" lon="-0.32352500070512086">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40518000169043" lon="-0.32384000094016696">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.405140001263504" lon="-0.32415500070512865">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.405099999982774" lon="-0.32447000000000004">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40512462027736" lon="-0.32477845983869563">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40514923975364" lon="-0.3250869199607186">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40517385841157" lon="-0.32539538036606025">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40519847625118" lon="-0.32570384105471056">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405223093272475" lon="-0.32601230202666165">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405247709475425" lon="-0.32632076328190474">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40527232486005" lon="-0.3266292248204287">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40529693942634" lon="-0.3269376866422264">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.4053215531743" lon="-0.32724614874728947">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405346166103925" lon="-0.32755461113560635">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40537077821521" lon="-0.3278630738071695">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40539538950816" lon="-0.328171536761971">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40541999998277" lon="-0.3284800000000001">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405412225186716" lon="-0.3287744447861696">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40540444964522" lon="-0.329068889486926">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40539667335828" lon="-0.3293633341022631">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40538889632593" lon="-0.32965777863217127">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405381118548156" lon="-0.32995222307664296">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40537334002495" lon="-0.3302466674356699">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40536556075632" lon="-0.33054111170924366">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40535778074226" lon="-0.3308355558973571">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40534999998279" lon="-0.33112999999999987">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40533666738931" lon="-0.33142333347924874">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40532333405598" lon="-0.3317166668125848">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40530999998278" lon="-0.33200999999999947">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.4053300001071" lon="-0.33217999993657593">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40534999998279" lon="-0.33234999999999965">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40532500009994" lon="-0.33251500007694723">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.405299999982766" lon="-0.33267999999999964">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40516999998278" lon="-0.3325">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40506833461786" lon="-0.3322549976767997">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40496666873223" lon="-0.332009996282882">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.404865002325906" lon="-0.3317649958182433">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40476333539889" lon="-0.33151999628288314">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40466166795117" lon="-0.33127499767680313">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.404559999982766" lon="-0.33103000000000005">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40437307811298" lon="-0.3311769292244546">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40418615604199" lon="-0.3313238574242846">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40399923376979" lon="-0.3314707845994986">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.4038123112964" lon="-0.33161771075011">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.403625388621826" lon="-0.3317646358761263">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40343846574606" lon="-0.3319115599775572">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.4032515426691" lon="-0.33205848305441177">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.403064619390975" lon="-0.33220540510670155">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40287769591168" lon="-0.3323523261344349">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40269077223119" lon="-0.33249924613762205">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40250384834954" lon="-0.3326461651162711">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.402316924266735" lon="-0.3327930830703943">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.402129999982755" lon="-0.33294">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40228750055466" lon="-0.3331474981711821">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40244500074529" lon="-0.3333549975615706">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40260250055466" lon="-0.3335624981711727">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40275999998277" lon="-0.3337699999999983">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40289500024489" lon="-0.3340149993830433">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40302999998276" lon="-0.33426">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.403070001106215" lon="-0.3345549993396667">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40311000148069" lon="-0.33484999911956115">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40315000110622" lon="-0.3351449993396754">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.403189999982764" lon="-0.3354400000000006">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40313500181474" lon="-0.3357316681628086">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.403080002913896" lon="-0.33602333572716897">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.4030250032803" lon="-0.3363150026930738">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.4029700029139" lon="-0.3366066690605183">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40291500181472" lon="-0.3368983348294961">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.402859999982766" lon="-0.33719000000000005">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40270571505835" lon="-0.3373614315315755">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40255142987065" lon="-0.3375328620764228">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40239714441963" lon="-0.3377042916345511">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40224285870534" lon="-0.33787572020596446">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40208857272777" lon="-0.3380471477906735">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40193428648689" lon="-0.33821857438868264">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.40177999998275" lon="-0.3383899999999991">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.401567500013" lon="-0.3383874999702713">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40135500002309" lon="-0.3383849999603627">
+        <ele>21.0</ele>
+      </trkpt>
+      <trkpt lat="47.40114250001301" lon="-0.3383824999702726">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.400929999982765" lon="-0.33838000000000007">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.40073333333675" lon="-0.33840000014673294">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.40053666667008" lon="-0.3384200001467321">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.40033999998276" lon="-0.3384399999999992">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.40014778885132" lon="-0.338590600932272">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39995557750845" lon="-0.33874120078468484">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="47.39976336595411" lon="-0.3388917995572489">
+        <ele>36.0</ele>
+      </trkpt>
+      <trkpt lat="47.399571154188315" lon="-0.33904239724997415">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="47.39937894221107" lon="-0.3391929938628716">
+        <ele>38.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (12)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39937894221107" lon="-0.3391929938628716">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="47.39925335128094" lon="-0.33921360969543524">
+        <ele>44.0</ele>
+      </trkpt>
+      <trkpt lat="47.39906816470747" lon="-0.3392860295889808">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="47.39888297807365" lon="-0.3393584489822386">
+        <ele>47.0</ele>
+      </trkpt>
+      <trkpt lat="47.39870323636843" lon="-0.3394322104719982">
+        <ele>49.0</ele>
+      </trkpt>
+      <trkpt lat="47.39852349460206" lon="-0.3395059714671882">
+        <ele>50.0</ele>
+      </trkpt>
+      <trkpt lat="47.39834375277456" lon="-0.3395797319678127">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.398164010885914" lon="-0.3396534919738765">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.39809421492391" lon="-0.33971694503130284">
+        <ele>52.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (13)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39809421492391" lon="-0.33971694503130284">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.39808699996552" lon="-0.33967400000000103">
+        <ele>54.0</ele>
+      </trkpt>
+      <trkpt lat="47.39788371452463" lon="-0.3397660020929531">
+        <ele>54.0</ele>
+      </trkpt>
+      <trkpt lat="47.39768042899262" lon="-0.33985800348824213">
+        <ele>56.0</ele>
+      </trkpt>
+      <trkpt lat="47.39747714336945" lon="-0.33995000418587457">
+        <ele>57.0</ele>
+      </trkpt>
+      <trkpt lat="47.397273857655144" lon="-0.34004200418585945">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39707057184972" lon="-0.34013400348820316">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.396867285953164" lon="-0.3402260020929149">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39666399996547" lon="-0.34031800000000056">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.396605751130565" lon="-0.34001774902140947">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.396547501518924" lon="-0.33971749869520773">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39648925113057" lon="-0.3394172490214026">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39643099996548" lon="-0.3391170000000004">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39621020002019" lon="-0.33909119957500977">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39598940004755" lon="-0.3390653993625187">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.395768600047525" lon="-0.3390395993625209">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39554780002017" lon="-0.33901379957501526">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39532699996547" lon="-0.3389880000000004">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39520725182027" lon="-0.3387412461423732">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39508750314512" lon="-0.33849449338692983">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.394967753940016" lon="-0.33824774173366956">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39484800420499" lon="-0.33800099118258714">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39472825394" lon="-0.33775424173368107">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39460850314508" lon="-0.33750749338695046">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39448875182023" lon="-0.337260746142391">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39436899996547" lon="-0.33701400000000026">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39421650031529" lon="-0.3368529986262741">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.394064000431904" lon="-0.33669199816837">
+        <ele>62.0</ele>
+      </trkpt>
+      <trkpt lat="47.3939115003153" lon="-0.3365309986262811">
+        <ele>62.0</ele>
+      </trkpt>
+      <trkpt lat="47.393758999965485" lon="-0.33637000000000034">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39367600462636" lon="-0.3360818513445591">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39359300857018" lon="-0.3357937035811493">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39351001179693" lon="-0.3355055567097754">
+        <ele>61.0</ele>
+      </trkpt>
+      <trkpt lat="47.39342701430661" lon="-0.33521741073043976">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39334401609921" lon="-0.33492926564314707">
+        <ele>60.0</ele>
+      </trkpt>
+      <trkpt lat="47.39326101717477" lon="-0.33464112144789987">
+        <ele>59.0</ele>
+      </trkpt>
+      <trkpt lat="47.39317801753327" lon="-0.334352978144702">
+        <ele>58.0</ele>
+      </trkpt>
+      <trkpt lat="47.393095017174716" lon="-0.33406483573355783">
+        <ele>57.0</ele>
+      </trkpt>
+      <trkpt lat="47.393012016099114" lon="-0.33377669421446987">
+        <ele>57.0</ele>
+      </trkpt>
+      <trkpt lat="47.39292901430645" lon="-0.33348855358744117">
+        <ele>56.0</ele>
+      </trkpt>
+      <trkpt lat="47.39284601179677" lon="-0.3332004138524766">
+        <ele>56.0</ele>
+      </trkpt>
+      <trkpt lat="47.392763008570036" lon="-0.3329122750095785">
+        <ele>56.0</ele>
+      </trkpt>
+      <trkpt lat="47.39268000462627" lon="-0.3326241370587516">
+        <ele>56.0</ele>
+      </trkpt>
+      <trkpt lat="47.39259699996547" lon="-0.3323359999999992">
+        <ele>55.0</ele>
+      </trkpt>
+      <trkpt lat="47.3927906668596" lon="-0.33224300167949705">
+        <ele>55.0</ele>
+      </trkpt>
+      <trkpt lat="47.39298433366275" lon="-0.33215000268720535">
+        <ele>55.0</ele>
+      </trkpt>
+      <trkpt lat="47.39317800037492" lon="-0.3320570030231177">
+        <ele>54.0</ele>
+      </trkpt>
+      <trkpt lat="47.39337166699608" lon="-0.3319640026872241">
+        <ele>54.0</ele>
+      </trkpt>
+      <trkpt lat="47.393565333526276" lon="-0.33187100167952105">
+        <ele>53.0</ele>
+      </trkpt>
+      <trkpt lat="47.39375899996546" lon="-0.33177799999999896">
+        <ele>53.0</ele>
+      </trkpt>
+      <trkpt lat="47.393744502585136" lon="-0.33148299944160015">
+        <ele>53.0</ele>
+      </trkpt>
+      <trkpt lat="47.39373000445632" lon="-0.33118799904272683">
+        <ele>53.0</ele>
+      </trkpt>
+      <trkpt lat="47.39371550557903" lon="-0.3308929988033885">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.39370100595327" lon="-0.3305979987235928">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.39368650557905" lon="-0.33030299880334846">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.39367200445633" lon="-0.33000799904266215">
+        <ele>52.0</ele>
+      </trkpt>
+      <trkpt lat="47.393657502585135" lon="-0.32971299944154353">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.393642999965465" lon="-0.32941800000000004">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.39350733360447" lon="-0.329231999058775">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.393371666937796" lon="-0.32904599905877624">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.39323599996546" lon="-0.32885999999999904">
+        <ele>50.0</ele>
+      </trkpt>
+      <trkpt lat="47.39325531154079" lon="-0.3287684155953378">
+        <ele>51.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (14)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39325531154079" lon="-0.3287684155953378">
+        <ele>51.0</ele>
+      </trkpt>
+      <trkpt lat="47.393321900602515" lon="-0.32845261639114376">
+        <ele>49.0</ele>
+      </trkpt>
+      <trkpt lat="47.39338848880464" lon="-0.3281368164025856">
+        <ele>48.0</ele>
+      </trkpt>
+      <trkpt lat="47.39345507614715" lon="-0.3278210156296704">
+        <ele>46.0</ele>
+      </trkpt>
+      <trkpt lat="47.39352166263004" lon="-0.3275052140724066">
+        <ele>45.0</ele>
+      </trkpt>
+      <trkpt lat="47.393532662508235" lon="-0.32745304417744425">
+        <ele>44.66960378583571</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (15)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.393532662508235" lon="-0.32745304417744425">
+        <ele>44.66960378583571</ele>
+      </trkpt>
+      <trkpt lat="47.39358824825332" lon="-0.32718941173080013">
+        <ele>43.0</ele>
+      </trkpt>
+      <trkpt lat="47.393654833017" lon="-0.3268736086048589">
+        <ele>42.0</ele>
+      </trkpt>
+      <trkpt lat="47.39372141692103" lon="-0.32655780469458895">
+        <ele>41.0</ele>
+      </trkpt>
+      <trkpt lat="47.39378799996546" lon="-0.326241999999999">
+        <ele>40.0</ele>
+      </trkpt>
+      <trkpt lat="47.393766250751156" lon="-0.32599524969972793">
+        <ele>40.0</ele>
+      </trkpt>
+      <trkpt lat="47.39374450101307" lon="-0.3257484995996351">
+        <ele>39.0</ele>
+      </trkpt>
+      <trkpt lat="47.39372275075117" lon="-0.32550174969972434">
+        <ele>39.0</ele>
+      </trkpt>
+      <trkpt lat="47.393700999965446" lon="-0.3252550000000005">
+        <ele>38.0</ele>
+      </trkpt>
+      <trkpt lat="47.39375900060164" lon="-0.3249833339210593">
+        <ele>37.0</ele>
+      </trkpt>
+      <trkpt lat="47.393817000601636" lon="-0.3247116672543902">
+        <ele>36.0</ele>
+      </trkpt>
+      <trkpt lat="47.39387499996548" lon="-0.3244399999999999">
+        <ele>35.0</ele>
+      </trkpt>
+      <trkpt lat="47.39409299997601" lon="-0.3244399999999999">
+        <ele>34.0</ele>
+      </trkpt>
+      <trkpt lat="47.39431099996548" lon="-0.3244399999999999">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="47.3943077807503" lon="-0.3241443331912269">
+        <ele>33.0</ele>
+      </trkpt>
+      <trkpt lat="47.39430456078338" lon="-0.3238486664179612">
+        <ele>32.0</ele>
+      </trkpt>
+      <trkpt lat="47.3943013400647" lon="-0.3235529996802104">
+        <ele>31.0</ele>
+      </trkpt>
+      <trkpt lat="47.39429811859424" lon="-0.32325733297798437">
+        <ele>30.0</ele>
+      </trkpt>
+      <trkpt lat="47.39429489637201" lon="-0.32296166631128953">
+        <ele>29.0</ele>
+      </trkpt>
+      <trkpt lat="47.39429167339802" lon="-0.3226659996801362">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39428844967229" lon="-0.3223703330845311">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39428522519476" lon="-0.32207466652448224">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39428199996549" lon="-0.3217789999999999">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39410749998019" lon="-0.32182200013994144">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39393299996548" lon="-0.32186500000000007">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="47.39383850089964" lon="-0.32159674858168785">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="47.39374400121103" lon="-0.32132849810891634">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.393649500899635" lon="-0.32106024858168597">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.3935549999655" lon="-0.3207919999999999">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39370620071561" lon="-0.32058600232358564">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.393857401090656" lon="-0.3203800034853847">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39400860109067" lon="-0.3201740034853923">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.394159800715606" lon="-0.3199680023235994">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39431099996548" lon="-0.3197620000000004">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.394309406613964" lon="-0.3196912167251551">
+        <ele>23.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (16)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.394309406613964" lon="-0.3196912167251551">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.3944201393589" lon="-0.31963348388671875">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.394587184807854" lon="-0.3194269544360058">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39475422987763" lon="-0.3192204236984258">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39491038015462" lon="-0.3189843893051144">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39504474165048" lon="-0.318764448165893">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39511010657866" lon="-0.31863570213317916">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39515286505346" lon="-0.31864754547295154">
+        <ele>22.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (17)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39515286505346" lon="-0.31864754547295154">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39531714900331" lon="-0.31852316024806937">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39548143280814" lon="-0.31839877426095414">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.39564571646796" lon="-0.31827438751159953">
+        <ele>22.0</ele>
+      </trkpt>
+      <trkpt lat="47.395809999982724" lon="-0.31814999999999954">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39592999998276" lon="-0.3179999999999992">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39610000000327" lon="-0.3179900000951191">
+        <ele>23.0</ele>
+      </trkpt>
+      <trkpt lat="47.39627000001012" lon="-0.31798000012682587">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.396440000003274" lon="-0.3179700000951191">
+        <ele>24.0</ele>
+      </trkpt>
+      <trkpt lat="47.396609999982736" lon="-0.3179600000000001">
+        <ele>25.0</ele>
+      </trkpt>
+      <trkpt lat="47.39674333353502" lon="-0.31780333411253375">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39687666686836" lon="-0.3176466674458689">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.397009999982735" lon="-0.31748999999999916">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39717333333403" lon="-0.31746333349580574">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39733666666738" lon="-0.31743666682914007">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39749999998275" lon="-0.3174100000000001">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39772228483709" lon="-0.3174248188425451">
+        <ele>28.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (18)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39772228483709" lon="-0.3174248188425451">
+        <ele>28.0</ele>
+      </trkpt>
+      <trkpt lat="47.39789818990057" lon="-0.3174365458180791">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39807409494912" lon="-0.3174482728705643">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39824999998273" lon="-0.3174599999999994">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39825982715635" lon="-0.3172307101969089">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39826965387787" lon="-0.31700142030976663">
+        <ele>26.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>[Itinéraire] Boucle de la Loire (19)</name>
+    <desc>&lt;ol&gt;
+&lt;li&gt;Prieur&amp;eacute;&lt;br /&gt;Monument Historique class&amp;eacute;, fond&amp;eacute; en 929, l'ancien Prieur&amp;eacute; B&amp;eacute;n&amp;eacute;dictin a &amp;eacute;t&amp;eacute; l'un des plus riches d'Anjou. Il se distingue par une salle capitulaire et sa chemin&amp;eacute;e sculpt&amp;eacute;e polychrom&amp;eacute;e, restaur&amp;eacute;e.&lt;/li&gt;
+&lt;li&gt;&amp;Eacute;glise&lt;br /&gt;Son origine remonte au XI&amp;egrave;me si&amp;egrave;cle. Elle a &amp;eacute;t&amp;eacute; la chapelle du Prieur&amp;eacute; avant de devenir l'&amp;eacute;glise paroissiale. Elle est inscrite dans le r&amp;eacute;seau "Eglises Accueillantes en Anjou" (d&amp;eacute;pliant disponible sur place).&lt;/li&gt;
+&lt;li&gt;Chapelle Saint-Jean&lt;br /&gt;(Demeure priv&amp;eacute;e) : il s'agit de l'unique vestige d'un petit Prieur&amp;eacute; lui aussi b&amp;eacute;n&amp;eacute;dictin.&lt;/li&gt;
+&lt;li&gt;Ch&amp;acirc;teau de Boissay&lt;br /&gt;Datant du XIXe si&amp;egrave;cle, son nom est d'origine gauloise : Bois de C&amp;eacute;, "pi&amp;egrave;ce d'eau". Son style est inspir&amp;eacute; du XVIIe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Perchard&lt;br /&gt;(Demeure priv&amp;eacute;e) : il date des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Manoir de Chauvign&amp;eacute;&lt;br /&gt;(Demeure priv&amp;eacute;e) : b&amp;acirc;ti sur l'emplacement d'une villa romaine Calviniacus, la Villa du Chauve qui a donn&amp;eacute; son nom au village.&lt;/li&gt;
+&lt;li&gt;Le grand Launay&lt;br /&gt;(Demeure priv&amp;eacute;e) : manoir datant des XVe, XVIe, XVIIe et XVIIIe si&amp;egrave;cles. Pr&amp;eacute;sence d'un puits &amp;agrave; charpente en bois du XVe si&amp;egrave;cle.&lt;/li&gt;
+&lt;li&gt;Boire des Groseilliers&lt;br /&gt;Anciennement bras secondaires de la Loire, progressivement combl&amp;eacute;s, les boires forment des&lt;br /&gt;d&amp;eacute;pressions humides encore temporairement en eau qui abritent une flore de prairies inondables ou de plan d'eau. Elles peuvent repr&amp;eacute;senter un site de reproduction, de croissance ou de refuge pour les poissons.&lt;/li&gt;
+&lt;/ol&gt;Modifié: 14 semaines</desc>
+    <trkseg>
+      <trkpt lat="47.39826965387787" lon="-0.31700142030976663">
+        <ele>26.0</ele>
+      </trkpt>
+      <trkpt lat="47.39827999998275" lon="-0.3167599999999999">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.39816500026527" lon="-0.31650499945304184">
+        <ele>27.0</ele>
+      </trkpt>
+      <trkpt lat="47.398049999982746" lon="-0.3162499999999998">
+        <ele>27.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
