@@ -1,41 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.25545963567293" lon="-0.07177073164504356">
-    <ele>74.0</ele>
-    <name>Patrimoine et histoire: Château de Saumur</name>
-    <desc>Depuis des siècles, Saumur respire au rythme de son château. Visible à des kilomètres sur son piton rocheux, cette forteresse est à l’image des châteaux de nos livres d’histoires et de nos contes de fées.</desc>
-  </wpt>
-  <wpt lat="47.225730203988384" lon="0.02238549999267746">
-    <ele>34.0</ele>
-    <name>Patrimoine et histoire: Pommes Tapées</name>
-    <desc>Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparue. Aujourd'hui, seuls à perpétuer cet artisanat, nous vous invitons à découvrir ce mystérieux délice qui a fait l'objet de nombreux reportages TV. Visite d'une heure. Prévoir un vêtement chaud. Découvrez également notre offre visite et repas terroir dans notre restaurant troglodytique.
-Nouveauté : Escape game</desc>
-  </wpt>
-  <wpt lat="47.21781436365982" lon="0.05342380418703135">
-    <ele>33.0</ele>
-    <name>Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine</name>
-    <desc>De passage à Montsoreau, faites une halte à la Maison du Parc. Tout vous incite à la détente et à la découverte. Une exposition interactive et sensorielle vous conte la vie de la Loire et de ses habitants au fil des siècles. Chaque année, découvrez de nouvelles expositions temporaires pour percer les secrets de nos patrimoines. Et pas d’ennui possible avec les animations famille, de février à novembre.
-Notre équipe se tient à votre disposition pour vos loisirs ou votre séjour : randonnées, hébergements…
-Accueil et boutique partagés avec l’Office de Tourisme de Saumur Val de Loire.</desc>
-  </wpt>
-  <wpt lat="47.217826104454275" lon="0.053386810550516986">
-    <ele>33.0</ele>
-    <name>Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine</name>
-    <desc>De passage à Montsoreau, faites une halte à la Maison du Parc. Tout vous incite à la détente et à la découverte. Une exposition interactive et sensorielle vous conte la vie de la Loire et de ses habitants au fil des siècles. Chaque année, découvrez de nouvelles expositions temporaires pour percer les secrets de nos patrimoines. Et pas d’ennui possible avec les animations famille, de février à novembre.
-Notre équipe se tient à votre disposition pour vos loisirs ou votre séjour : randonnées, hébergements…
-Accueil et boutique partagés avec l’Office de Tourisme de Saumur Val de Loire.</desc>
-  </wpt>
-  <wpt lat="47.22108729948532" lon="0.04885519894524014">
-    <ele>31.0</ele>
-    <name>Patrimoine et histoire: Le Saut aux Loups</name>
-    <desc>A Montsoreau, entre Saumur et Chinon, dans le Val de Loire, le Saut aux Loups est un site troglo à flanc de coteau dominant la Loire. Occupé depuis la nuit des temps par l’homme, les loups aussi y élurent domicile. A la fin du XIX siècle, l’exploitation du tuffeau ayant cessé, ces vastes galeries ont été converties en cave à champignons ou champignonnière.
-Nous perpétuons cette tradition tout en permettant aux visiteurs de découvrir les différentes étapes de la culture des champignons dans ce site hors du commun.</desc>
-  </wpt>
-  <wpt lat="47.25322421355415" lon="-0.06297098990597401">
-    <ele>30.0</ele>
-    <name>Patrimoine et histoire: Chapelle Notre-Dame des Ardilliers</name>
-    <desc>L'un des principaux lieux de pèlerinage à la Vierge au XVIe et XVIIe siècles.</desc>
-  </wpt>
+<wpt lat="47.25545963567293" lon="-0.07177073164504356">
+  <ele>74.0</ele>
+  <name>Patrimoine et histoire: Château de Saumur</name>
+  <desc><![CDATA[
+NL:
+Erfgoed & geschiedenis: Kasteel van Saumur  
+Al eeuwenlang ademt Saumur op het ritme van zijn kasteel. Hoog gelegen op een rotsachtige heuvel is deze imposante vesting al van kilometers ver zichtbaar. Het kasteel roept de sfeer op van de sprookjesachtige burchten uit verhalen en legendes.
+
+EN:
+Heritage & history: Saumur Castle  
+For centuries, Saumur has lived to the rhythm of its castle. Perched high on a rocky hill, this impressive fortress is visible from miles away and evokes the fairy-tale castles of storybooks and legends.
+
+FR:
+Patrimoine et histoire: Château de Saumur  
+Depuis des siècles, Saumur respire au rythme de son château. Visible à des kilomètres sur son piton rocheux, cette forteresse évoque les châteaux de nos livres d’histoires et de nos contes de fées.
+]]></desc>
+</wpt>
+
+<wpt lat="47.225730203988384" lon="0.02238549999267746">
+  <ele>34.0</ele>
+  <name>Patrimoine et histoire: Pommes Tapées</name>
+  <desc><![CDATA[
+NL:
+Erfgoed & geschiedenis: Pommes Tapées  
+Deze indrukwekkende grot was in de vorige eeuw een belangrijk centrum voor de productie van de beroemde “pommes tapées”. Wat in de 19e eeuw een echte industrie was, verdween volledig. Vandaag wordt dit bijzondere ambacht opnieuw in ere gehouden en nodigt men je uit om dit mysterieuze streekproduct te ontdekken. Bezoek van ongeveer één uur. Warme kledij aanbevolen. Mogelijkheid tot combinatie met een bezoek en streekmaaltijd in het troglodytische restaurant.  
+Nieuw: escape game.
+
+EN:
+Heritage & history: Pommes Tapées  
+This impressive cave was once a major centre for the production of the famous “pommes tapées”. A true industry in the 19th century, this activity later disappeared entirely. Today, this unique craft is being revived and visitors are invited to discover this mysterious local delicacy. One-hour visit. Warm clothing recommended. Option to combine the visit with a local meal in the troglodyte restaurant.  
+New: escape game.
+
+FR:
+Patrimoine et histoire: Pommes Tapées  
+Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparu. Aujourd’hui, cet artisanat est à nouveau perpétué et l’on vous invite à découvrir ce mystérieux délice. Visite d’une heure. Prévoir un vêtement chaud. Possibilité de visite et repas terroir dans le restaurant troglodytique.  
+Nouveauté : escape game.
+]]></desc>
+</wpt>
+
+<wpt lat="47.21781436365982" lon="0.05342380418703135">
+  <ele>33.0</ele>
+  <name>Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine</name>
+  <desc><![CDATA[
+NL:
+Erfgoed & geschiedenis: Huis van het Regionaal Natuurpark Loire-Anjou-Touraine  
+Tijdens je bezoek aan Montsoreau is een halte bij het Huis van het Park zeker de moeite waard. Alles nodigt hier uit tot ontspanning en ontdekking. Een interactieve en zintuiglijke tentoonstelling vertelt het verhaal van de Loire en haar bewoners doorheen de eeuwen. Elk jaar zijn er nieuwe tijdelijke tentoonstellingen en tal van familieactiviteiten van februari tot november. Het team helpt je graag met informatie over wandelingen, verblijven en vrijetijdsbesteding. Onthaal en winkel worden gedeeld met het toeristenbureau van Saumur Val de Loire.
+
+EN:
+Heritage & history: Loire-Anjou-Touraine Regional Nature Park House  
+When visiting Montsoreau, make a stop at the Park House. The site invites you to relax and discover the region through an interactive and sensory exhibition that tells the story of the Loire and its inhabitants over the centuries. Each year, new temporary exhibitions are organised, along with many family-friendly activities from February to November. The team is available to assist you with leisure ideas, hiking routes and accommodation. Reception and shop are shared with the Saumur Val de Loire Tourist Office.
+
+FR:
+Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine  
+De passage à Montsoreau, faites une halte à la Maison du Parc. Tout vous invite à la détente et à la découverte. Une exposition interactive et sensorielle vous conte la vie de la Loire et de ses habitants au fil des siècles. Chaque année, découvrez de nouvelles expositions temporaires et de nombreuses animations familiales de février à novembre. L’équipe est à votre disposition pour vos loisirs ou votre séjour. Accueil et boutique partagés avec l’Office de Tourisme de Saumur Val de Loire.
+]]></desc>
+</wpt>
+
+<wpt lat="47.217826104454275" lon="0.053386810550516986">
+  <ele>33.0</ele>
+  <name>Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine</name>
+  <desc><![CDATA[
+NL:
+Erfgoed & geschiedenis: Huis van het Regionaal Natuurpark Loire-Anjou-Touraine  
+Identiek aan het hoofdgebouw van de Maison du Parc, gelegen op enkele meters afstand. Zie beschrijving bij het hoofdwaypoint.
+
+EN:
+Heritage & history: Loire-Anjou-Touraine Regional Nature Park House  
+Identical to the main Park House location, situated just a few metres away. See description at the main waypoint.
+
+FR:
+Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine  
+Point secondaire correspondant à la Maison du Parc, situé à quelques mètres du bâtiment principal. Voir description complète au waypoint principal.
+]]></desc>
+</wpt>
+
+<wpt lat="47.22108729948532" lon="0.04885519894524014">
+  <ele>31.0</ele>
+  <name>Patrimoine et histoire: Le Saut aux Loups</name>
+  <desc><![CDATA[
+NL:
+Erfgoed & geschiedenis: Le Saut aux Loups  
+In Montsoreau, tussen Saumur en Chinon, ligt Le Saut aux Loups: een indrukwekkend troglodytisch complex tegen de helling boven de Loire. De site werd al sinds de prehistorie door mens en dier gebruikt. Na het stopzetten van de tufsteenwinning aan het einde van de 19e eeuw werden de galerijen omgevormd tot champignonkwekerijen. Vandaag ontdek je hier stap voor stap hoe champignons worden geteeld in een uitzonderlijke omgeving.
+
+EN:
+Heritage & history: Le Saut aux Loups  
+Located in Montsoreau between Saumur and Chinon, Le Saut aux Loups is a remarkable troglodyte site carved into the hillside overlooking the Loire. Occupied since ancient times, the galleries were later converted into mushroom farms after tuffeau extraction ended in the late 19th century. Today, visitors can explore the fascinating stages of mushroom cultivation in this unique setting.
+
+FR:
+Patrimoine et histoire: Le Saut aux Loups  
+À Montsoreau, entre Saumur et Chinon, le Saut aux Loups est un site troglodytique à flanc de coteau dominant la Loire. Occupé depuis la nuit des temps, le lieu fut transformé en champignonnière après l’arrêt de l’exploitation du tuffeau à la fin du XIXe siècle. Le site permet aujourd’hui de découvrir les différentes étapes de la culture des champignons dans un cadre exceptionnel.
+]]></desc>
+</wpt>
+
+<wpt lat="47.25322421355415" lon="-0.06297098990597401">
+  <ele>30.0</ele>
+  <name>Patrimoine et histoire: Chapelle Notre-Dame des Ardilliers</name>
+  <desc><![CDATA[
+NL:
+Erfgoed & geschiedenis: Kapel Notre-Dame des Ardilliers  
+Een van de belangrijkste bedevaartsoorden gewijd aan Maria in de 16e en 17e eeuw.
+
+EN:
+Heritage & history: Notre-Dame des Ardilliers Chapel  
+One of the main pilgrimage sites dedicated to the Virgin Mary during the 16th and 17th centuries.
+
+FR:
+Patrimoine et histoire: Chapelle Notre-Dame des Ardilliers  
+L’un des principaux lieux de pèlerinage dédiés à la Vierge aux XVIe et XVIIe siècles.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Boucle vélo : Côte saumuroise</name>
     <desc>&lt;p&gt;Balisage vert et blanc - Signal&amp;eacute;tique Loire &amp;agrave; V&amp;eacute;lo&lt;/p&gt;
