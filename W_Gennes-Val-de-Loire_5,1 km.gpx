@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.34949837766133" lon="-0.22648040520907764">
-    <ele>23.0</ele>
-    <name>Patrimoine et histoire: Eglise Notre-Dame</name>
-    <desc>De fondation médiévale, l'église Notre-Dame des Rosiers-sur-Loire s’illustre tout particulièrement par sa tour-clocher rebâtie à la Renaissance, œuvre de l'architecte angevin Jean de L'Épine.</desc>
-  </wpt>
+  <ele>23.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kerk Notre-Dame
+EN: Heritage & history: Notre-Dame Church
+FR: Patrimoine et histoire: Église Notre-Dame
+]]></name>
+  <desc><![CDATA[
+NL:
+Van middeleeuwse oorsprong onderscheidt de kerk Notre-Dame van Les Rosiers-sur-Loire zich vooral door haar klokkentoren, die tijdens de renaissance werd herbouwd. Dit werk wordt toegeschreven aan de Angevijnse architect Jean de L’Épine.
+
+EN:
+Of medieval origin, the Notre-Dame Church in Les Rosiers-sur-Loire is particularly notable for its bell tower, rebuilt during the Renaissance by the Anjou architect Jean de L’Épine.
+
+FR:
+De fondation médiévale, l’église Notre-Dame des Rosiers-sur-Loire se distingue tout particulièrement par sa tour-clocher reconstruite à la Renaissance, œuvre de l’architecte angevin Jean de L’Épine.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit de randonnée Les Rosiers sur Loire : L'Ile Ollivier</name>
     <desc>&lt;p&gt;De la Place du Mail, tournez &amp;agrave; gauche et continuez jusqu'au pont puis descendez en bordure de Loire sur la droite.&lt;/p&gt;

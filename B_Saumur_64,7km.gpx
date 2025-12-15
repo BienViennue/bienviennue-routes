@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.125078599472936" lon="-0.23547182608227077">
-    <ele>90.0</ele>
-    <name>Patrimoine et histoire: Collégiale du Puy-Notre-Dame</name>
-    <desc>Edifice gothique majestueux bâti en haut d'une butte calcaire culminant à 106 mètres. Le sanctuaire dédié à la Vierge accueille les pèlerins venue vénérer la "Sainte Ceinture", relique rapportée des Croisades par les Ducs d'Aquitaine.</desc>
-  </wpt>
-  <wpt lat="47.18443174976964" lon="-0.25779678235700454">
-    <ele>77.0</ele>
-    <name>Patrimoine et histoire: Troglodytes et Sarcophages</name>
-    <desc>Dans une carrière souterraine, vous découvrirez une étonnante fabrique de sarcophages datant du Haut Moyen-âge.
+  <wpt lat="47.125078599472936" lon="-0.23547182608227077"> <ele>90.0</ele> <name><![CDATA[ NL: Erfgoed & geschiedenis: Collégiale du Puy-Notre-Dame EN: Heritage & history: Collégiale du Puy-Notre-Dame FR: Patrimoine et histoire: Collégiale du Puy-Notre-Dame ]]></name> <desc><![CDATA[ NL: Majesteuselijk gotisch gebouw gebouwd op een kalkstenen heuvel die 106 meter hoog is. Het heiligdom gewijd aan de Maagd verwelkomt pelgrims die komen vereren de "Heilige Gordel", een reliek meegebracht van de Kruistochten door de Hertogen van Aquitaine.
+
+EN:
+Majestic Gothic building built at the top of a limestone hill culminating at 106 meters. The sanctuary dedicated to the Virgin welcomes pilgrims who come to venerate the "Holy Belt", a relic brought back from the Crusades by the Dukes of Aquitaine.
+
+FR:
+Edifice gothique majestueux bâti en haut d'une butte calcaire culminant à 106 mètres. Le sanctuaire dédié à la Vierge accueille les pèlerins venue vénérer la "Sainte Ceinture", relique rapportée des Croisades par les Ducs d'Aquitaine.
+]]></desc>
+</wpt>
+<wpt lat="47.18443174976964" lon="-0.25779678235700454">
+<ele>77.0</ele>
+<name><![CDATA[ NL: Erfgoed & geschiedenis: Troglodytes et Sarcophages EN: Heritage & history: Troglodytes et Sarcophages FR: Patrimoine et histoire: Troglodytes et Sarcophages ]]></name>
+<desc><![CDATA[
+NL:
+In een ondergrondse steengroeve ontdekt u een verbazingwekkende productie van sarcofagen uit de Vroege Middeleeuwen. Deze unieke site in Europa laat u alle toepassingen van troglodieten ontdekken: ondergrondse schuilplaats, graansilo's, middeleeuwse kapel, "kathedraal"-kelders, boerderij. Een prachtig bewaarde site. Een spannende rondleiding. U reist door 1500 jaar geschiedenis in een site geklasseerd als Historisch Monument!
+
+EN:
+In an underground quarry, you will discover an astonishing factory of sarcophagi dating from the Early Middle Ages. This unique site in Europe allows you to discover all the uses of troglodytes: underground refuge, grain silos, medieval chapel, "cathedral" caves, farm. A wonderfully preserved site. An exciting guided tour. You travel through 1500 years of History in a site classified as Historic Monuments!
+
+FR:
+Dans une carrière souterraine, vous découvrirez une étonnante fabrique de sarcophages datant du Haut Moyen-âge.
 Ce site unique en Europe, vous permet de découvrir tous les usages des troglodytes: refuge souterrain, silos à grains, chapelle médiévale, caves "cathédrales", ferme.
-Un site merveilleusement préservé. Une visite guidée passionnante. Vous voyagez à travers 1500 d'Histoire dans un site classé aux Monuments Historiques!</desc>
-  </wpt>
-  <wpt lat="47.19030501113776" lon="-0.26026463419964074">
-    <ele>74.0</ele>
-    <name>Patrimoine et histoire: Le Mystère des Faluns</name>
-    <desc>Le Mystère des Faluns, une invitation au voyage entre science et poésie.
+Un site merveilleusement préservé. Une visite guidée passionnante. Vous voyagez à travers 1500 d'Histoire dans un site classé aux Monuments Historiques!
+]]></desc>
+</wpt>
+<wpt lat="47.19030501113776" lon="-0.26026463419964074">
+<ele>74.0</ele>
+<name><![CDATA[ NL: Erfgoed & geschiedenis: Le Mystère des Faluns EN: Heritage & history: Le Mystère des Faluns FR: Patrimoine et histoire: Le Mystère des Faluns ]]></name>
+<desc><![CDATA[
+NL:
+Het Mysterie van de Faluns, een uitnodiging voor een reis tussen wetenschap en poëzie. In de troglodietensite van Perrières tekent de scenografie van het Mysterie van de Faluns zich af in de gotische kathedraal-kelders van 20 meter hoog. Geluiden en lichten nodigen u uit voor een duik van 10 miljoen jaar, in de zee van faluns. In deze oude steengroeve ontdekt u de geheimen van de geologische vorming van deze schelpachtige rots en de majestueuze en originele architectuur van deze kelders, vrucht van het werk van mensen.
+
+EN:
+The Mystery of the Faluns, an invitation to travel between science and poetry. In the troglodyte site of Perrières, the scenography of the Mystery of the Faluns is drawn within the ogival cathedral caves 20 meters high. Sounds and lights invite you for a dive of 10 million years, into the sea of faluns. In this ancient stone quarry, you will discover the secrets of the geological formation of this shelly rock and the majestic and original architecture of these caves, fruit of the work of men.
+
+FR:
+Le Mystère des Faluns, une invitation au voyage entre science et poésie.
 Dans le site troglodytique des Perrières, la scénographie du Mystère des Faluns se dessine au sein des caves cathédrales en ogive hautes de 20 mètres. Sons et lumières vous invitent pour une plongée de 10 millions d’année, dans la mer des faluns.
 
-Dans cette ancienne carrière de pierre, vous découvrirez les secrets de la formation géologique de cette roche coquillière et l’architecture majestueuse et originale de ces caves, fruit du travail des hommes.</desc>
-  </wpt>
+Dans cette ancienne carrière de pierre, vous découvrirez les secrets de la formation géologique de cette roche coquillière et l’architecture majestueuse et originale de ces caves, fruit du travail des hommes.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Boucle vélo : Vignobles et vallée du Thouet</name>
     <desc>Modifié: 9 semaines</desc>

@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.21514397825877" lon="0.06172461377633809">
-    <ele>43.0</ele>
-    <name>Patrimoine et histoire: Château de Montsoreau, Musée d'art contemporain</name>
-    <desc>Installé dans un Château de la Loire, un musée d'art contemporain avec une collection exceptionnelle.</desc>
-  </wpt>
+  <ele>43.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Montsoreau – Museum voor Hedendaagse Kunst
+EN: Heritage & history: Château de Montsoreau – Museum of Contemporary Art
+FR: Patrimoine et histoire: Château de Montsoreau, Musée d’art contemporain
+]]></name>
+  <desc><![CDATA[
+NL:
+Gevestigd in een Loirekasteel huisvest deze plek een museum voor hedendaagse kunst met een uitzonderlijke collectie.
+
+EN:
+Housed in a Loire Valley castle, this site features a contemporary art museum with an exceptional collection.
+
+FR:
+Installé dans un château de la Loire, ce lieu abrite un musée d’art contemporain à la collection exceptionnelle.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit patrimoine - Au temps des mariniers de Loire</name>
     <desc>Avant votre d&amp;eacute;part, n&amp;rsquo;oublier pas d&amp;rsquo;imprimer le livret de d&amp;eacute;couverte indispensable pour cette balade. Il est &amp;eacute;galement disponible &amp;agrave; 1&amp;euro; &amp;agrave; la Maison du Parc avenue de la Loire &amp;agrave; Montsoreau.&lt;br /&gt;&lt;br /&gt;Le d&amp;eacute;part se &amp;agrave; l&amp;rsquo;ancien quai de Montsoreau. Point de d&amp;eacute;part le long de la Loire, sur la place &amp;agrave; droite de la salle des f&amp;ecirc;tes &amp;agrave; l&amp;rsquo;entr&amp;eacute;e des quais.&lt;br /&gt;Se guider ensuite &amp;agrave; l'aide du livret de d&amp;eacute;couvert ainsi que le marquage au sol.&lt;br /&gt;

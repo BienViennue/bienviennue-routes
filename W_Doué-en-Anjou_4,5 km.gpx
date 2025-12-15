@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.19030501113776" lon="-0.26026463419964074">
-    <ele>74.0</ele>
-    <name>Patrimoine et histoire: Le Mystère des Faluns</name>
-    <desc>Le Mystère des Faluns, une invitation au voyage entre science et poésie.
-Dans le site troglodytique des Perrières, la scénographie du Mystère des Faluns se dessine au sein des caves cathédrales en ogive hautes de 20 mètres. Sons et lumières vous invitent pour une plongée de 10 millions d’année, dans la mer des faluns.
+  <ele>74.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Het Mysterie van de Faluns
+EN: Heritage & history: The Mystery of the Faluns
+FR: Patrimoine et histoire: Le Mystère des Faluns
+]]></name>
+  <desc><![CDATA[
+NL:
+Een uitnodiging tot een reis tussen wetenschap en poëzie.
+In de troglodytische site van Les Perrières ontvouwt de scenografie zich in kathedraalachtige grotten met ogiefbogen tot wel 20 meter hoog. Klank- en lichteffecten nemen je mee op een duik van tien miljoen jaar, in de oerzee van de faluns.
+In deze voormalige steengroeve ontdek je de geheimen van de geologische vorming van deze schelpenrijke steen en de majestueuze, bijzondere architectuur van de grotten, het resultaat van menselijk vakmanschap.
 
-Dans cette ancienne carrière de pierre, vous découvrirez les secrets de la formation géologique de cette roche coquillière et l’architecture majestueuse et originale de ces caves, fruit du travail des hommes.</desc>
-  </wpt>
+EN:
+An invitation to a journey between science and poetry.
+At the troglodyte site of Les Perrières, the scenography unfolds within cathedral-like caves with pointed arches reaching up to 20 metres high. Sound and light effects guide visitors on a ten-million-year dive into the ancient faluns sea.
+In this former stone quarry, you will uncover the secrets behind the geological formation of this shell-rich rock and admire the majestic, original architecture of the caves, shaped by human craftsmanship.
+
+FR:
+Une invitation au voyage entre science et poésie.
+Sur le site troglodytique des Perrières, la scénographie se déploie au cœur de caves cathédrales en ogive hautes de 20 mètres. Sons et lumières invitent à une plongée de dix millions d’années, dans la mer des faluns.
+Dans cette ancienne carrière de pierre, vous découvrez les secrets de la formation géologique de cette roche coquillière ainsi que l’architecture majestueuse et originale de ces caves, fruit du travail des hommes.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit patrimoine - Doué, de l’ombre à la lumière</name>
     <desc>Du parking des Myst&amp;egrave;res des Faluns, se rendre pr&amp;egrave;s de la station de d&amp;eacute;part &amp;agrave; gauche de l&amp;rsquo;entr&amp;eacute;e du Myst&amp;egrave;re des Faluns.&lt;br /&gt;&lt;br /&gt;Suivre ensuite le fl&amp;eacute;chage au sol. Les stations num&amp;eacute;rot&amp;eacute;es indiquent un point d&amp;rsquo;arr&amp;ecirc;t avec des explications dans le livret de d&amp;eacute;couverte.&lt;br /&gt;&lt;br /&gt;

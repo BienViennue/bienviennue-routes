@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.22108729948532" lon="0.04885519894524014">
-    <ele>31.0</ele>
-    <name>Patrimoine et histoire: Le Saut aux Loups</name>
-    <desc>A Montsoreau, entre Saumur et Chinon, dans le Val de Loire, le Saut aux Loups est un site troglo à flanc de coteau dominant la Loire. Occupé depuis la nuit des temps par l’homme, les loups aussi y élurent domicile. A la fin du XIX siècle, l’exploitation du tuffeau ayant cessé, ces vastes galeries ont été converties en cave à champignons ou champignonnière.
-Nous perpétuons cette tradition tout en permettant aux visiteurs de découvrir les différentes étapes de la culture des champignons dans ce site hors du commun.</desc>
-  </wpt>
-  <wpt lat="47.225730203988384" lon="0.02238549999267746">
-    <ele>34.0</ele>
-    <name>Patrimoine et histoire: Pommes Tapées</name>
-    <desc>Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparue. Aujourd'hui, seuls à perpétuer cet artisanat, nous vous invitons à découvrir ce mystérieux délice qui a fait l'objet de nombreux reportages TV. Visite d'une heure. Prévoir un vêtement chaud. Découvrez également notre offre visite et repas terroir dans notre restaurant troglodytique.
-Nouveauté : Escape game</desc>
-  </wpt>
+  <ele>31.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Le Saut aux Loups
+EN: Heritage & history: Le Saut aux Loups
+FR: Patrimoine et histoire: Le Saut aux Loups
+]]></name>
+  <desc><![CDATA[
+NL:
+In Montsoreau, tussen Saumur en Chinon, ligt een indrukwekkende troglodytische site tegen de helling boven de Loire. Deze plek werd al sinds de vroegste tijden door mensen gebruikt; ook wolven vonden er ooit hun toevlucht. Na het stopzetten van de tufsteenwinning aan het einde van de 19e eeuw werden de uitgestrekte galerijen omgevormd tot champignonkwekerijen.
+Vandaag wordt deze traditie voortgezet en krijgen bezoekers inzicht in de verschillende stappen van de champignonteelt in een uitzonderlijke omgeving.
+
+EN:
+Located in Montsoreau between Saumur and Chinon, this impressive troglodyte site is carved into the hillside overlooking the Loire. Occupied by humans since ancient times, it was also once home to wolves. When tuffeau extraction ended at the end of the 19th century, the vast galleries were converted into mushroom farms.
+Today, this tradition is continued, allowing visitors to discover the different stages of mushroom cultivation in an extraordinary setting.
+
+FR:
+À Montsoreau, entre Saumur et Chinon, dans le Val de Loire, se trouve un site troglodytique à flanc de coteau dominant la Loire. Occupé depuis la nuit des temps par l’homme, les loups y trouvèrent également refuge. À la fin du XIXe siècle, l’exploitation du tuffeau ayant cessé, ces vastes galeries furent transformées en champignonnières.
+Cette tradition est aujourd’hui perpétuée et permet aux visiteurs de découvrir les différentes étapes de la culture des champignons dans un cadre hors du commun.
+]]></desc>
+</wpt>
+
+<wpt lat="47.225730203988384" lon="0.02238549999267746">
+  <ele>34.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Pommes Tapées
+EN: Heritage & history: Pommes Tapées
+FR: Patrimoine et histoire: Pommes Tapées
+]]></name>
+  <desc><![CDATA[
+NL:
+Deze indrukwekkende grot was in de vorige eeuw een belangrijk centrum voor de productie van de beroemde pommes tapées. Wat in de 19e eeuw een volwaardige industrie was, verdween volledig. Vandaag wordt dit bijzondere ambacht opnieuw in ere gehouden en word je uitgenodigd om dit mysterieuze streekproduct te ontdekken, dat het onderwerp was van talrijke tv-reportages. Bezoek van ongeveer één uur. Warme kledij aanbevolen. Mogelijkheid tot combinatie met een bezoek en een streekmaaltijd in het troglodytische restaurant.
+Nieuw: escape game.
+
+EN:
+This impressive cave was, in the last century, a major centre for the production of the famous pommes tapées. A true industry in the 19th century, this activity later disappeared entirely. Today, this unique craft is being revived and visitors are invited to discover this mysterious local delicacy, which has been featured in numerous TV reports. One-hour visit. Warm clothing recommended. Option to combine the visit with a local meal in the troglodyte restaurant.
+New: escape game.
+
+FR:
+Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparu. Aujourd’hui, cet artisanat est à nouveau perpétué et l’on vous invite à découvrir ce mystérieux délice qui a fait l’objet de nombreux reportages TV. Visite d’une heure. Prévoir un vêtement chaud. Possibilité de visite et repas terroir dans le restaurant troglodytique.
+Nouveauté : escape game.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit de randonnée : Un village et son château entre Loire et troglodytes</name>
     <desc>&lt;p&gt;Du parking, devant l'Office de Tourisme / Maison du Parc, regagnez les bords de Loire, tournez &amp;agrave; gauche et longez le fleuve sur environ 2.3 km. Passez sous le pont et poursuivez jusqu'au "Port du Turquant".&lt;/p&gt;

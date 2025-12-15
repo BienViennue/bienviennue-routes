@@ -1,30 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.418273234850204" lon="-0.4453680664300929">
-    <ele>19.0</ele>
-    <name>Patrimoine et histoire: Le Grand Port</name>
-    <desc>Au milieu du 19&amp;egrave;me si&amp;egrave;cle, les bateliers y chargeaient les ardoises en provenance de Tr&amp;eacute;laz&amp;eacute; &amp;agrave; 5 km de l&amp;agrave; par le pont de Sorges. &amp;nbsp;En cas de mauvais temps et lorsque la Loire &amp;eacute;tait dangereuse, les bateliers empruntaient la cassure pour s&amp;rsquo;y abriter. &lt;br /&gt;Aujourd&amp;rsquo;hui cette cassure est une boire ass&amp;eacute;ch&amp;eacute;e, coup&amp;eacute;e en 1976 par la lev&amp;eacute;e de contournement du village.</desc>
-  </wpt>
-  <wpt lat="47.41792477423067" lon="-0.4413414001464846">
-    <ele>19.0</ele>
-    <name>Flore: Frênes têtards</name>
-    <desc>Avec leurs troncs &amp;eacute;pais et leurs belles ramures, les Fr&amp;ecirc;nes habillent le bocage angevin et la vall&amp;eacute;e lig&amp;eacute;rienne. Bien souvent, on ne les remarque que lorsqu&amp;rsquo;ils sont &amp;eacute;lagu&amp;eacute;s en &amp;laquo; arbres t&amp;ecirc;tards &amp;raquo;.</desc>
-  </wpt>
-  <wpt lat="47.41722784607309" lon="-0.43766811490058816">
-    <ele>20.0</ele>
-    <name>Panoramas et point de vue: Le Port Maillard</name>
-    <desc>A ce niveau de la Loire (km 871 &amp;agrave; partir du Mont Gerbier de Jonc), aux 18&amp;egrave;me et 19&amp;egrave;me si&amp;egrave;cles, de v&amp;eacute;ritables&amp;nbsp;&lt;br /&gt;convois de bateaux formaient d&amp;rsquo;&amp;eacute;normes embouteillages.&amp;nbsp;&lt;br /&gt;Ce port r&amp;eacute;nov&amp;eacute; en 1906 pour rester praticable &amp;agrave; la navigation, puis en 2001 pour retrouver son apparence&amp;nbsp;&lt;br /&gt;originelle accueille aujourd&amp;rsquo;hui de nombreux touristes et lig&amp;eacute;riens&lt;br /&gt;&lt;br /&gt;Retrouvez un panneau d'interpr&amp;eacute;tation sur ce lieu !&lt;br /&gt;&lt;br /&gt;Point de vue sur la Loire.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Aire de stationnement pour Camping-car.&amp;nbsp;&lt;br /&gt;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.41824419655334" lon="-0.4265959560871122">
-    <ele>21.0</ele>
-    <name>Panoramas et point de vue: Le Port à Soyer</name>
-    <desc>Voici le seul port de la commune (sur les sept) &amp;agrave; &amp;ecirc;tre rest&amp;eacute; sous sa forme originelle car il n&amp;rsquo;a pas &amp;eacute;t&amp;eacute; coup&amp;eacute; par la construction de la grande lev&amp;eacute;e de contournement en 1974. Ce port permettait le franchissement de la Loire vers St Saturnin pour rejoindre Brissac par la route. &lt;br /&gt;Le 14 janvier 1926 ce passage d&amp;rsquo;eau entre la Dagueni&amp;egrave;re et St Saturnin est supprim&amp;eacute; par arr&amp;ecirc;t&amp;eacute; pr&amp;eacute;fectoral. Patrimoine lig&amp;eacute;rien, ce port a subi une restauration en 2011.</desc>
-  </wpt>
-  <wpt lat="47.41993565064341" lon="-0.4364597797393789">
-    <ele>21.0</ele>
-    <name>Patrimoine et histoire: Église Saint Blaise et Saint Nicolas - La Daguenière</name>
-    <desc>L&amp;rsquo;&amp;eacute;glise actuelle est construite entre 1822 et 1829 sur les plans de l&amp;rsquo;architecte Louis Fran&amp;ccedil;ois, p&amp;egrave;re de l&amp;rsquo;architecte Jacques-Louis Fran&amp;ccedil;ois-Villers, auteur des &amp;eacute;glises de La Bohalle, de Saint-Mathurin-sur-Loire et de Brain-sur-l&amp;rsquo;Authion. L&amp;rsquo;&amp;eacute;glise fit l&amp;rsquo;objet d&amp;rsquo;une premi&amp;egrave;re campagne de restauration d&amp;egrave;s 1847. Le ch&amp;oelig;ur et l'abside se distinguent par leurs vo&amp;ucirc;tes d&amp;eacute;cor&amp;eacute;es de caissons, typiques des d&amp;eacute;cors n&amp;eacute;o-grecs de la fin du XVIII&amp;egrave; et du d&amp;eacute;but du XIX&amp;egrave; si&amp;egrave;cles.</desc>
-  </wpt>
+  <ele>19.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Le Grand Port
+EN: Heritage & history: Le Grand Port
+FR: Patrimoine et histoire: Le Grand Port
+]]></name>
+  <desc><![CDATA[
+NL:
+In het midden van de 19e eeuw laadden schippers hier leisteen afkomstig uit Trélazé, op vijf kilometer afstand via de brug van Sorges. Bij slecht weer en wanneer de Loire gevaarlijk was, gebruikten zij deze doorbraak om beschutting te zoeken.
+Vandaag is deze doorbraak een drooggevallen nevengeul, die in 1976 werd afgesneden door de omleidingsdijk rond het dorp.
+
+EN:
+In the mid-19th century, boatmen loaded slate here from Trélazé, located five kilometres away via the Sorges bridge. In bad weather and when the Loire became dangerous, they used this breach as a place of shelter.
+Today, this former channel is a dried-up side arm, cut off in 1976 by the village bypass embankment.
+
+FR:
+Au milieu du XIXe siècle, les bateliers y chargeaient les ardoises en provenance de Trélazé, à cinq kilomètres de là par le pont de Sorges. En cas de mauvais temps et lorsque la Loire était dangereuse, ils empruntaient cette cassure pour s’y abriter.
+Aujourd’hui, cette cassure est une boire asséchée, coupée en 1976 par la levée de contournement du village.
+]]></desc>
+</wpt>
+
+<wpt lat="47.41792477423067" lon="-0.4413414001464846">
+  <ele>19.0</ele>
+  <name><![CDATA[
+NL: Flora: Knotessen
+EN: Flora: Pollarded ash trees
+FR: Flore: Frênes têtards
+]]></name>
+  <desc><![CDATA[
+NL:
+Met hun dikke stammen en mooie kruinen bepalen deze essen het landschap van het Angevijnse bocage en de Loirevallei. Vaak vallen ze pas echt op wanneer ze zijn gesnoeid tot zogenoemde knotbomen.
+
+EN:
+With their thick trunks and graceful crowns, these ash trees shape the Anjou bocage and the Loire Valley. They are often only noticed when pruned into so-called pollarded trees.
+
+FR:
+Avec leurs troncs épais et leurs belles ramures, les frênes structurent le bocage angevin et la vallée ligérienne. Bien souvent, on ne les remarque vraiment que lorsqu’ils sont taillés en « arbres têtards ».
+]]></desc>
+</wpt>
+
+<wpt lat="47.41722784607309" lon="-0.43766811490058816">
+  <ele>20.0</ele>
+  <name><![CDATA[
+NL: Panorama’s en uitzichtpunt: Le Port Maillard
+EN: Panoramas and viewpoints: Le Port Maillard
+FR: Panoramas et point de vue: Le Port Maillard
+]]></name>
+  <desc><![CDATA[
+NL:
+Op dit punt van de Loire (kilometer 871 vanaf de Mont Gerbier de Jonc) zorgden in de 18e en 19e eeuw ware konvooien van boten voor enorme opstoppingen.
+De haven werd in 1906 gerenoveerd om bevaarbaar te blijven en in 2001 opnieuw ingericht om haar oorspronkelijke uitzicht te herstellen. Vandaag ontvangt de site talrijke bezoekers en bewoners van de Loirestreek.
+Ter plaatse is een informatiepaneel aanwezig.
+Uitzichtpunt over de Loire.
+Parkeerplaats voor campers.
+
+EN:
+At this point of the Loire (kilometre 871 from Mont Gerbier de Jonc), real boat convoys caused major traffic jams during the 18th and 19th centuries.
+The port was renovated in 1906 to remain navigable and restored again in 2001 to recover its original appearance. Today, it welcomes many visitors and residents of the Loire region.
+An interpretation panel is available on site.
+Viewpoint over the Loire.
+Motorhome parking area.
+
+FR:
+À ce niveau de la Loire (kilomètre 871 à partir du mont Gerbier de Jonc), aux XVIIIe et XIXe siècles, de véritables convois de bateaux provoquaient d’importants embouteillages.
+Ce port, rénové en 1906 pour rester praticable à la navigation puis en 2001 pour retrouver son apparence originelle, accueille aujourd’hui de nombreux touristes et Ligériens.
+Un panneau d’interprétation est présent sur le site.
+Point de vue sur la Loire.
+Aire de stationnement pour camping-cars.
+]]></desc>
+</wpt>
+
+<wpt lat="47.41824419655334" lon="-0.4265959560871122">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Panorama’s en uitzichtpunt: Le Port à Soyer
+EN: Panoramas and viewpoints: Le Port à Soyer
+FR: Panoramas et point de vue: Le Port à Soyer
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit is de enige haven van de gemeente (van de zeven) die zijn oorspronkelijke vorm heeft behouden, omdat hij niet werd afgesneden door de aanleg van de grote omleidingsdijk in 1974. Via deze haven kon men de Loire oversteken richting Saint-Saturnin om Brissac via de weg te bereiken.
+Op 14 januari 1926 werd deze oversteek tussen La Daguenière en Saint-Saturnin opgeheven bij prefecturaal besluit. Als erfgoed van de Loirestreek werd de haven in 2011 gerestaureerd.
+
+EN:
+This is the only port in the municipality (out of seven) that has retained its original form, as it was not cut off by the construction of the main bypass embankment in 1974. The port allowed crossing the Loire towards Saint-Saturnin to reach Brissac by road.
+On 14 January 1926, this water crossing between La Daguenière and Saint-Saturnin was abolished by prefectural decree. As part of the Loire heritage, the port was restored in 2011.
+
+FR:
+Il s’agit du seul port de la commune (sur les sept) à avoir conservé sa forme originelle, n’ayant pas été coupé par la construction de la grande levée de contournement en 1974. Ce port permettait le franchissement de la Loire vers Saint-Saturnin afin de rejoindre Brissac par la route.
+Le 14 janvier 1926, ce passage d’eau entre La Daguenière et Saint-Saturnin fut supprimé par arrêté préfectoral. Patrimoine ligérien, ce port a été restauré en 2011.
+]]></desc>
+</wpt>
+
+<wpt lat="47.41993565064341" lon="-0.4364597797393789">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kerk Saint-Blaise en Saint-Nicolas – La Daguenière
+EN: Heritage & history: Saint Blaise and Saint Nicholas Church – La Daguenière
+FR: Patrimoine et histoire: Église Saint Blaise et Saint Nicolas – La Daguenière
+]]></name>
+  <desc><![CDATA[
+NL:
+De huidige kerk werd gebouwd tussen 1822 en 1829 naar plannen van architect Louis François, vader van Jacques-Louis François-Villers, die ook de kerken van La Bohalle, Saint-Mathurin-sur-Loire en Brain-sur-l’Authion ontwierp.
+Reeds in 1847 werd een eerste restauratiecampagne uitgevoerd. Het koor en de apsis vallen op door hun cassettegewelven, typerend voor de neogrieks geïnspireerde decoratie van het einde van de 18e en het begin van de 19e eeuw.
+
+EN:
+The present church was built between 1822 and 1829 according to plans by architect Louis François, father of Jacques-Louis François-Villers, who also designed the churches of La Bohalle, Saint-Mathurin-sur-Loire and Brain-sur-l’Authion.
+A first restoration campaign took place as early as 1847. The choir and apse stand out for their coffered vaults, typical of Neo-Greek decorative styles from the late 18th and early 19th centuries.
+
+FR:
+L’église actuelle a été construite entre 1822 et 1829 sur les plans de l’architecte Louis François, père de Jacques-Louis François-Villers, auteur notamment des églises de La Bohalle, de Saint-Mathurin-sur-Loire et de Brain-sur-l’Authion.
+Elle fit l’objet d’une première campagne de restauration dès 1847. Le chœur et l’abside se distinguent par leurs voûtes à caissons, caractéristiques des décors néo-grecs de la fin du XVIIIe et du début du XIXe siècle.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit découverte - La Daguenière</name>
     <desc>D&amp;eacute;couverte de 8 stations d'interpr&amp;eacute;tation retra&amp;ccedil;ant l'histoire du patrimoine remarquable de la commune d&amp;eacute;l&amp;eacute;gu&amp;eacute; de La Dagueni&amp;egrave;re ainsi que des bords de Loire.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;

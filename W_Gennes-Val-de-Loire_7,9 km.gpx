@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.32980031780859" lon="-0.2007954916979187">
-    <ele>30.0</ele>
-    <name>Patrimoine et histoire: Prieurale Notre-Dame de Cunault</name>
-    <desc>La prieurale de Cunault est un chef-d'œuvre de l'art roman. Bâtie entre le XIe et le XIIIe siècles, l'église Notre-Dame de Cunault dévoile un intérieur de grandes dimensions et possède un long déambulatoire lumineux.</desc>
-  </wpt>
+ <wpt lat="47.32980031780859" lon="-0.2007954916979187">
+  <ele>30.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Priorij Notre-Dame de Cunault
+EN: Heritage & history: Notre-Dame de Cunault Priory
+FR: Patrimoine et histoire: Prieurale Notre-Dame de Cunault
+]]></name>
+  <desc><![CDATA[
+NL:
+Een meesterwerk van de romaanse architectuur, opgetrokken tussen de 11e en 13e eeuw. Het gebouw onderscheidt zich door zijn uitzonderlijk ruime interieur en een lange, lichte omgang die de bezoeker door het geheel leidt.
+
+EN:
+A masterpiece of Romanesque architecture, built between the 11th and 13th centuries. The building features an impressively spacious interior and a long, light-filled ambulatory that guides visitors through the structure.
+
+FR:
+Chef-d’œuvre de l’art roman, édifié entre le XIe et le XIIIe siècle. L’édifice se distingue par un intérieur de vastes dimensions et un long déambulatoire baigné de lumière.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit de randonnée : Perspective de Loire</name>
     <desc>&lt;p&gt;De la place, prenez &amp;agrave; droite puis tout de suite &amp;agrave; gauche jusqu'&amp;agrave; l'intersection.&lt;/p&gt;

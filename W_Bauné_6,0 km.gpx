@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.49296474127696" lon="-0.31081438064575245">
-    <ele>46.0</ele>
-    <name>Patrimoine et histoire: La tour de Cornillés - les - Caves</name>
-    <desc>Construite au XVe, cet &amp;eacute;difice &amp;eacute;tait &amp;agrave; l&amp;rsquo;origine une tour de guet pour surveiller les environs.&lt;br /&gt;La tour de Cornill&amp;eacute;-les-Caves est &amp;eacute;galement connue sous le nom de &amp;laquo; Tour de l&amp;rsquo;Horloge &amp;raquo;, car elle abrite une horloge m&amp;eacute;canique datant du XIXe si&amp;egrave;cle. Cette horloge a &amp;eacute;t&amp;eacute; install&amp;eacute;e dans la tour en 1870 et fonctionne toujours aujourd&amp;rsquo;hui.</desc>
-  </wpt>
-  <wpt lat="47.48986196300234" lon="-0.3262276947498315">
-    <ele>53.0</ele>
-    <name>Panoramas et point de vue: Un Panorama sur les Coteaux</name>
-    <desc>Du sommet de ces collines, on peut admirer la beaut&amp;eacute; naturelle de la r&amp;eacute;gion et profiter d&amp;rsquo;un moment de calme et de d&amp;eacute;tente.</desc>
-  </wpt>
+  <ele>46.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: De toren van Cornillé-les-Caves
+EN: Heritage & history: The Tower of Cornillé-les-Caves
+FR: Patrimoine et histoire: La tour de Cornillé-les-Caves
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd in de 15e eeuw deed dit gebouw oorspronkelijk dienst als uitkijktoren om de omgeving te bewaken. De toren staat ook bekend als de “Klokkentoren”, omdat hij een mechanisch uurwerk uit de 19e eeuw herbergt. Dit uurwerk werd in 1870 in de toren geplaatst en is vandaag nog steeds in werking.
+
+EN:
+Built in the 15th century, this structure originally served as a watchtower to monitor the surrounding area. The tower is also known as the “Clock Tower”, as it houses a 19th-century mechanical clock. Installed in 1870, the clock is still functioning today.
+
+FR:
+Construite au XVe siècle, cette tour servait à l’origine de tour de guet pour surveiller les environs. Elle est également connue sous le nom de « Tour de l’Horloge », car elle abrite une horloge mécanique datant du XIXe siècle, installée en 1870 et toujours en fonctionnement.
+]]></desc>
+</wpt>
+
+<wpt lat="47.48986196300234" lon="-0.3262276947498315">
+  <ele>53.0</ele>
+  <name><![CDATA[
+NL: Panorama & uitzichtspunt: Panorama over de heuvels
+EN: Panoramas & viewpoints: Panorama over the hills
+FR: Panoramas et point de vue: Un panorama sur les coteaux
+]]></name>
+  <desc><![CDATA[
+NL:
+Vanaf de top van deze heuvels kan je genieten van de natuurlijke schoonheid van de streek en van een moment van rust en ontspanning.
+
+EN:
+From the top of these hills, visitors can admire the natural beauty of the region and enjoy a moment of calm and relaxation.
+
+FR:
+Du sommet de ces collines, on peut admirer la beauté naturelle de la région et profiter d’un moment de calme et de détente.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] La ronde des arbres - Bauné</name>
     <desc>&lt;ol&gt;

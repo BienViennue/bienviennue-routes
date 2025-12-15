@@ -1,44 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.43810265084398" lon="-0.3326510496845001">
-    <ele>21.0</ele>
-    <name>Patrimoine et histoire: Moulin de la Bougette</name>
-    <desc>Le Moulin Bougette est un moulin &amp;agrave; vent de type "tour".&lt;br /&gt;Le moulin-tour au lieu dit "la Bougette", proche de loire-Authion, est constitu&amp;eacute; d'une tour faite en pierre.&amp;nbsp;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.48986196300234" lon="-0.3262276947498315">
-    <ele>53.0</ele>
-    <name>Panoramas et point de vue: Un Panorama sur les Coteaux</name>
-    <desc>Du sommet de ces collines, on peut admirer la beaut&amp;eacute; naturelle de la r&amp;eacute;gion et profiter d&amp;rsquo;un moment de calme et de d&amp;eacute;tente.</desc>
-  </wpt>
-  <wpt lat="47.47121243460916" lon="-0.3511475630511994">
-    <ele>28.0</ele>
-    <name>Patrimoine et histoire: Église Saint-Blaise - Corné</name>
-    <desc>Datant du XIe si&amp;egrave;cle, elle pr&amp;eacute;sente deux &amp;eacute;l&amp;eacute;ments remarquables :&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;Le porche gothique flamboyant (vers 1450) tr&amp;egrave;s travaill&amp;eacute; avec ses courbes, contre-courbes et cavets d&amp;rsquo;une part,&lt;/li&gt;
-&lt;li&gt;Les vo&amp;ucirc;tes en &amp;eacute;toiles d&amp;rsquo;un style gothique tardif &amp;agrave; l&amp;rsquo;int&amp;eacute;rieur d&amp;rsquo;autre part. Rares en Anjou, ces vo&amp;ucirc;tes ne sont visibles qu&amp;rsquo;&amp;agrave; Jarz&amp;eacute; et au Vieil Baug&amp;eacute;.&lt;/li&gt;
-&lt;/ul&gt;</desc>
-  </wpt>
-  <wpt lat="47.47150252460907" lon="-0.3607892990112305">
-    <ele>20.0</ele>
-    <name>Flore: Vergers des Roussieres</name>
-    <desc>Entreprise familiale de production de fruits et plus particuli&amp;egrave;rement de pommes. Production de plus de 12 vari&amp;eacute;t&amp;eacute;s diff&amp;eacute;rentes. La conduite du verger se fait dans le respect de nombreuses chartes &amp;eacute;coresponsables.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Label Vergers &amp;Eacute;coresponsables : une d&amp;eacute;marche qui marque l'engagement des pomiculteurs pour des m&amp;eacute;thodes de production respectueuses de l'environnement et de la biodiversit&amp;eacute;.</desc>
-  </wpt>
-  <wpt lat="47.46560613089248" lon="-0.36048520356416713">
-    <ele>18.0</ele>
-    <name>Flore: Bassin de rouissage</name>
-    <desc>Pendant des si&amp;egrave;cles la Vall&amp;eacute;e vivait au&amp;nbsp;&lt;br /&gt;rythme des inondations et les &amp;nbsp;sols&amp;nbsp;&lt;br /&gt;humides ont favoris&amp;eacute; la production du&amp;nbsp;&lt;br /&gt;chanvre, plante utilis&amp;eacute;e pour la fabrication&amp;nbsp;&lt;br /&gt;des cordages de la marine de Loire.&lt;br /&gt;Apr&amp;egrave;s la r&amp;eacute;colte, les ballots de chanvre&amp;nbsp;&lt;br /&gt;pourissaient dans des bassins de&amp;nbsp;&lt;br /&gt;rouissage afin que seule la fibre, plus&amp;nbsp;&lt;br /&gt;r&amp;eacute;sistante, persiste.&amp;nbsp;&lt;br /&gt;Avec l&amp;rsquo;arriv&amp;eacute;e du chemin de fer vers 1860, la marine de Loire d&amp;eacute;clina et la&amp;nbsp;&lt;br /&gt;culture du chanvre devint anecdotique jusqu&amp;rsquo;aux ann&amp;eacute;es 2 000 o&amp;ugrave; les atouts de&amp;nbsp;&lt;br /&gt;la plante ont &amp;eacute;t&amp;eacute; mis en lumi&amp;egrave;re dans l&amp;rsquo;&amp;eacute;co-construction.</desc>
-  </wpt>
-  <wpt lat="47.45737328176322" lon="-0.39713859558105424">
-    <ele>25.0</ele>
-    <name>Patrimoine et histoire: Église Saint - Symphorien - Andard</name>
-    <desc>Construite aux XIe et XIIe, elle f&amp;ucirc;t sans doute l&amp;rsquo;une des premi&amp;egrave;res fond&amp;eacute;es en Anjou.&lt;br /&gt;&lt;br /&gt;&amp;Agrave; ne pas manquer :&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;sa chaire venant de la Cath&amp;eacute;drale d&amp;rsquo;Angers,&lt;/li&gt;
-&lt;li&gt;ses vitraux class&amp;eacute;s aux Monuments Historiques&lt;/li&gt;
-&lt;li&gt;ses fresques repr&amp;eacute;sentant le Chemin de Croix, &amp;oelig;uvre d&amp;rsquo;Abel Pineau, peintes sur les murs int&amp;eacute;rieurs.&lt;/li&gt;
-&lt;/ul&gt;</desc>
-  </wpt>
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Moulin de la Bougette
+EN: Heritage & history: Moulin de la Bougette
+FR: Patrimoine et histoire: Moulin de la Bougette
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit is een windmolen van het type torenmolen.
+De molen bevindt zich op de plaats genaamd “la Bougette”, in de buurt van Loire-Authion, en bestaat uit een stenen toren.
+
+EN:
+This is a tower-type windmill.
+It is located at a place called “la Bougette”, near Loire-Authion, and consists of a stone tower.
+
+FR:
+Le Moulin Bougette est un moulin à vent de type « tour ».
+Situé au lieu-dit « la Bougette », près de Loire-Authion, il est constitué d’une tour en pierre.
+]]></desc>
+</wpt>
+
+<wpt lat="47.48986196300234" lon="-0.3262276947498315">
+  <ele>53.0</ele>
+  <name><![CDATA[
+NL: Panorama & uitzichtpunt: Panorama over de coteaux
+EN: Viewpoint: Panorama over the hills
+FR: Panoramas et point de vue: Un Panorama sur les Coteaux
+]]></name>
+  <desc><![CDATA[
+NL:
+Vanaf de top van deze heuvels kan men genieten van het natuurlijke landschap van de streek en een moment van rust en ontspanning beleven.
+
+EN:
+From the top of these hills, visitors can admire the natural beauty of the region and enjoy a moment of peace and relaxation.
+
+FR:
+Du sommet de ces collines, on peut admirer la beauté naturelle de la région et profiter d’un moment de calme et de détente.
+]]></desc>
+</wpt>
+
+<wpt lat="47.47121243460916" lon="-0.3511475630511994">
+  <ele>28.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Blaaskerk van Corné
+EN: Heritage & history: Saint-Blaise Church of Corné
+FR: Patrimoine et histoire: Église Saint-Blaise – Corné
+]]></name>
+  <desc><![CDATA[
+NL:
+De kerk dateert uit de 11e eeuw en bezit twee opmerkelijke kenmerken:
+– het rijk uitgewerkte flamboyant-gotische portaal (circa 1450),
+– stergewelven in laatgotische stijl aan de binnenzijde, zeldzaam in Anjou en enkel zichtbaar in Jarzé en Vieil-Baugé.
+
+EN:
+Dating from the 11th century, the church features two remarkable elements:
+– a richly decorated flamboyant Gothic porch (around 1450),
+– star vaults in late Gothic style inside, rare in Anjou and only visible in Jarzé and Vieil-Baugé.
+
+FR:
+Datant du XIe siècle, elle présente deux éléments remarquables :
+– le porche gothique flamboyant (vers 1450),
+– les voûtes en étoiles de style gothique tardif, rares en Anjou.
+]]></desc>
+</wpt>
+
+<wpt lat="47.47150252460907" lon="-0.3607892990112305">
+  <ele>20.0</ele>
+  <name><![CDATA[
+NL: Flora: Boomgaarden van Les Roussières
+EN: Flora: Les Roussières Orchards
+FR: Flore: Vergers des Roussières
+]]></name>
+  <desc><![CDATA[
+NL:
+Familiaal fruitteeltbedrijf, voornamelijk gericht op appelproductie.
+Er worden meer dan twaalf verschillende variëteiten geteeld, met respect voor diverse ecologisch verantwoorde teeltcharters.
+
+EN:
+A family-run fruit-growing business, mainly focused on apple production.
+More than twelve different varieties are cultivated in accordance with environmentally responsible standards.
+
+FR:
+Entreprise familiale de production de fruits, en particulier de pommes.
+Plus de douze variétés sont cultivées dans le respect de nombreuses chartes écoresponsables.
+]]></desc>
+</wpt>
+
+<wpt lat="47.46560613089248" lon="-0.36048520356416713">
+  <ele>18.0</ele>
+  <name><![CDATA[
+NL: Flora: Rottingsbekken
+EN: Flora: Retting Basin
+FR: Flore: Bassin de rouissage
+]]></name>
+  <desc><![CDATA[
+NL:
+Eeuwenlang leefde de vallei op het ritme van overstromingen. De vochtige bodems bevorderden de teelt van hennep, gebruikt voor de productie van touwen voor de Loire-scheepvaart.
+Na de oogst werden hennepbundels in rottingsbekkens ondergedompeld zodat alleen de sterkere vezels overbleven.
+Met de komst van de spoorweg rond 1860 verdween deze activiteit grotendeels, tot de eigenschappen van hennep rond 2000 opnieuw werden gewaardeerd binnen de ecobouw.
+
+EN:
+For centuries, the valley lived to the rhythm of floods. Wet soils favoured hemp cultivation, used for rope-making in Loire navigation.
+After harvest, hemp bundles were soaked in retting basins so that only the strongest fibres remained.
+With the arrival of the railway around 1860, the activity declined until renewed interest emerged around 2000 in eco-construction.
+
+FR:
+Pendant des siècles, la vallée vivait au rythme des inondations, favorisant la culture du chanvre destiné aux cordages de la marine de Loire.
+Après la récolte, les ballots pourrissaient dans des bassins de rouissage afin de ne conserver que la fibre la plus résistante.
+Avec l’arrivée du chemin de fer vers 1860, cette activité déclina, avant un regain d’intérêt dans l’éco-construction autour des années 2000.
+]]></desc>
+</wpt>
+
+<wpt lat="47.45737328176322" lon="-0.39713859558105424">
+  <ele>25.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Symphorianuskerk van Andard
+EN: Heritage & history: Saint-Symphorian Church of Andard
+FR: Patrimoine et histoire: Église Saint-Symphorien – Andard
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd in de 11e en 12e eeuw en vermoedelijk een van de vroegste kerken van Anjou.
+Niet te missen:
+– de preekstoel afkomstig uit de kathedraal van Angers,
+– de als historisch monument beschermde glas-in-loodramen,
+– de fresco’s van de kruisweg, geschilderd door Abel Pineau op de binnenmuren.
+
+EN:
+Built in the 11th and 12th centuries and probably one of the earliest churches in Anjou.
+Highlights include:
+– the pulpit originating from Angers Cathedral,
+– stained-glass windows listed as Historic Monuments,
+– interior frescoes depicting the Stations of the Cross, painted by Abel Pineau.
+
+FR:
+Construite aux XIe et XIIe siècles, elle fut sans doute l’une des premières fondées en Anjou.
+À ne pas manquer :
+– la chaire provenant de la cathédrale d’Angers,
+– les vitraux classés Monuments Historiques,
+– les fresques du Chemin de Croix peintes par Abel Pineau.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit VTT - N°3</name>
     <desc>Modifié: 29 semaines</desc>

@@ -1,64 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.441005305878456" lon="-0.4561901092529283">
-    <ele>17.0</ele>
-    <name>Flore: Bac à chaîne de la Chevalerie</name>
-    <desc>Ce bac sur l'Authion est accessible de fin mars &amp;agrave; novembre et relie l'itin&amp;eacute;raire de la Loire &amp;agrave; v&amp;eacute;lo au site exceptionnel des Ardoisi&amp;egrave;res de Tr&amp;eacute;laz&amp;eacute; avec sa nature insolite et ses vieux fonds transform&amp;eacute;s en puits.</desc>
-  </wpt>
-  <wpt lat="47.430830796966035" lon="-0.4707310348749159">
-    <ele>21.0</ele>
-    <name>Panoramas et point de vue: Vue sur l'ancien pont-barrage de Sorges</name>
-    <desc>Le pont de Sorges est &amp;eacute;difi&amp;eacute; en 1730.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Construit pour arr&amp;ecirc;ter les d&amp;eacute;bordements de la Loire et emp&amp;ecirc;cher l'eau de remonter dans la vall&amp;eacute;e, le pont fait 42m de long et est divis&amp;eacute; en sept arches.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Cependant, il ne sera pas suffisant pendant l'inondation de 1856.&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.43810265084398" lon="-0.3326510496845001">
-    <ele>21.0</ele>
-    <name>Patrimoine et histoire: Moulin de la Bougette</name>
-    <desc>Le Moulin Bougette est un moulin &amp;agrave; vent de type "tour".&lt;br /&gt;Le moulin-tour au lieu dit "la Bougette", proche de loire-Authion, est constitu&amp;eacute; d'une tour faite en pierre.&amp;nbsp;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.49296474127696" lon="-0.31081438064575245">
-    <ele>46.0</ele>
-    <name>Patrimoine et histoire: La tour de Cornillés - les - Caves</name>
-    <desc>Construite au XVe, cet &amp;eacute;difice &amp;eacute;tait &amp;agrave; l&amp;rsquo;origine une tour de guet pour surveiller les environs.&lt;br /&gt;La tour de Cornill&amp;eacute;-les-Caves est &amp;eacute;galement connue sous le nom de &amp;laquo; Tour de l&amp;rsquo;Horloge &amp;raquo;, car elle abrite une horloge m&amp;eacute;canique datant du XIXe si&amp;egrave;cle. Cette horloge a &amp;eacute;t&amp;eacute; install&amp;eacute;e dans la tour en 1870 et fonctionne toujours aujourd&amp;rsquo;hui.</desc>
-  </wpt>
-  <wpt lat="47.511968881645174" lon="-0.304991975426673">
-    <ele>34.0</ele>
-    <name>Patrimoine et histoire: Château des Bruères</name>
-    <desc>&amp;Eacute;difice construit entre 1865 et 1868, dans le styles n&amp;eacute;ogothique, sur les plans de Charles Chesneau, architecte angevin.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Aujourd'hui le b&amp;acirc;timent est un h&amp;ocirc;tel.&lt;br /&gt;</desc>
-  </wpt>
-  <wpt lat="47.50198205611175" lon="-0.35018183290958377">
-    <ele>55.0</ele>
-    <name>Patrimoine et histoire: Château de Briançon</name>
-    <desc>Un lieu unique au c&amp;oelig;ur des Terres Angevines.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Les premi&amp;egrave;res traces du ch&amp;acirc;teau remontent au Xᵉ si&amp;egrave;cle. Il fut par la suite d&amp;eacute;truit.&amp;nbsp;&lt;br /&gt;Le ch&amp;acirc;teau que l'on retrouve actuellement fut b&amp;acirc;ti en 1530. La famille de Brian&amp;ccedil;on la habit&amp;eacute;e du XIe au XIIIe si&amp;egrave;cle.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Depuis 2013, le Ch&amp;acirc;teau de Brian&amp;ccedil;on est une plateforme socio-culturelle abritant un centre de loisirs avec h&amp;eacute;bergement adapt&amp;eacute; et accompagnement sp&amp;eacute;cifique ainsi qu'un h&amp;ocirc;tel compos&amp;eacute; de 14 chambres et class&amp;eacute; trois &amp;eacute;toiles en 2018.&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.47121243460916" lon="-0.3511475630511994">
-    <ele>28.0</ele>
-    <name>Patrimoine et histoire: Église Saint-Blaise - Corné</name>
-    <desc>Datant du XIe si&amp;egrave;cle, elle pr&amp;eacute;sente deux &amp;eacute;l&amp;eacute;ments remarquables :&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;Le porche gothique flamboyant (vers 1450) tr&amp;egrave;s travaill&amp;eacute; avec ses courbes, contre-courbes et cavets d&amp;rsquo;une part,&lt;/li&gt;
-&lt;li&gt;Les vo&amp;ucirc;tes en &amp;eacute;toiles d&amp;rsquo;un style gothique tardif &amp;agrave; l&amp;rsquo;int&amp;eacute;rieur d&amp;rsquo;autre part. Rares en Anjou, ces vo&amp;ucirc;tes ne sont visibles qu&amp;rsquo;&amp;agrave; Jarz&amp;eacute; et au Vieil Baug&amp;eacute;.&lt;/li&gt;
-&lt;/ul&gt;</desc>
-  </wpt>
-  <wpt lat="47.47150252460907" lon="-0.3607892990112305">
-    <ele>20.0</ele>
-    <name>Flore: Vergers des Roussieres</name>
-    <desc>Entreprise familiale de production de fruits et plus particuli&amp;egrave;rement de pommes. Production de plus de 12 vari&amp;eacute;t&amp;eacute;s diff&amp;eacute;rentes. La conduite du verger se fait dans le respect de nombreuses chartes &amp;eacute;coresponsables.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Label Vergers &amp;Eacute;coresponsables : une d&amp;eacute;marche qui marque l'engagement des pomiculteurs pour des m&amp;eacute;thodes de production respectueuses de l'environnement et de la biodiversit&amp;eacute;.</desc>
-  </wpt>
-  <wpt lat="47.46560613089248" lon="-0.36048520356416713">
-    <ele>18.0</ele>
-    <name>Flore: Bassin de rouissage</name>
-    <desc>Pendant des si&amp;egrave;cles la Vall&amp;eacute;e vivait au&amp;nbsp;&lt;br /&gt;rythme des inondations et les &amp;nbsp;sols&amp;nbsp;&lt;br /&gt;humides ont favoris&amp;eacute; la production du&amp;nbsp;&lt;br /&gt;chanvre, plante utilis&amp;eacute;e pour la fabrication&amp;nbsp;&lt;br /&gt;des cordages de la marine de Loire.&lt;br /&gt;Apr&amp;egrave;s la r&amp;eacute;colte, les ballots de chanvre&amp;nbsp;&lt;br /&gt;pourissaient dans des bassins de&amp;nbsp;&lt;br /&gt;rouissage afin que seule la fibre, plus&amp;nbsp;&lt;br /&gt;r&amp;eacute;sistante, persiste.&amp;nbsp;&lt;br /&gt;Avec l&amp;rsquo;arriv&amp;eacute;e du chemin de fer vers 1860, la marine de Loire d&amp;eacute;clina et la&amp;nbsp;&lt;br /&gt;culture du chanvre devint anecdotique jusqu&amp;rsquo;aux ann&amp;eacute;es 2 000 o&amp;ugrave; les atouts de&amp;nbsp;&lt;br /&gt;la plante ont &amp;eacute;t&amp;eacute; mis en lumi&amp;egrave;re dans l&amp;rsquo;&amp;eacute;co-construction.</desc>
-  </wpt>
-  <wpt lat="47.45737328176322" lon="-0.39713859558105424">
-    <ele>25.0</ele>
-    <name>Patrimoine et histoire: Église Saint - Symphorien - Andard</name>
-    <desc>Construite aux XIe et XIIe, elle f&amp;ucirc;t sans doute l&amp;rsquo;une des premi&amp;egrave;res fond&amp;eacute;es en Anjou.&lt;br /&gt;&lt;br /&gt;&amp;Agrave; ne pas manquer :&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;sa chaire venant de la Cath&amp;eacute;drale d&amp;rsquo;Angers,&lt;/li&gt;
-&lt;li&gt;ses vitraux class&amp;eacute;s aux Monuments Historiques&lt;/li&gt;
-&lt;li&gt;ses fresques repr&amp;eacute;sentant le Chemin de Croix, &amp;oelig;uvre d&amp;rsquo;Abel Pineau, peintes sur les murs int&amp;eacute;rieurs.&lt;/li&gt;
-&lt;/ul&gt;</desc>
-  </wpt>
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Flora: Kettingveer van La Chevalerie
+EN: Flora: Chain Ferry of La Chevalerie
+FR: Flore: Bac à chaîne de la Chevalerie
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit veer over de Authion is toegankelijk van eind maart tot november.
+Het verbindt de Loire à Vélo-route met de uitzonderlijke leisteengroeven van Trélazé, een gebied met een bijzonder landschap en oude winningsputten.
+
+EN:
+This chain ferry across the Authion operates from late March to November.
+It connects the Loire à Vélo cycling route with the exceptional slate quarries of Trélazé, known for their unique landscape and former mining pits.
+
+FR:
+Ce bac sur l'Authion est accessible de fin mars à novembre.
+Il relie l'itinéraire de la Loire à vélo au site exceptionnel des Ardoisières de Trélazé, avec sa nature insolite et ses anciens fonds transformés en puits.
+]]></desc>
+</wpt>
+
+<wpt lat="47.430830796966035" lon="-0.4707310348749159">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Panorama & uitzichtpunt: Zicht op de oude stuwbrug van Sorges
+EN: Viewpoint: View of the former dam-bridge of Sorges
+FR: Panoramas et point de vue: Vue sur l'ancien pont-barrage de Sorges
+]]></name>
+  <desc><![CDATA[
+NL:
+De brug van Sorges werd gebouwd in 1730.
+Ze diende om overstromingen van de Loire tegen te houden en te verhinderen dat water de vallei instroomde. De brug is 42 meter lang en telt zeven bogen.
+Tijdens de grote overstroming van 1856 bleek ze echter onvoldoende.
+
+EN:
+The Sorges bridge was built in 1730.
+It was designed to control Loire flooding and prevent water from flowing back into the valley. The bridge measures 42 metres and consists of seven arches.
+However, it proved insufficient during the major flood of 1856.
+
+FR:
+Le pont de Sorges est édifié en 1730.
+Construit pour arrêter les débordements de la Loire et empêcher l’eau de remonter dans la vallée, il mesure 42 mètres et se compose de sept arches.
+Il ne fut cependant pas suffisant lors de l’inondation de 1856.
+]]></desc>
+</wpt>
+
+<wpt lat="47.43810265084398" lon="-0.3326510496845001">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Moulin de la Bougette
+EN: Heritage & history: Moulin de la Bougette
+FR: Patrimoine et histoire: Moulin de la Bougette
+]]></name>
+  <desc><![CDATA[
+NL:
+De Moulin de la Bougette is een windmolen van het type torenmolen.
+Deze stenen molen bevindt zich op de plaats genaamd “la Bougette”, nabij Loire-Authion.
+
+EN:
+Moulin de la Bougette is a tower-type windmill.
+Located at a place known as “la Bougette”, near Loire-Authion, it consists of a stone tower.
+
+FR:
+Le Moulin Bougette est un moulin à vent de type « tour ».
+Situé au lieu-dit « la Bougette », près de Loire-Authion, il est constitué d’une tour en pierre.
+]]></desc>
+</wpt>
+
+<wpt lat="47.49296474127696" lon="-0.31081438064575245">
+  <ele>46.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: De toren van Cornillé-les-Caves
+EN: Heritage & history: Cornillé-les-Caves Tower
+FR: Patrimoine et histoire: La tour de Cornillés-les-Caves
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd in de 15e eeuw diende dit gebouw oorspronkelijk als wachttoren om de omgeving te bewaken.
+De toren staat ook bekend als de “Klokkentoren”, dankzij de mechanische klok uit de 19e eeuw die er in 1870 werd geplaatst en nog steeds functioneert.
+
+EN:
+Built in the 15th century, this structure originally served as a watchtower to survey the surroundings.
+It is also known as the “Clock Tower”, as it houses a mechanical clock from the 19th century, installed in 1870 and still operating today.
+
+FR:
+Construite au XVe siècle, cette tour servait à l’origine de poste de guet.
+Elle est également appelée « Tour de l’Horloge », en raison de l’horloge mécanique du XIXe siècle installée en 1870 et toujours en fonctionnement.
+]]></desc>
+</wpt>
+
+<wpt lat="47.511968881645174" lon="-0.304991975426673">
+  <ele>34.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Les Bruères
+EN: Heritage & history: Château des Bruères
+FR: Patrimoine et histoire: Château des Bruères
+]]></name>
+  <desc><![CDATA[
+NL:
+Het gebouw werd opgetrokken tussen 1865 en 1868 in neogotische stijl, naar plannen van de Angevijnse architect Charles Chesneau.
+Vandaag doet het dienst als hotel.
+
+EN:
+The building was constructed between 1865 and 1868 in neo-Gothic style, based on designs by the Angevin architect Charles Chesneau.
+Today, it operates as a hotel.
+
+FR:
+Édifice construit entre 1865 et 1868 dans le style néogothique, sur les plans de l’architecte angevin Charles Chesneau.
+Aujourd’hui, le bâtiment est un hôtel.
+]]></desc>
+</wpt>
+
+<wpt lat="47.50198205611175" lon="-0.35018183290958377">
+  <ele>55.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Briançon
+EN: Heritage & history: Château de Briançon
+FR: Patrimoine et histoire: Château de Briançon
+]]></name>
+  <desc><![CDATA[
+NL:
+Een unieke plek in het hart van de Anjou-streek.
+De eerste sporen van het kasteel dateren uit de 10e eeuw, waarna het werd verwoest. Het huidige kasteel werd gebouwd in 1530.
+Sinds 2013 is het een socio-cultureel platform met aangepast verblijf en begeleiding, evenals een driesterrenhotel met 14 kamers.
+
+EN:
+A unique site in the heart of Anjou.
+The earliest traces date back to the 10th century, followed by destruction. The present château was built in 1530.
+Since 2013, it has functioned as a socio-cultural platform with adapted accommodation and support, as well as a three-star hotel with 14 rooms.
+
+FR:
+Un lieu unique au cœur des Terres Angevines.
+Les premières traces remontent au Xe siècle. Le château actuel fut bâti en 1530.
+Depuis 2013, il accueille une plateforme socio-culturelle et un hôtel trois étoiles de 14 chambres.
+]]></desc>
+</wpt>
+
+<wpt lat="47.47121243460916" lon="-0.3511475630511994">
+  <ele>28.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Blaaskerk van Corné
+EN: Heritage & history: Saint-Blaise Church of Corné
+FR: Patrimoine et histoire: Église Saint-Blaise - Corné
+]]></name>
+  <desc><![CDATA[
+NL:
+De kerk dateert uit de 11e eeuw en bezit twee opmerkelijke elementen:
+– een rijk uitgewerkt flamboyant gotisch portaal (ca. 1450),
+– stergewelven in laatgotische stijl aan de binnenzijde, zeldzaam in Anjou en enkel zichtbaar in Jarzé en Vieil-Baugé.
+
+EN:
+Dating from the 11th century, the church features two remarkable elements:
+– a richly decorated flamboyant Gothic porch (around 1450),
+– star vaults in late Gothic style inside, rare in Anjou and visible only in Jarzé and Vieil-Baugé.
+
+FR:
+Datant du XIe siècle, elle présente deux éléments remarquables :
+– le porche gothique flamboyant (vers 1450),
+– les voûtes en étoiles de style gothique tardif, rares en Anjou.
+]]></desc>
+</wpt>
+
+<wpt lat="47.47150252460907" lon="-0.3607892990112305">
+  <ele>20.0</ele>
+  <name><![CDATA[
+NL: Flora: Boomgaarden van Les Roussières
+EN: Flora: Vergers des Roussières Orchards
+FR: Flore: Vergers des Roussieres
+]]></name>
+  <desc><![CDATA[
+NL:
+Familiaal fruitteeltbedrijf, vooral gespecialiseerd in appels.
+Meer dan 12 verschillende variëteiten worden geteeld, met respect voor ecologisch verantwoorde teeltmethoden.
+
+EN:
+A family-run fruit production company, specialising mainly in apples.
+More than 12 different varieties are grown, following environmentally responsible farming standards.
+
+FR:
+Entreprise familiale de production de fruits, notamment de pommes.
+Plus de 12 variétés sont cultivées dans le respect de nombreuses chartes écoresponsables.
+]]></desc>
+</wpt>
+
+<wpt lat="47.46560613089248" lon="-0.36048520356416713">
+  <ele>18.0</ele>
+  <name><![CDATA[
+NL: Flora: Rottingsbekken
+EN: Flora: Retting Basin
+FR: Flore: Bassin de rouissage
+]]></name>
+  <desc><![CDATA[
+NL:
+Eeuwenlang leefde de vallei op het ritme van overstromingen. De vochtige bodems bevorderden de teelt van hennep, gebruikt voor touwproductie in de Loirevaart.
+Na de oogst werden hennepbundels in rotbekkens ondergedompeld zodat enkel de sterkste vezels overbleven.
+Met de komst van de spoorweg rond 1860 verdween deze activiteit grotendeels, tot herwaardering in de ecobouw rond 2000.
+
+EN:
+For centuries, the valley lived to the rhythm of floods. Wet soils favoured hemp cultivation for rope-making used in Loire navigation.
+After harvest, hemp bundles were soaked in retting basins so only the strongest fibres remained.
+With the arrival of railways around 1860, the activity declined, until renewed interest in eco-construction around 2000.
+
+FR:
+Pendant des siècles, la vallée vivait au rythme des inondations, favorisant la culture du chanvre destiné aux cordages de la marine de Loire.
+Après la récolte, les ballots pourrissaient dans des bassins de rouissage afin de conserver la fibre.
+Avec l’arrivée du chemin de fer vers 1860, cette activité déclina avant un regain d’intérêt dans l’éco-construction.
+]]></desc>
+</wpt>
+
+<wpt lat="47.45737328176322" lon="-0.39713859558105424">
+  <ele>25.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Symphorianuskerk van Andard
+EN: Heritage & history: Saint-Symphorian Church of Andard
+FR: Patrimoine et histoire: Église Saint-Symphorien - Andard
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd in de 11e en 12e eeuw en vermoedelijk een van de oudste kerken van Anjou.
+Niet te missen:
+– de preekstoel afkomstig uit de kathedraal van Angers,
+– de als historisch monument beschermde glas-in-loodramen,
+– de kruiswegfresco’s van Abel Pineau op de binnenmuren.
+
+EN:
+Built in the 11th and 12th centuries and likely among the earliest churches in Anjou.
+Highlights include:
+– the pulpit from Angers Cathedral,
+– stained glass windows listed as Historic Monuments,
+– interior frescoes depicting the Stations of the Cross by Abel Pineau.
+
+FR:
+Construite aux XIe et XIIe siècles, probablement l’une des premières fondées en Anjou.
+À ne pas manquer :
+– la chaire provenant de la cathédrale d’Angers,
+– les vitraux classés Monuments Historiques,
+– les fresques du Chemin de Croix peintes par Abel Pineau.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit VTT - N°4</name>
     <desc>Modifié: 31 semaines</desc>

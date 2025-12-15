@@ -1,24 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.47121243460916" lon="-0.3511475630511994">
-    <ele>28.0</ele>
-    <name>Patrimoine et histoire: Église Saint-Blaise - Corné</name>
-    <desc>Datant du XIe si&amp;egrave;cle, elle pr&amp;eacute;sente deux &amp;eacute;l&amp;eacute;ments remarquables :&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;Le porche gothique flamboyant (vers 1450) tr&amp;egrave;s travaill&amp;eacute; avec ses courbes, contre-courbes et cavets d&amp;rsquo;une part,&lt;/li&gt;
-&lt;li&gt;Les vo&amp;ucirc;tes en &amp;eacute;toiles d&amp;rsquo;un style gothique tardif &amp;agrave; l&amp;rsquo;int&amp;eacute;rieur d&amp;rsquo;autre part. Rares en Anjou, ces vo&amp;ucirc;tes ne sont visibles qu&amp;rsquo;&amp;agrave; Jarz&amp;eacute; et au Vieil Baug&amp;eacute;.&lt;/li&gt;
-&lt;/ul&gt;</desc>
-  </wpt>
-  <wpt lat="47.47150252460907" lon="-0.3607892990112305">
-    <ele>20.0</ele>
-    <name>Flore: Vergers des Roussieres</name>
-    <desc>Entreprise familiale de production de fruits et plus particuli&amp;egrave;rement de pommes. Production de plus de 12 vari&amp;eacute;t&amp;eacute;s diff&amp;eacute;rentes. La conduite du verger se fait dans le respect de nombreuses chartes &amp;eacute;coresponsables.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Label Vergers &amp;Eacute;coresponsables : une d&amp;eacute;marche qui marque l'engagement des pomiculteurs pour des m&amp;eacute;thodes de production respectueuses de l'environnement et de la biodiversit&amp;eacute;.</desc>
-  </wpt>
-  <wpt lat="47.46560613089248" lon="-0.36048520356416713">
-    <ele>18.0</ele>
-    <name>Flore: Bassin de rouissage</name>
-    <desc>Pendant des si&amp;egrave;cles la Vall&amp;eacute;e vivait au&amp;nbsp;&lt;br /&gt;rythme des inondations et les &amp;nbsp;sols&amp;nbsp;&lt;br /&gt;humides ont favoris&amp;eacute; la production du&amp;nbsp;&lt;br /&gt;chanvre, plante utilis&amp;eacute;e pour la fabrication&amp;nbsp;&lt;br /&gt;des cordages de la marine de Loire.&lt;br /&gt;Apr&amp;egrave;s la r&amp;eacute;colte, les ballots de chanvre&amp;nbsp;&lt;br /&gt;pourissaient dans des bassins de&amp;nbsp;&lt;br /&gt;rouissage afin que seule la fibre, plus&amp;nbsp;&lt;br /&gt;r&amp;eacute;sistante, persiste.&amp;nbsp;&lt;br /&gt;Avec l&amp;rsquo;arriv&amp;eacute;e du chemin de fer vers 1860, la marine de Loire d&amp;eacute;clina et la&amp;nbsp;&lt;br /&gt;culture du chanvre devint anecdotique jusqu&amp;rsquo;aux ann&amp;eacute;es 2 000 o&amp;ugrave; les atouts de&amp;nbsp;&lt;br /&gt;la plante ont &amp;eacute;t&amp;eacute; mis en lumi&amp;egrave;re dans l&amp;rsquo;&amp;eacute;co-construction.</desc>
-  </wpt>
+  <ele>28.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Blasiuskerk – Corné
+EN: Heritage & history: Saint-Blaise Church – Corné
+FR: Patrimoine et histoire: Église Saint-Blaise – Corné
+]]></name>
+  <desc><![CDATA[
+NL:
+De kerk dateert uit de 11e eeuw en bevat twee opmerkelijke elementen. Enerzijds is er het rijk uitgewerkte flamboyant-gotische portaal uit circa 1450, met sierlijke bogen en holle profielen. Anderzijds vallen binnen de zeldzame stergewelven op in laatgotische stijl, die in Anjou enkel nog te zien zijn in Jarzé en Le Vieil-Baugé.
+
+EN:
+Dating back to the 11th century, the church features two remarkable elements. On the one hand, there is the richly crafted Flamboyant Gothic porch from around 1450, with its curves, counter-curves and mouldings. On the other hand, the interior displays rare star-shaped vaults in a late Gothic style, which in Anjou can only be seen in Jarzé and Le Vieil-Baugé.
+
+FR:
+Datant du XIe siècle, l’église présente deux éléments remarquables. D’une part, le porche gothique flamboyant (vers 1450), très travaillé avec ses courbes, contre-courbes et cavets. D’autre part, les voûtes en étoiles d’un style gothique tardif à l’intérieur, rares en Anjou et visibles uniquement à Jarzé et au Vieil-Baugé.
+]]></desc>
+</wpt>
+
+<wpt lat="47.47150252460907" lon="-0.3607892990112305">
+  <ele>20.0</ele>
+  <name><![CDATA[
+NL: Flora: Boomgaarden van Les Roussières
+EN: Flora: Les Roussières Orchards
+FR: Flore: Vergers des Roussières
+]]></name>
+  <desc><![CDATA[
+NL:
+Familiaal fruitteeltbedrijf, gespecialiseerd in appels, met een productie van meer dan twaalf verschillende rassen. Het beheer van de boomgaarden gebeurt volgens talrijke ecologisch verantwoorde richtlijnen. Het label “Vergers écoresponsables” onderstreept de inzet van de fruittelers voor productiemethoden die het milieu en de biodiversiteit respecteren.
+
+EN:
+A family-run fruit-growing business specialising in apples, producing more than twelve different varieties. Orchard management follows numerous eco-responsible charters. The “Vergers écoresponsables” label highlights the growers’ commitment to environmentally friendly production methods that respect biodiversity.
+
+FR:
+Entreprise familiale de production de fruits, et plus particulièrement de pommes, avec plus de douze variétés différentes. La conduite du verger se fait dans le respect de nombreuses chartes écoresponsables. Le label « Vergers écoresponsables » marque l’engagement des pomiculteurs en faveur de méthodes de production respectueuses de l’environnement et de la biodiversité.
+]]></desc>
+</wpt>
+
+<wpt lat="47.46560613089248" lon="-0.36048520356416713">
+  <ele>18.0</ele>
+  <name><![CDATA[
+NL: Flora: Rottingbekken voor hennep
+EN: Flora: Hemp Retting Basin
+FR: Flore: Bassin de rouissage
+]]></name>
+  <desc><![CDATA[
+NL:
+Eeuwenlang leefde de vallei op het ritme van overstromingen, waarbij de vochtige bodems ideaal waren voor de teelt van hennep, gebruikt voor het maken van touwen voor de Loirevaart. Na de oogst werden de bundels hennep in rottingbekkens ondergedompeld zodat enkel de sterkere vezels overbleven. Met de komst van de spoorwegen rond 1860 ging de Loirevaart achteruit en werd de hennepteelt geleidelijk marginaal, tot haar kwaliteiten rond het jaar 2000 opnieuw werden herontdekt binnen de ecologische bouwsector.
+
+EN:
+For centuries, the valley lived to the rhythm of floods, and the damp soils favoured hemp cultivation, used to produce ropes for Loire river navigation. After harvesting, hemp bundles were left to rot in retting basins so that only the stronger fibres remained. With the arrival of the railway around 1860, river navigation declined and hemp growing became marginal, until the plant’s qualities were rediscovered around the year 2000 in eco-construction.
+
+FR:
+Pendant des siècles, la vallée a vécu au rythme des inondations et les sols humides ont favorisé la culture du chanvre, utilisé pour la fabrication des cordages de la marine de Loire. Après la récolte, les ballots de chanvre pourrissaient dans des bassins de rouissage afin que seule la fibre, plus résistante, subsiste. Avec l’arrivée du chemin de fer vers 1860, la marine de Loire déclina et la culture du chanvre devint anecdotique, jusqu’à ce que ses atouts soient remis en lumière dans l’éco-construction au début des années 2000.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Entre rivière et forêt - Corné</name>
     <desc>&lt;ol&gt;

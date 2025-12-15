@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" creator="RouteYou" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <wpt lat="46.99361" lon="0.57083">
-    <name>Pussigny</name>
-    <desc>Pussigny is een gemeente in het Franse departement Indre-et-Loire  en telt 184 inwoners . De plaats maakt deel uit van het arrondissement Chinon.&lt;br&gt;De onderstaande kaart toont de ligging van Pussigny met de belangrijkste infrastructuur en aangrenzende gemeenten.&lt;br/&gt;&lt;br/&gt;Auteur: &lt;a href="https://www.routeyou.com/user/view/165089.nl"&gt;Wikipedia&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.routeyou.com/location/view/47261046.nl?toptext=1324553"&gt;Meer informatie&lt;/a&gt;</desc>
-    <type>Gemeente</type>
-  </wpt>
+  <name><![CDATA[
+NL: Pussigny
+EN: Pussigny
+FR: Pussigny
+]]></name>
+  <desc><![CDATA[
+NL:
+Deze gemeente ligt in het Franse departement Indre-et-Loire en telt 184 inwoners. Ze maakt deel uit van het arrondissement Chinon.
+De onderstaande kaart toont de ligging met de belangrijkste infrastructuur en de aangrenzende gemeenten.
+
+EN:
+This municipality is located in the French department of Indre-et-Loire and has a population of 184 inhabitants. It forms part of the Chinon arrondissement.
+The map below shows its location, main infrastructure and neighbouring municipalities.
+
+FR:
+Cette commune se situe dans le département français d’Indre-et-Loire et compte 184 habitants. Elle fait partie de l’arrondissement de Chinon.
+La carte ci-dessous montre sa localisation, les principales infrastructures et les communes voisines.
+]]></desc>
+  <type>Gemeente</type>
+</wpt>
+
   <trk>
     <name>Pussigny 7,5 km</name>
     <desc></desc>

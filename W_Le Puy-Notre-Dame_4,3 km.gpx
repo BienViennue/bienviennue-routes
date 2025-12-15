@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.125078599472936" lon="-0.23547182608227077">
-    <ele>90.0</ele>
-    <name>Patrimoine et histoire: Collégiale du Puy-Notre-Dame</name>
-    <desc>Edifice gothique majestueux bâti en haut d'une butte calcaire culminant à 106 mètres. Le sanctuaire dédié à la Vierge accueille les pèlerins venue vénérer la "Sainte Ceinture", relique rapportée des Croisades par les Ducs d'Aquitaine.</desc>
-  </wpt>
+  <ele>90.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Collégiale van Le Puy-Notre-Dame
+EN: Heritage & history: Collegiate Church of Le Puy-Notre-Dame
+FR: Patrimoine et histoire: Collégiale du Puy-Notre-Dame
+]]></name>
+  <desc><![CDATA[
+NL:
+Een majestueus gotisch bouwwerk, opgetrokken boven op een kalkstenen heuvel die een hoogte van 106 meter bereikt. Het aan Maria gewijde heiligdom ontvangt pelgrims die er de “Heilige Gordel” komen vereren, een reliek die door de hertogen van Aquitanië van de Kruistochten werd meegebracht.
+
+EN:
+A majestic Gothic building constructed on top of a limestone hill rising to 106 metres. The sanctuary, dedicated to the Virgin Mary, welcomes pilgrims who come to venerate the “Holy Girdle”, a relic brought back from the Crusades by the Dukes of Aquitaine.
+
+FR:
+Édifice gothique majestueux bâti au sommet d’une butte calcaire culminant à 106 mètres. Le sanctuaire dédié à la Vierge accueille les pèlerins venus vénérer la « Sainte Ceinture », relique rapportée des Croisades par les ducs d’Aquitaine.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Le Puy-Notre-Dame et son vignoble</name>
     <desc>En famille, n&amp;rsquo;oublier pas d&amp;rsquo;imprimer la fiche jeu pour vos enfants avant votre d&amp;eacute;part.&lt;br /&gt;&lt;br /&gt;Le d&amp;eacute;part se fait au parking de la mairie.&lt;br /&gt;&lt;br /&gt;

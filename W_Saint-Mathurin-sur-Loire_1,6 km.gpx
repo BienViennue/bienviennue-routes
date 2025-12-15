@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.40988050057111" lon="-0.3221654891967764">
-    <ele>24.0</ele>
-    <name>Patrimoine et histoire: Loire Odyssée</name>
-    <desc>LOIRE ODYSSEE &amp;nbsp; - &amp;nbsp;Prenez rendez-vous avec la Loire !&lt;br /&gt;&lt;br /&gt;(Saint Mathurin sur Loire, LOIRE AUTHION)&lt;br /&gt;&lt;br /&gt;Entre Angers et Saumur, sur le chemin de la Loire &amp;agrave; v&amp;eacute;lo, Loire Odyss&amp;eacute;e vous ouvre les yeux sur le plus beau fleuve de France !&lt;br /&gt;&lt;br /&gt;Un accueil touristique, un espace de visite ludique et interactif, des sorties nature et un bateau-promenade vous attendent pour votre plus grand plaisir : d&amp;eacute;couverte du fleuve, sa faune, sa flore, ses &amp;eacute;tats d&amp;rsquo;&amp;acirc;me&amp;hellip;&lt;br /&gt;&lt;br /&gt;Avec ses animations, ses visites et ses croisi&amp;egrave;res encadr&amp;eacute;es par des guides nature professionnels, Loire Odyss&amp;eacute;e est une &amp;eacute;tape incontournable pour tous les amoureux de nature !&lt;br /&gt;&lt;br /&gt;La Loire n&amp;rsquo;aura plus de secrets pour vous et restera &amp;agrave; jamais une exp&amp;eacute;rience inoubliable. Venez vivre l&amp;rsquo;&amp;eacute;motion lig&amp;eacute;rienne&amp;hellip;</desc>
-  </wpt>
-  <wpt lat="47.40961911366743" lon="-0.3200626373291013">
-    <ele>25.0</ele>
-    <name>Patrimoine et histoire: Église Saint-Mathurin-sur-Loire</name>
-    <desc>Construite en 1847 par l&amp;rsquo;architecte angevin de renom Fran&amp;ccedil;ois Villers, cette &amp;eacute;glise n&amp;eacute;o-grecque est orient&amp;eacute;e au Nord, trait commun aux &amp;eacute;glises construites &amp;agrave; la m&amp;ecirc;me &amp;eacute;poque sur la Lev&amp;eacute;e. B&amp;acirc;tie dans un style tr&amp;egrave;s d&amp;eacute;pouill&amp;eacute;, elle est enrichie de plusieurs tableaux expos&amp;eacute;s au Salon de Paris de 1841.&lt;br /&gt;&lt;br /&gt;En 2012 avait &amp;eacute;t&amp;eacute; inaugur&amp;eacute;e une porte monumentale &amp;laquo; La porte de la paix &amp;raquo;. Elle est l&amp;rsquo;&amp;oelig;uvre posthume de l&amp;rsquo;artiste catalan Joseph Grau Garriga. Le peintre et tapissier s&amp;rsquo;&amp;eacute;tait vu confier la r&amp;eacute;alisation de vitraux pour sa commune d&amp;rsquo;adoption. Synth&amp;egrave;se de ses talents de peintre, lissier et verrier, cette porte aspire &amp;agrave; la lumi&amp;egrave;re et &amp;agrave; l&amp;rsquo;espoir.</desc>
-  </wpt>
+<wpt lat="47.40988050057111" lon="-0.3221654891967764">
+  <ele>24.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Loire Odyssée
+EN: Heritage & history: Loire Odyssée
+FR: Patrimoine et histoire: Loire Odyssée
+]]></name>
+  <desc><![CDATA[
+NL:
+Maak kennis met de Loire!
+Gelegen in Saint-Mathurin-sur-Loire (Loire-Authion), tussen Angers en Saumur, langs de Loire à Vélo-route.
+Een toeristisch onthaal, een speelse en interactieve bezoekersruimte, natuuruitstappen en een rondvaartboot wachten je op voor een diepgaande ontdekking van de rivier: haar fauna, flora en wisselende stemmingen.
+Met animaties, bezoeken en cruises onder begeleiding van professionele natuurgidsen is dit een onmisbare halte voor elke natuurliefhebber.
+De Loire zal geen geheimen meer voor je hebben en blijft voor altijd een onvergetelijke ervaring. Beleef de emotie van de Loire…
+
+EN:
+Discover the Loire!
+Located in Saint-Mathurin-sur-Loire (Loire-Authion), between Angers and Saumur, along the Loire à Vélo cycling route.
+A tourist reception area, a playful and interactive visitor space, nature outings and a sightseeing boat invite you to explore the river: its wildlife, flora and ever-changing moods.
+With activities, guided visits and cruises led by professional nature guides, this is an unmissable stop for all nature lovers.
+The Loire will hold no more secrets for you and will remain an unforgettable experience. Come and feel the emotion of the Loire…
+
+FR:
+Prenez rendez-vous avec la Loire !
+Situé à Saint-Mathurin-sur-Loire (Loire-Authion), entre Angers et Saumur, sur l’itinéraire de la Loire à Vélo.
+Accueil touristique, espace de visite ludique et interactif, sorties nature et bateau-promenade vous invitent à découvrir le fleuve, sa faune, sa flore et ses états d’âme.
+Grâce à ses animations, ses visites et ses croisières encadrées par des guides nature professionnels, le site constitue une étape incontournable pour tous les amoureux de nature.
+La Loire n’aura plus de secrets pour vous et restera à jamais une expérience inoubliable. Venez vivre l’émotion ligérienne…
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit découverte - Saint-Mathurin-sur-Loire</name>
     <desc>D&amp;eacute;couverte de 7 stations d'interpr&amp;eacute;tation retra&amp;ccedil;ant l'histoire du patrimoine de la commune d&amp;eacute;l&amp;eacute;gu&amp;eacute;e de Saint - Mathurins - sur - Loire.&amp;nbsp;&lt;br /&gt;

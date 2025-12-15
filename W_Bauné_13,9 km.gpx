@@ -1,15 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.499162499476725" lon="-0.31732678413391135">
-    <ele>31.0</ele>
-    <name>Patrimoine et histoire: Église Saint - Symphorien - Bauné</name>
-    <desc>L&amp;rsquo;&amp;eacute;glise actuelle, construite de 1899 &amp;agrave; 1904 sur les plans de l&amp;rsquo;architecte Dussauze, remplace la pr&amp;eacute;c&amp;eacute;dente &amp;eacute;glise d&amp;rsquo;&amp;eacute;poque romane, d&amp;eacute;molie en 1899.&lt;br /&gt;&lt;br /&gt;Dussauze a con&amp;ccedil;u un &amp;eacute;difice de style n&amp;eacute;ogothique, dont l&amp;rsquo;apparence g&amp;eacute;n&amp;eacute;rale ne manque pas d&amp;rsquo;&amp;eacute;l&amp;eacute;gance. On entre dans l&amp;rsquo;&amp;eacute;glise par un clocher-porche dont la fine fl&amp;egrave;che d&amp;rsquo;ardoise r&amp;eacute;pond &amp;agrave; celle de l&amp;rsquo;&amp;eacute;glise voisine de Cornill&amp;eacute;-les-Caves. Le portail est surmont&amp;eacute; d&amp;rsquo;un haut-relief repr&amp;eacute;sentant Saint Symphorien conduit au martyr.&lt;br /&gt;&lt;br /&gt;&amp;Agrave; proximit&amp;eacute; de l&amp;rsquo;&amp;eacute;glise se dresse l&amp;rsquo;ancien presbyt&amp;egrave;re, pr&amp;eacute;cieux &amp;eacute;difice que de r&amp;eacute;centes &amp;eacute;tudes arch&amp;eacute;ologiques ont permis de dater du XIIe si&amp;egrave;cle dans ses parties les plus anciennes. Remani&amp;eacute; au fil du temps, dot&amp;eacute; aude XVIIIe si&amp;egrave;cle de lucarnes et d&amp;rsquo;un cadran solaire peint sur la fa&amp;ccedil;ade, il a gard&amp;eacute; un grand caract&amp;egrave;re.</desc>
-  </wpt>
-  <wpt lat="47.50198205611175" lon="-0.35018183290958377">
-    <ele>55.0</ele>
-    <name>Patrimoine et histoire: Château de Briançon</name>
-    <desc>Un lieu unique au c&amp;oelig;ur des Terres Angevines.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Les premi&amp;egrave;res traces du ch&amp;acirc;teau remontent au Xᵉ si&amp;egrave;cle. Il fut par la suite d&amp;eacute;truit.&amp;nbsp;&lt;br /&gt;Le ch&amp;acirc;teau que l'on retrouve actuellement fut b&amp;acirc;ti en 1530. La famille de Brian&amp;ccedil;on la habit&amp;eacute;e du XIe au XIIIe si&amp;egrave;cle.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Depuis 2013, le Ch&amp;acirc;teau de Brian&amp;ccedil;on est une plateforme socio-culturelle abritant un centre de loisirs avec h&amp;eacute;bergement adapt&amp;eacute; et accompagnement sp&amp;eacute;cifique ainsi qu'un h&amp;ocirc;tel compos&amp;eacute; de 14 chambres et class&amp;eacute; trois &amp;eacute;toiles en 2018.&amp;nbsp;</desc>
-  </wpt>
+  <ele>31.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Symphorianuskerk – Bauné
+EN: Heritage & history: Saint-Symphorian Church – Bauné
+FR: Patrimoine et histoire: Église Saint-Symphorien – Bauné
+]]></name>
+  <desc><![CDATA[
+NL:
+De huidige kerk werd gebouwd tussen 1899 en 1904 naar plannen van architect Dussauze en verving een romaanse kerk die in 1899 werd afgebroken. Het neogotische gebouw heeft een elegante uitstraling en is toegankelijk via een klokkentoren-voorportaal met een slanke leien spits die verwijst naar die van de naburige kerk van Cornillé-les-Caves. Boven het portaal bevindt zich een hoogreliëf dat Sint-Symphorianus voorstelt op weg naar zijn martelaarschap.
+Vlakbij staat het voormalige presbyterium, een waardevol gebouw waarvan archeologisch onderzoek aantoonde dat de oudste delen dateren uit de 12e eeuw. Doorheen de tijd aangepast, kreeg het in de 18e eeuw dakkapellen en een geschilderde zonnewijzer op de gevel, waarbij het zijn uitgesproken karakter behield.
+
+EN:
+The present church was built between 1899 and 1904 according to plans by architect Dussauze, replacing a Romanesque church demolished in 1899. Designed in a Neo-Gothic style, the building has an elegant appearance and is entered through a bell-tower porch topped by a slender slate spire that echoes the nearby church of Cornillé-les-Caves. Above the portal is a high relief depicting Saint Symphorian on his way to martyrdom.
+Nearby stands the former presbytery, a valuable building whose oldest sections have been dated to the 12th century through archaeological studies. Altered over time, it was fitted in the 18th century with dormer windows and a painted sundial on the façade, while retaining a strong architectural character.
+
+FR:
+L’église actuelle, construite de 1899 à 1904 sur les plans de l’architecte Dussauze, remplace une église romane démolie en 1899. De style néogothique, l’édifice se distingue par son élégance et s’ouvre par un clocher-porche coiffé d’une fine flèche d’ardoise faisant écho à celle de l’église voisine de Cornillé-les-Caves. Le portail est surmonté d’un haut-relief représentant saint Symphorien conduit au martyre.
+À proximité se dresse l’ancien presbytère, précieux édifice dont les parties les plus anciennes ont été datées du XIIe siècle grâce à des études archéologiques. Remanié au fil du temps, doté au XVIIIe siècle de lucarnes et d’un cadran solaire peint en façade, il a conservé un fort caractère.
+]]></desc>
+</wpt>
+
+<wpt lat="47.50198205611175" lon="-0.35018183290958377">
+  <ele>55.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Briançon
+EN: Heritage & history: Château de Briançon
+FR: Patrimoine et histoire: Château de Briançon
+]]></name>
+  <desc><![CDATA[
+NL:
+Een unieke plek in het hart van de Anjou. De oudste sporen van het kasteel dateren uit de 10e eeuw, maar het oorspronkelijke gebouw werd later verwoest. Het huidige kasteel werd in 1530 opgetrokken en was bewoond door de familie de Briançon van de 11e tot de 13e eeuw.
+Sinds 2013 fungeert het domein als een socio-cultureel platform met een vrijetijdscentrum dat aangepast verblijf en specifieke begeleiding biedt, aangevuld met een hotel van 14 kamers dat in 2018 werd bekroond met drie sterren.
+
+EN:
+A unique site in the heart of Anjou. The earliest traces of the castle date back to the 10th century, although the original structure was later destroyed. The present castle was built in 1530 and was inhabited by the Briançon family from the 11th to the 13th century.
+Since 2013, the estate has operated as a socio-cultural platform, hosting a leisure centre with adapted accommodation and specialised support, as well as a 14-room hotel awarded three stars in 2018.
+
+FR:
+Lieu unique au cœur des terres angevines. Les premières traces du château remontent au Xe siècle, mais l’édifice d’origine fut détruit. Le château actuel fut construit en 1530 et habité par la famille de Briançon du XIe au XIIIe siècle.
+Depuis 2013, le Château de Briançon est une plateforme socio-culturelle accueillant un centre de loisirs avec hébergement adapté et accompagnement spécifique, ainsi qu’un hôtel de 14 chambres classé trois étoiles en 2018.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Senteurs de sous - bois - Bauné</name>
     <desc>&lt;ol&gt;

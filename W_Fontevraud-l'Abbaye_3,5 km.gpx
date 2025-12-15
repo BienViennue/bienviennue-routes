@@ -1,22 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.18176377534651" lon="0.05002101957497347">
-    <ele>79.0</ele>
-    <name>Patrimoine et histoire: Fontevraud, le musée d'Art moderne</name>
-    <desc>Grâce à la donation exceptionnelle de martine et Léon Cligman, le musée d’Art moderne de Fontevraud a ouvert ses portes le 19 mai 2021. cette collection riche et originale, visible en ligne, est constituée de peintures, de dessins, de sculptures, de verreries ainsi que d’objets antiques.</desc>
-  </wpt>
-  <wpt lat="47.18190562561262" lon="0.05013386264393294">
-    <ele>79.0</ele>
-    <name>Patrimoine et histoire: Abbaye Royale de Fontevraud</name>
-    <desc>Au cœur du Val de Loire, inscrit au patrimoine mondial de l’UNESCO, Fontevraud est l’une des plus grandes cités monastiques héritées du Moyen-Âge.</desc>
-  </wpt>
-  <wpt lat="47.18170631230979" lon="0.049980282783508044">
-    <ele>80.0</ele>
-    <name>Patrimoine et histoire: Abbaye Royale de Fontevraud</name>
-    <desc>Fondée en 1101 aux confins de l’Anjou, l’Abbaye royale de Fontevraud est la plus grande cité monastique d’Europe au cœur des châteaux de la Loire. 
-Son histoire vous étonnera : abbaye mère d’un ordre mixte dirigé par des femmes pendant 7 siècles, prison centrale redoutable de 1804 à 1963, centre de création artistique aujourd’hui, mais aussi hôtel et restaurant.
-Venez parcourir les chemins de Fontevraud et choisissez votre guide selon vos envies: le jeu de piste des boZZons sur iPad en famille, la visite guidée en solo ou en groupe, les visites insolites avec brunch en couple…</desc>
-  </wpt>
+  <ele>79.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Fontevraud – museum voor moderne kunst
+EN: Heritage & history: Fontevraud – Museum of Modern Art
+FR: Patrimoine et histoire: Fontevraud, le musée d’Art moderne
+]]></name>
+  <desc><![CDATA[
+NL:
+Dankzij de uitzonderlijke schenking van Martine en Léon Cligman opende het museum voor moderne kunst van Fontevraud zijn deuren op 19 mei 2021. Deze rijke en originele collectie, die ook online te bekijken is, bestaat uit schilderijen, tekeningen, beeldhouwwerken, glaswerk en antieke objecten.
+
+EN:
+Thanks to the exceptional donation by Martine and Léon Cligman, the Fontevraud Museum of Modern Art opened its doors on 19 May 2021. This rich and original collection, also accessible online, includes paintings, drawings, sculptures, glasswork and antique objects.
+
+FR:
+Grâce à la donation exceptionnelle de Martine et Léon Cligman, le musée d’Art moderne de Fontevraud a ouvert ses portes le 19 mai 2021. Cette collection riche et originale, visible en ligne, est constituée de peintures, de dessins, de sculptures, de verreries ainsi que d’objets antiques.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18190562561262" lon="0.05013386264393294">
+  <ele>79.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Koninklijke Abdij van Fontevraud
+EN: Heritage & history: Royal Abbey of Fontevraud
+FR: Patrimoine et histoire: Abbaye Royale de Fontevraud
+]]></name>
+  <desc><![CDATA[
+NL:
+Gelegen in het hart van de Loirevallei, die is opgenomen op de UNESCO-werelderfgoedlijst, behoort Fontevraud tot de grootste monastieke steden die uit de middeleeuwen zijn overgeleverd.
+
+EN:
+Located in the heart of the Loire Valley, listed as a UNESCO World Heritage Site, Fontevraud is one of the largest monastic cities inherited from the Middle Ages.
+
+FR:
+Au cœur du Val de Loire, inscrit au patrimoine mondial de l’UNESCO, Fontevraud est l’une des plus grandes cités monastiques héritées du Moyen Âge.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18170631230979" lon="0.049980282783508044">
+  <ele>80.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Koninklijke Abdij van Fontevraud
+EN: Heritage & history: Royal Abbey of Fontevraud
+FR: Patrimoine et histoire: Abbaye Royale de Fontevraud
+]]></name>
+  <desc><![CDATA[
+NL:
+Opgericht in 1101 aan de grenzen van Anjou is dit de grootste monastieke stad van Europa, gelegen in het hart van het Loirekastelengebied.
+De geschiedenis is uitzonderlijk: zeven eeuwen lang moederabdij van een gemengde orde onder leiding van vrouwen, daarna een beruchte centrale gevangenis van 1804 tot 1963, en vandaag een centrum voor artistieke creatie met hotel en restaurant.
+Verken de paden van Fontevraud en kies de formule die bij je past: een speelse ontdekkingstocht met iPad voor gezinnen, begeleide bezoeken alleen of in groep, of bijzondere rondleidingen gecombineerd met brunch.
+
+EN:
+Founded in 1101 on the borders of Anjou, this is the largest monastic city in Europe, located in the heart of the Loire castles region.
+Its history is remarkable: for seven centuries it was the mother abbey of a mixed order led by women, then a feared central prison from 1804 to 1963, and today a centre for artistic creation with a hotel and restaurant.
+Visitors can explore the grounds in various ways, from family treasure hunts on iPad to guided tours for individuals or groups, as well as unusual visits combined with brunch.
+
+FR:
+Fondée en 1101 aux confins de l’Anjou, l’abbaye royale de Fontevraud constitue la plus grande cité monastique d’Europe, au cœur des châteaux de la Loire.
+Son histoire est étonnante : abbaye mère d’un ordre mixte dirigé par des femmes pendant sept siècles, prison centrale redoutable de 1804 à 1963, puis centre de création artistique aujourd’hui, avec hôtel et restaurant.
+Parcourez les chemins de Fontevraud et choisissez votre guide selon vos envies : jeu de piste des boZZons sur iPad en famille, visite guidée en solo ou en groupe, visites insolites avec brunch…
+]]></desc>
+</wpt>
+
   <trk>
     <name>[Itinéraire] Circuit patrimoine - Les deux vies de Fontevraud-l'Abbaye</name>
     <desc>Avant votre d&amp;eacute;part, n&amp;rsquo;oublier pas d&amp;rsquo;imprimer le livret de d&amp;eacute;couverte indispensable pour cette balade. Il est &amp;eacute;galement disponible &amp;agrave; 1&amp;euro; dans l&amp;rsquo;Office de Tourisme le plus proche.&lt;br /&gt;&lt;br /&gt;Se rendre pr&amp;egrave;s de la station de d&amp;eacute;part &amp;agrave; c&amp;ocirc;t&amp;eacute; de l&amp;rsquo;office de tourisme.&lt;br /&gt;&lt;br /&gt;Suivre ensuite le fl&amp;eacute;chage, au sol. Les stations num&amp;eacute;rot&amp;eacute;es indiquent un point d&amp;rsquo;arr&amp;ecirc;t avec des explications dans le livret de d&amp;eacute;couverte.&lt;br /&gt;&lt;br /&gt;

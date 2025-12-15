@@ -1,27 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.43810265084398" lon="-0.3326510496845001">
-    <ele>21.0</ele>
-    <name>Patrimoine et histoire: Moulin de la Bougette</name>
-    <desc>Le Moulin Bougette est un moulin &amp;agrave; vent de type "tour".&lt;br /&gt;Le moulin-tour au lieu dit "la Bougette", proche de loire-Authion, est constitu&amp;eacute; d'une tour faite en pierre.&amp;nbsp;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.46311827806129" lon="-0.35245299339294367">
-    <ele>17.0</ele>
-    <name>Panoramas et point de vue: Pont en pierre de Corné</name>
-    <desc></desc>
-  </wpt>
-  <wpt lat="47.4480000464997" lon="-0.40512084960937467">
-    <ele>17.0</ele>
-    <name>Faune: Espace Naturel Sensible Andard - Brain</name>
-    <desc>La notion d&amp;rsquo;ENS a &amp;eacute;t&amp;eacute; institu&amp;eacute;e en France en 1976 pour d&amp;eacute;signer des espaces &amp;laquo; dont le caract&amp;egrave;re naturel est menac&amp;eacute; et rendu vuln&amp;eacute;rable &amp;raquo;.&lt;br /&gt;&lt;br /&gt;L&amp;rsquo;ENS est compos&amp;eacute; de nombreuses zones humides qui abritent une faune et une flore tr&amp;egrave;s sp&amp;eacute;cifiques.&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;La roseli&amp;egrave;re : ensemble de plantes situ&amp;eacute;es au bord des cours d&amp;rsquo;eau et des &amp;eacute;tangs. Elle constitue une &amp;laquo; station d&amp;rsquo;&amp;eacute;puration naturelle &amp;raquo; tr&amp;egrave;s pr&amp;eacute;cieuse pour la qualit&amp;eacute; de l&amp;rsquo;eau mais aussi un habitat naturel pour de nombreuses esp&amp;egrave;ces.&lt;/li&gt;
-&lt;li&gt;Bocages et prairies humides : espaces o&amp;ugrave; les champs et les pr&amp;eacute;s sont enclos par des lev&amp;eacute;es de terre portant des haies ou des arbres. Le marais de Brain-sur-l&amp;rsquo;Authion est l&amp;rsquo;une des derni&amp;egrave;res zones de la vall&amp;eacute;e de l&amp;rsquo;Authion &amp;agrave; avoir conserv&amp;eacute; son bocage.&lt;/li&gt;
-&lt;li&gt;Mares&lt;/li&gt;
-&lt;li&gt;Fr&amp;ecirc;nes t&amp;eacute;tard : arbres embl&amp;eacute;matiques des bords de Loire, aujourd&amp;rsquo;hui menac&amp;eacute;s.&lt;/li&gt;
-&lt;/ul&gt;
-Avec ses mares, bocages, prairies humides, sa faune et sa flore remarquables, l&amp;rsquo;ENS pr&amp;eacute;sente un int&amp;eacute;r&amp;ecirc;t &amp;eacute;cologique certain. R&amp;eacute;gulateur de la qualit&amp;eacute; de l&amp;rsquo;eau, capteur de carbone, habitat pour de nombreuses esp&amp;egrave;ces menac&amp;eacute;es, &amp;icirc;lot de fra&amp;icirc;cheur&amp;hellip; il est un outil incontournable pour pr&amp;eacute;server la biodiversit&amp;eacute; &amp;agrave; Loire-Authion. Il reste cependant fragile, c&amp;rsquo;est pourquoi, la commune a renouvel&amp;eacute; le plan de gestion de l&amp;rsquo;ENS en 2024.&lt;br /&gt;&lt;br /&gt;&amp;nbsp;</desc>
-  </wpt>
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Moulin de la Bougette
+EN: Heritage & history: Moulin de la Bougette
+FR: Patrimoine et histoire: Moulin de la Bougette
+]]></name>
+  <desc><![CDATA[
+NL:
+Het betreft een windmolen van het type “torenmolen”. De molen, gelegen op de plaats genaamd “la Bougette”, nabij Loire-Authion, bestaat uit een stenen toren.
+
+EN:
+This is a tower-type windmill. Located at a place known as “la Bougette”, near Loire-Authion, the mill consists of a stone tower.
+
+FR:
+Le Moulin de la Bougette est un moulin à vent de type « tour ». Situé au lieu-dit « la Bougette », à proximité de Loire-Authion, il se compose d’une tour en pierre.
+]]></desc>
+</wpt>
+
+<wpt lat="47.46311827806129" lon="-0.35245299339294367">
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Panorama & uitzichtspunt: Stenen brug van Corné
+EN: Panoramas & viewpoints: Stone bridge of Corné
+FR: Panoramas et point de vue: Pont en pierre de Corné
+]]></name>
+  <desc><![CDATA[
+NL:
+
+EN:
+
+FR:
+]]></desc>
+</wpt>
+
+<wpt lat="47.4480000464997" lon="-0.40512084960937467">
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Fauna: Gevoelig Natuurgebied Andard – Brain
+EN: Fauna: Sensitive Natural Area Andard – Brain
+FR: Faune: Espace Naturel Sensible Andard – Brain
+]]></name>
+  <desc><![CDATA[
+NL:
+Het concept van een Gevoelig Natuurgebied (ENS) werd in Frankrijk in 1976 ingevoerd om gebieden aan te duiden waarvan het natuurlijke karakter bedreigd en kwetsbaar is. Dit gebied bestaat uit talrijke wetlands die een zeer specifieke fauna en flora herbergen.
+Men vindt er onder meer rietvelden langs waterlopen en vijvers, die fungeren als natuurlijke waterzuivering en leefgebied voor vele soorten. Daarnaast zijn er bocages en natte graslanden, waar akkers en weiden omzoomd zijn door hagen en bomen. Het moeras van Brain-sur-l’Authion behoort tot de laatste zones in de Authionvallei waar dit landschap behouden bleef. Ook poelen en geknotte essen, emblematisch maar vandaag bedreigd, maken deel uit van het gebied.
+Door deze combinatie van waterpartijen, bocages, natte graslanden en opmerkelijke fauna en flora heeft het gebied een grote ecologische waarde. Het speelt een rol in waterkwaliteit, koolstofopslag en biodiversiteitsbehoud. Omdat het gebied kwetsbaar blijft, werd het beheerplan in 2024 vernieuwd.
+
+EN:
+The concept of a Sensitive Natural Area (ENS) was introduced in France in 1976 to designate areas whose natural character is threatened and vulnerable. This site includes numerous wetlands that host highly specific fauna and flora.
+It features reed beds along waterways and ponds, which act as natural water filters and provide habitats for many species. Hedgerow landscapes and wet meadows are also present, where fields and pastures are enclosed by embankments with hedges or trees. The marsh of Brain-sur-l’Authion is one of the last areas in the Authion valley to have preserved this bocage landscape. Ponds and pollarded ash trees, emblematic yet now threatened, are also part of the site.
+With its wetlands, hedgerows, wet meadows and remarkable biodiversity, the area has significant ecological value. It contributes to water quality regulation, carbon capture and the protection of threatened species. Due to its fragility, the management plan was renewed in 2024.
+
+FR:
+La notion d’Espace Naturel Sensible (ENS) a été instituée en France en 1976 pour désigner des espaces dont le caractère naturel est menacé et vulnérable. L’ENS comprend de nombreuses zones humides abritant une faune et une flore très spécifiques.
+On y trouve notamment des roselières en bord de cours d’eau et d’étangs, véritables stations d’épuration naturelles et habitats pour de nombreuses espèces. Les bocages et prairies humides, où champs et prés sont délimités par des levées de terre plantées de haies ou d’arbres, font également partie du site. Le marais de Brain-sur-l’Authion est l’une des dernières zones de la vallée de l’Authion à avoir conservé son bocage. Mares et frênes têtards, arbres emblématiques mais aujourd’hui menacés, complètent cet ensemble.
+Avec ses zones humides, bocages, prairies humides, sa faune et sa flore remarquables, l’ENS présente un intérêt écologique majeur. Régulateur de la qualité de l’eau, capteur de carbone et habitat pour de nombreuses espèces menacées, il constitue un outil essentiel pour préserver la biodiversité à Loire-Authion. Sa fragilité a conduit au renouvellement de son plan de gestion en 2024.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Autour des marais et des canaux - Brain - sur -L'Authion</name>
     <desc>&lt;ol&gt;

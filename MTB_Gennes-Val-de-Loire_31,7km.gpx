@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.32980031780859" lon="-0.2007954916979187">
-    <ele>30.0</ele>
-    <name>Patrimoine et histoire: Prieurale Notre-Dame de Cunault</name>
-    <desc>La prieurale de Cunault est un chef-d'œuvre de l'art roman. Bâtie entre le XIe et le XIIIe siècles, l'église Notre-Dame de Cunault dévoile un intérieur de grandes dimensions et possède un long déambulatoire lumineux.</desc>
-  </wpt>
+<wpt lat="47.32980031780859" lon="-0.2007954916979187">
+  <ele>30.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Priorij Notre-Dame de Cunault
+EN: Heritage & history: Priory Church of Notre-Dame de Cunault
+FR: Patrimoine et histoire: Prieurale Notre-Dame de Cunault
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit bouwwerk geldt als een meesterwerk van de romaanse kunst. Het werd opgetrokken tussen de 11e en de 13e eeuw en verrast met een indrukwekkend ruim interieur en een lange, licht doorstroomde omgang.
+
+EN:
+This building is considered a masterpiece of Romanesque art. Constructed between the 11th and 13th centuries, it reveals a spacious interior and features a long, light-filled ambulatory.
+
+FR:
+Chef-d’œuvre de l’art roman, l’édifice fut construit entre le XIe et le XIIIe siècles. Il dévoile un vaste intérieur ainsi qu’un long déambulatoire baigné de lumière.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit VTT Gennes-Chênehutte</name>
     <desc>Modifié: 15 semaines</desc>

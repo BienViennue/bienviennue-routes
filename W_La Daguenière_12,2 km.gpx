@@ -1,30 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.41722784607309" lon="-0.43766811490058816">
-    <ele>20.0</ele>
-    <name>Panoramas et point de vue: Le Port Maillard</name>
-    <desc>A ce niveau de la Loire (km 871 &amp;agrave; partir du Mont Gerbier de Jonc), aux 18&amp;egrave;me et 19&amp;egrave;me si&amp;egrave;cles, de v&amp;eacute;ritables&amp;nbsp;&lt;br /&gt;convois de bateaux formaient d&amp;rsquo;&amp;eacute;normes embouteillages.&amp;nbsp;&lt;br /&gt;Ce port r&amp;eacute;nov&amp;eacute; en 1906 pour rester praticable &amp;agrave; la navigation, puis en 2001 pour retrouver son apparence&amp;nbsp;&lt;br /&gt;originelle accueille aujourd&amp;rsquo;hui de nombreux touristes et lig&amp;eacute;riens&lt;br /&gt;&lt;br /&gt;Retrouvez un panneau d'interpr&amp;eacute;tation sur ce lieu !&lt;br /&gt;&lt;br /&gt;Point de vue sur la Loire.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Aire de stationnement pour Camping-car.&amp;nbsp;&lt;br /&gt;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.41792477423067" lon="-0.4413414001464846">
-    <ele>19.0</ele>
-    <name>Flore: Frênes têtards</name>
-    <desc>Avec leurs troncs &amp;eacute;pais et leurs belles ramures, les Fr&amp;ecirc;nes habillent le bocage angevin et la vall&amp;eacute;e lig&amp;eacute;rienne. Bien souvent, on ne les remarque que lorsqu&amp;rsquo;ils sont &amp;eacute;lagu&amp;eacute;s en &amp;laquo; arbres t&amp;ecirc;tards &amp;raquo;.</desc>
-  </wpt>
-  <wpt lat="47.418273234850204" lon="-0.4453680664300929">
-    <ele>19.0</ele>
-    <name>Patrimoine et histoire: Le Grand Port</name>
-    <desc>Au milieu du 19&amp;egrave;me si&amp;egrave;cle, les bateliers y chargeaient les ardoises en provenance de Tr&amp;eacute;laz&amp;eacute; &amp;agrave; 5 km de l&amp;agrave; par le pont de Sorges. &amp;nbsp;En cas de mauvais temps et lorsque la Loire &amp;eacute;tait dangereuse, les bateliers empruntaient la cassure pour s&amp;rsquo;y abriter. &lt;br /&gt;Aujourd&amp;rsquo;hui cette cassure est une boire ass&amp;eacute;ch&amp;eacute;e, coup&amp;eacute;e en 1976 par la lev&amp;eacute;e de contournement du village.</desc>
-  </wpt>
-  <wpt lat="47.430830796966035" lon="-0.4707310348749159">
-    <ele>21.0</ele>
-    <name>Panoramas et point de vue: Vue sur l'ancien pont-barrage de Sorges</name>
-    <desc>Le pont de Sorges est &amp;eacute;difi&amp;eacute; en 1730.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Construit pour arr&amp;ecirc;ter les d&amp;eacute;bordements de la Loire et emp&amp;ecirc;cher l'eau de remonter dans la vall&amp;eacute;e, le pont fait 42m de long et est divis&amp;eacute; en sept arches.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Cependant, il ne sera pas suffisant pendant l'inondation de 1856.&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.441005305878456" lon="-0.4561901092529283">
-    <ele>17.0</ele>
-    <name>Flore: Bac à chaîne de la Chevalerie</name>
-    <desc>Ce bac sur l'Authion est accessible de fin mars &amp;agrave; novembre et relie l'itin&amp;eacute;raire de la Loire &amp;agrave; v&amp;eacute;lo au site exceptionnel des Ardoisi&amp;egrave;res de Tr&amp;eacute;laz&amp;eacute; avec sa nature insolite et ses vieux fonds transform&amp;eacute;s en puits.</desc>
-  </wpt>
+  <ele>20.0</ele>
+  <name><![CDATA[
+NL: Panorama’s en uitzichtpunt: Le Port Maillard
+EN: Panoramas and viewpoints: Le Port Maillard
+FR: Panoramas et point de vue: Le Port Maillard
+]]></name>
+  <desc><![CDATA[
+NL:
+Op dit punt van de Loire (kilometer 871 vanaf de Mont Gerbier de Jonc) zorgden in de 18e en 19e eeuw ware konvooien van boten voor enorme opstoppingen op de rivier.
+De haven werd in 1906 gerenoveerd om bevaarbaar te blijven en in 2001 opnieuw ingericht om haar oorspronkelijke uitzicht te herstellen. Vandaag ontvangt de site talrijke bezoekers en bewoners van de Loirestreek.
+Ter plaatse vind je een interpretatiepaneel.
+Uitzichtpunt over de Loire.
+Parkeerplaats voor campers.
+
+EN:
+At this point of the Loire (kilometre 871 from Mont Gerbier de Jonc), real boat convoys created massive traffic jams on the river during the 18th and 19th centuries.
+The port was renovated in 1906 to remain navigable and restored again in 2001 to recover its original appearance. Today it welcomes many visitors and locals from the Loire region.
+An interpretation panel can be found on site.
+Viewpoint over the Loire.
+Parking area for motorhomes.
+
+FR:
+À ce niveau de la Loire (kilomètre 871 à partir du mont Gerbier de Jonc), aux XVIIIe et XIXe siècles, de véritables convois de bateaux provoquaient d’énormes embouteillages.
+Ce port, rénové en 1906 pour rester praticable à la navigation puis en 2001 pour retrouver son apparence originelle, accueille aujourd’hui de nombreux touristes et Ligériens.
+Un panneau d’interprétation est présent sur le site.
+Point de vue sur la Loire.
+Aire de stationnement pour camping-cars.
+]]></desc>
+</wpt>
+
+<wpt lat="47.41792477423067" lon="-0.4413414001464846">
+  <ele>19.0</ele>
+  <name><![CDATA[
+NL: Flora: Kandelabervormige essen
+EN: Flora: Pollarded ash trees
+FR: Flore: Frênes têtards
+]]></name>
+  <desc><![CDATA[
+NL:
+Met hun dikke stammen en fraaie kruinen bepalen deze essen het landschap van het Angevijnse bocage en de Loirevallei. Vaak vallen ze pas echt op wanneer ze gesnoeid zijn tot zogenoemde knot- of kandelabervormige bomen.
+
+EN:
+With their thick trunks and graceful crowns, these ash trees shape the landscape of the Anjou bocage and the Loire Valley. They are often only truly noticed when pruned into so-called pollarded trees.
+
+FR:
+Avec leurs troncs épais et leurs belles ramures, les frênes structurent le bocage angevin et la vallée ligérienne. Bien souvent, on ne les remarque vraiment que lorsqu’ils sont taillés en « arbres têtards ».
+]]></desc>
+</wpt>
+
+<wpt lat="47.418273234850204" lon="-0.4453680664300929">
+  <ele>19.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Le Grand Port
+EN: Heritage & history: Le Grand Port
+FR: Patrimoine et histoire: Le Grand Port
+]]></name>
+  <desc><![CDATA[
+NL:
+In het midden van de 19e eeuw laadden schippers hier leisteen afkomstig uit Trélazé, vijf kilometer verderop via de brug van Sorges. Bij slecht weer en wanneer de Loire gevaarlijk was, zochten de schippers beschutting in deze doorbraak.
+Vandaag is deze doorbraak een drooggevallen nevengeul, die in 1976 werd doorsneden door de omleidingsdijk rond het dorp.
+
+EN:
+In the mid-19th century, boatmen loaded slate here from Trélazé, located five kilometres away via the Sorges bridge. In bad weather and when the Loire became dangerous, they used the breach as a sheltered refuge.
+Today, this former channel is a dried-up side arm, cut off in 1976 by the bypass embankment around the village.
+
+FR:
+Au milieu du XIXe siècle, les bateliers y chargeaient les ardoises en provenance de Trélazé, à cinq kilomètres de là par le pont de Sorges. En cas de mauvais temps et lorsque la Loire devenait dangereuse, ils empruntaient cette cassure pour s’y abriter.
+Aujourd’hui, cette cassure est une boire asséchée, coupée en 1976 par la levée de contournement du village.
+]]></desc>
+</wpt>
+
+<wpt lat="47.430830796966035" lon="-0.4707310348749159">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Panorama’s en uitzichtpunt: Zicht op de oude brug-dam van Sorges
+EN: Panoramas and viewpoints: View of the former Sorges bridge-dam
+FR: Panoramas et point de vue: Vue sur l'ancien pont-barrage de Sorges
+]]></name>
+  <desc><![CDATA[
+NL:
+De brug van Sorges werd gebouwd in 1730. Ze was bedoeld om overstromingen van de Loire tegen te houden en te voorkomen dat het water terug de vallei instroomde. De constructie is 42 meter lang en bestaat uit zeven bogen.
+Tijdens de grote overstroming van 1856 bleek de bescherming echter onvoldoende.
+
+EN:
+The Sorges bridge was built in 1730. It was designed to stop Loire flooding and prevent water from flowing back into the valley. The structure is 42 metres long and consists of seven arches.
+However, it proved insufficient during the major flood of 1856.
+
+FR:
+Le pont de Sorges fut édifié en 1730. Construit pour arrêter les débordements de la Loire et empêcher l’eau de remonter dans la vallée, il mesure 42 mètres de long et se compose de sept arches.
+Cependant, il se révéla insuffisant lors de l’inondation de 1856.
+]]></desc>
+</wpt>
+
+<wpt lat="47.441005305878456" lon="-0.4561901092529283">
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Flora: Kettingveerpont van La Chevalerie
+EN: Flora: Chain ferry of La Chevalerie
+FR: Flore: Bac à chaîne de la Chevalerie
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit veerpontje over de Authion is toegankelijk van eind maart tot november. Het verbindt de Loire à Vélo-route met het uitzonderlijke gebied van de leisteengroeven van Trélazé, gekenmerkt door een bijzondere natuur en oude schachten die zijn omgevormd tot waterputten.
+
+EN:
+This ferry across the Authion is accessible from late March to November. It links the Loire à Vélo route with the exceptional slate quarry area of Trélazé, known for its unusual natural environment and former quarry pits converted into wells.
+
+FR:
+Ce bac sur l’Authion est accessible de fin mars à novembre et relie l’itinéraire de la Loire à Vélo au site exceptionnel des ardoisières de Trélazé, avec sa nature insolite et ses anciens fonds transformés en puits.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Loire Ardoise Authion - La Daguenière</name>
     <desc>&lt;ol&gt;

@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.171919211504516" lon="-0.05856556006758036">
-    <ele>61.0</ele>
-    <name>Patrimoine et histoire: Église Saint-Vincent de Brézé</name>
-    <desc>Découvrez l'église Saint-Vincent de Brézé à Bellevigne-les-Châteaux. Édifiée à la fin du XIXème siècle en tuffeau local, en lieu et place d'une ancienne chapelle dédiée à la Vierge Marie, l'église Saint Vincent fut consacrée en 1904.</desc>
-  </wpt>
-  <wpt lat="47.172131097550945" lon="-0.05862781776248399">
-    <ele>60.0</ele>
-    <name>Patrimoine et histoire: Château de Brézé</name>
-    <desc>Classé "Grand site du Val de Loire", Brézé est un château insolite en France. Attesté depuis 1063, il a la particularité d'avoir une immense forteresse souterraine.</desc>
-  </wpt>
+  <ele>61.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Vincentiuskerk van Brézé
+EN: Heritage & history: Saint-Vincent Church of Brézé
+FR: Patrimoine et histoire: Église Saint-Vincent de Brézé
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd aan het einde van de 19e eeuw in lokale tufsteen, op de plaats van een vroegere kapel die aan Maria was gewijd. Het gebouw werd ingewijd in 1904 en maakt deel uit van het dorpsweefsel van Bellevigne-les-Châteaux.
+
+EN:
+Built at the end of the 19th century using local tuffeau stone, on the site of a former chapel dedicated to the Virgin Mary. The building was consecrated in 1904 and forms part of the village landscape of Bellevigne-les-Châteaux.
+
+FR:
+Édifiée à la fin du XIXe siècle en tuffeau local, à l’emplacement d’une ancienne chapelle dédiée à la Vierge Marie. L’édifice fut consacré en 1904 et s’inscrit dans le paysage de Bellevigne-les-Châteaux.
+]]></desc>
+</wpt>
+
+<wpt lat="47.172131097550945" lon="-0.05862781776248399">
+  <ele>60.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Brézé
+EN: Heritage & history: Château de Brézé
+FR: Patrimoine et histoire: Château de Brézé
+]]></name>
+  <desc><![CDATA[
+NL:
+Erkend als “Grand Site du Val de Loire” en bekend als een van de meest uitzonderlijke kastelen van Frankrijk. Het domein is gedocumenteerd sinds 1063 en onderscheidt zich door een uitgestrekt ondergronds verdedigingssysteem.
+
+EN:
+Recognised as a “Grand Site du Val de Loire” and known as one of the most unusual castles in France. Documented since 1063, it is distinguished by an extensive underground defensive system.
+
+FR:
+Classé « Grand Site du Val de Loire » et considéré comme l’un des châteaux les plus insolites de France. Attesté depuis 1063, il se distingue par un vaste système de fortifications souterraines.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit patrimoine - Dans les vignes du marquis</name>
     <desc>Depuis le parking face &amp;agrave; l&amp;rsquo;aire de pique-nique, se rendre &amp;agrave; la station de d&amp;eacute;part de l&amp;rsquo;autre c&amp;ocirc;t&amp;eacute; de la route.&lt;br /&gt;Suivre ensuite les fl&amp;egrave;ches jaunes sur des poteaux en bois pour aller de station en station.&lt;br /&gt;&lt;br /&gt;

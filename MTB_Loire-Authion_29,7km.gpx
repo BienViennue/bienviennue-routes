@@ -1,30 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.441005305878456" lon="-0.4561901092529283">
-    <ele>17.0</ele>
-    <name>Flore: Bac à chaîne de la Chevalerie</name>
-    <desc>Ce bac sur l'Authion est accessible de fin mars &amp;agrave; novembre et relie l'itin&amp;eacute;raire de la Loire &amp;agrave; v&amp;eacute;lo au site exceptionnel des Ardoisi&amp;egrave;res de Tr&amp;eacute;laz&amp;eacute; avec sa nature insolite et ses vieux fonds transform&amp;eacute;s en puits.</desc>
-  </wpt>
-  <wpt lat="47.430830796966035" lon="-0.4707310348749159">
-    <ele>21.0</ele>
-    <name>Panoramas et point de vue: Vue sur l'ancien pont-barrage de Sorges</name>
-    <desc>Le pont de Sorges est &amp;eacute;difi&amp;eacute; en 1730.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Construit pour arr&amp;ecirc;ter les d&amp;eacute;bordements de la Loire et emp&amp;ecirc;cher l'eau de remonter dans la vall&amp;eacute;e, le pont fait 42m de long et est divis&amp;eacute; en sept arches.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Cependant, il ne sera pas suffisant pendant l'inondation de 1856.&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.43810265084398" lon="-0.3326510496845001">
-    <ele>21.0</ele>
-    <name>Patrimoine et histoire: Moulin de la Bougette</name>
-    <desc>Le Moulin Bougette est un moulin &amp;agrave; vent de type "tour".&lt;br /&gt;Le moulin-tour au lieu dit "la Bougette", proche de loire-Authion, est constitu&amp;eacute; d'une tour faite en pierre.&amp;nbsp;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.45737328176322" lon="-0.39713859558105424">
-    <ele>25.0</ele>
-    <name>Patrimoine et histoire: Église Saint - Symphorien - Andard</name>
-    <desc>Construite aux XIe et XIIe, elle f&amp;ucirc;t sans doute l&amp;rsquo;une des premi&amp;egrave;res fond&amp;eacute;es en Anjou.&lt;br /&gt;&lt;br /&gt;&amp;Agrave; ne pas manquer :&lt;br /&gt;&lt;br /&gt;
-&lt;ul&gt;
-&lt;li&gt;sa chaire venant de la Cath&amp;eacute;drale d&amp;rsquo;Angers,&lt;/li&gt;
-&lt;li&gt;ses vitraux class&amp;eacute;s aux Monuments Historiques&lt;/li&gt;
-&lt;li&gt;ses fresques repr&amp;eacute;sentant le Chemin de Croix, &amp;oelig;uvre d&amp;rsquo;Abel Pineau, peintes sur les murs int&amp;eacute;rieurs.&lt;/li&gt;
-&lt;/ul&gt;</desc>
-  </wpt>
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Flora: Kettingveerpont van La Chevalerie
+EN: Flora: Chain ferry of La Chevalerie
+FR: Flore: Bac à chaîne de la Chevalerie
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit veerpontje over de Authion is toegankelijk van eind maart tot november. Het vormt een verbinding tussen de Loire à Vélo-route en het uitzonderlijke gebied van de leisteengroeven van Trélazé, gekenmerkt door een bijzondere natuur en oude schachten die zijn omgevormd tot waterputten.
+
+EN:
+This ferry across the Authion operates from late March to November. It links the Loire à Vélo route with the exceptional slate quarry area of Trélazé, known for its unusual natural landscape and former quarry pits converted into wells.
+
+FR:
+Ce bac sur l’Authion est accessible de fin mars à novembre et relie l’itinéraire de la Loire à Vélo au site exceptionnel des ardoisières de Trélazé, avec sa nature insolite et ses anciens fonds transformés en puits.
+]]></desc>
+</wpt>
+
+<wpt lat="47.430830796966035" lon="-0.4707310348749159">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Panorama’s en uitzichtpunt: Zicht op de oude brug-dam van Sorges
+EN: Panoramas and viewpoints: View of the former Sorges bridge-dam
+FR: Panoramas et point de vue: Vue sur l'ancien pont-barrage de Sorges
+]]></name>
+  <desc><![CDATA[
+NL:
+De brug werd gebouwd in 1730 om overstromingen van de Loire tegen te houden en te verhinderen dat het water terug de vallei instroomde. De constructie is 42 meter lang en bestaat uit zeven bogen. Tijdens de grote overstroming van 1856 bleek deze oplossing echter onvoldoende.
+
+EN:
+Built in 1730, the structure was designed to stop Loire flooding and prevent water from flowing back into the valley. It is 42 metres long and divided into seven arches. However, it proved insufficient during the major flood of 1856.
+
+FR:
+Édifié en 1730, l’ouvrage avait pour but d’arrêter les débordements de la Loire et d’empêcher l’eau de remonter dans la vallée. Long de 42 mètres, il est divisé en sept arches. Il se révéla toutefois insuffisant lors de l’inondation de 1856.
+]]></desc>
+</wpt>
+
+<wpt lat="47.43810265084398" lon="-0.3326510496845001">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Moulin de la Bougette
+EN: Heritage & history: Moulin de la Bougette
+FR: Patrimoine et histoire: Moulin de la Bougette
+]]></name>
+  <desc><![CDATA[
+NL:
+Deze windmolen is een zogenoemde torenmolen. Hij bestaat uit een stenen ronde toren en ligt in de omgeving van Loire-Authion, waar hij deel uitmaakt van het landelijke landschap.
+
+EN:
+This is a tower-type windmill, built around a stone tower. It is located near Loire-Authion and forms part of the surrounding rural landscape.
+
+FR:
+Il s’agit d’un moulin à vent de type « tour », composé d’une tour construite en pierre. Il est situé au lieu-dit « la Bougette », à proximité de Loire-Authion.
+]]></desc>
+</wpt>
+
+<wpt lat="47.45737328176322" lon="-0.39713859558105424">
+  <ele>25.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Symphorianuskerk – Andard
+EN: Heritage & history: Saint-Symphorien Church – Andard
+FR: Patrimoine et histoire: Église Saint-Symphorien – Andard
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd in de 11e en 12e eeuw en vermoedelijk een van de oudste kerken van Anjou.
+Niet te missen:
+– de preekstoel afkomstig uit de kathedraal van Angers  
+– de glas-in-loodramen die als historisch monument zijn beschermd  
+– de muurschilderingen van de kruisweg, geschilderd door Abel Pineau op de binnenmuren  
+
+EN:
+Built in the 11th and 12th centuries, it is considered one of the earliest churches founded in Anjou.
+Highlights include:
+– the pulpit originating from Angers Cathedral  
+– stained-glass windows listed as Historic Monuments  
+– wall frescoes depicting the Stations of the Cross, painted by Abel Pineau  
+
+FR:
+Construite aux XIe et XIIe siècles, elle fut sans doute l’une des premières fondées en Anjou.
+À ne pas manquer :
+– la chaire provenant de la cathédrale d’Angers  
+– les vitraux classés Monuments Historiques  
+– les fresques du Chemin de Croix, œuvre d’Abel Pineau, peintes sur les murs intérieurs  
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] circuit VTT - N°2</name>
     <desc>Modifié: 31 semaines</desc>

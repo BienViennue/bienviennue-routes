@@ -1,22 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.18170631230979" lon="0.049980282783508044">
-    <ele>80.0</ele>
-    <name>Patrimoine et histoire: Abbaye Royale de Fontevraud</name>
-    <desc>Fondée en 1101 aux confins de l’Anjou, l’Abbaye royale de Fontevraud est la plus grande cité monastique d’Europe au cœur des châteaux de la Loire. 
-Son histoire vous étonnera : abbaye mère d’un ordre mixte dirigé par des femmes pendant 7 siècles, prison centrale redoutable de 1804 à 1963, centre de création artistique aujourd’hui, mais aussi hôtel et restaurant.
-Venez parcourir les chemins de Fontevraud et choisissez votre guide selon vos envies: le jeu de piste des boZZons sur iPad en famille, la visite guidée en solo ou en groupe, les visites insolites avec brunch en couple…</desc>
-  </wpt>
-  <wpt lat="47.18176377534651" lon="0.05002101957497347">
-    <ele>79.0</ele>
-    <name>Patrimoine et histoire: Fontevraud, le musée d'Art moderne</name>
-    <desc>Grâce à la donation exceptionnelle de martine et Léon Cligman, le musée d’Art moderne de Fontevraud a ouvert ses portes le 19 mai 2021. cette collection riche et originale, visible en ligne, est constituée de peintures, de dessins, de sculptures, de verreries ainsi que d’objets antiques.</desc>
-  </wpt>
-  <wpt lat="47.18190562561262" lon="0.05013386264393294">
-    <ele>79.0</ele>
-    <name>Patrimoine et histoire: Abbaye Royale de Fontevraud</name>
-    <desc>Au cœur du Val de Loire, inscrit au patrimoine mondial de l’UNESCO, Fontevraud est l’une des plus grandes cités monastiques héritées du Moyen-Âge.</desc>
-  </wpt>
+  <ele>80.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Koninklijke Abdij van Fontevraud
+EN: Heritage & history: Royal Abbey of Fontevraud
+FR: Patrimoine et histoire: Abbaye Royale de Fontevraud
+]]></name>
+  <desc><![CDATA[
+NL:
+Gesticht in 1101 aan de grenzen van Anjou vormt dit complex de grootste monastieke stad van Europa, gelegen in het hart van het Loirekastelengebied.
+De geschiedenis is uitzonderlijk: zeven eeuwen lang was het de moederabdij van een gemengde orde onder leiding van vrouwen, daarna een beruchte centrale gevangenis van 1804 tot 1963 en vandaag een centrum voor artistieke creatie, met ook een hotel en restaurant.
+Bezoekers kunnen het domein ontdekken via uiteenlopende formules, van gezinsactiviteiten met spelelementen tot begeleide bezoeken, thematische rondleidingen of bijzondere belevingen met brunch.
+
+EN:
+Founded in 1101 on the borders of Anjou, this site forms the largest monastic city in Europe, located in the heart of the Loire castles region.
+Its history is remarkable: for seven centuries it was the mother abbey of a mixed order led by women, then a feared central prison from 1804 to 1963, and today a centre for artistic creation, also housing a hotel and restaurant.
+Visitors can explore the estate through various experiences, ranging from family treasure hunts to guided tours, themed visits or more unusual experiences combined with brunch.
+
+FR:
+Fondée en 1101 aux confins de l’Anjou, cette cité constitue la plus grande ville monastique d’Europe, au cœur du Val des châteaux de la Loire.
+Son histoire est exceptionnelle : abbaye mère d’un ordre mixte dirigé par des femmes durant sept siècles, prison centrale redoutée de 1804 à 1963, puis centre de création artistique aujourd’hui, avec hôtel et restaurant.
+Le site se découvre à travers de nombreuses formules, du jeu de piste en famille aux visites guidées, en passant par des parcours insolites ou des expériences associées à un brunch.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18176377534651" lon="0.05002101957497347">
+  <ele>79.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Fontevraud – museum voor moderne kunst
+EN: Heritage & history: Fontevraud – Museum of Modern Art
+FR: Patrimoine et histoire: Fontevraud, le musée d’Art moderne
+]]></name>
+  <desc><![CDATA[
+NL:
+Dankzij de uitzonderlijke schenking van Martine en Léon Cligman opende dit museum op 19 mei 2021 zijn deuren.
+De rijke en originele collectie, ook online te bekijken, omvat schilderijen, tekeningen, beeldhouwwerken, glaswerk en antieke objecten.
+
+EN:
+Thanks to the exceptional donation by Martine and Léon Cligman, this museum opened its doors on 19 May 2021.
+The rich and original collection, also accessible online, includes paintings, drawings, sculptures, glassware and antique objects.
+
+FR:
+Grâce à la donation exceptionnelle de Martine et Léon Cligman, ce musée a ouvert ses portes le 19 mai 2021.
+La collection, riche et originale, visible également en ligne, se compose de peintures, de dessins, de sculptures, de verreries et d’objets antiques.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18190562561262" lon="0.05013386264393294">
+  <ele>79.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Koninklijke Abdij van Fontevraud
+EN: Heritage & history: Royal Abbey of Fontevraud
+FR: Patrimoine et histoire: Abbaye Royale de Fontevraud
+]]></name>
+  <desc><![CDATA[
+NL:
+Gelegen in het hart van de Loirevallei, die op de UNESCO-werelderfgoedlijst staat, behoort dit complex tot de grootste monastieke steden die uit de middeleeuwen zijn overgeleverd.
+
+EN:
+Located in the heart of the Loire Valley, listed as a UNESCO World Heritage Site, this complex is one of the largest monastic cities inherited from the Middle Ages.
+
+FR:
+Située au cœur du Val de Loire, inscrit au patrimoine mondial de l’UNESCO, cette cité figure parmi les plus grandes villes monastiques héritées du Moyen Âge.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Circuit de randonnée : Forêt et architecture</name>
     <desc>&lt;p&gt;Empruntez l'All&amp;eacute;e Sainte-Catherine. Au bout du chemin, contournez l'&amp;eacute;glise Saint-Michel par la gauche et continuez jusqu'&amp;agrave; la place Plantagen&amp;ecirc;t, face &amp;agrave; l'entr&amp;eacute;e de l'abbaye.&lt;/p&gt;

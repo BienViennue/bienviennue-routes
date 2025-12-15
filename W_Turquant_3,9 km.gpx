@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.225730203988384" lon="0.02238549999267746">
-    <ele>34.0</ele>
-    <name>Patrimoine et histoire: Pommes Tapées</name>
-    <desc>Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparue. Aujourd'hui, seuls à perpétuer cet artisanat, nous vous invitons à découvrir ce mystérieux délice qui a fait l'objet de nombreux reportages TV. Visite d'une heure. Prévoir un vêtement chaud. Découvrez également notre offre visite et repas terroir dans notre restaurant troglodytique.
-Nouveauté : Escape game</desc>
-  </wpt>
+ <wpt lat="47.225730203988384" lon="0.02238549999267746">
+  <ele>34.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Pommes Tapées
+EN: Heritage & history: Pommes Tapées
+FR: Patrimoine et histoire: Pommes Tapées
+]]></name>
+  <desc><![CDATA[
+NL:
+Deze indrukwekkende grot was in de vorige eeuw een belangrijk centrum voor de productie van de beroemde “pommes tapées”. Wat in de 19e eeuw een echte industrie was, verdween volledig. Vandaag wordt dit bijzondere ambacht opnieuw in ere gehouden en nodigt men je uit om dit mysterieuze streekproduct te ontdekken, dat het onderwerp was van talrijke tv-reportages. Bezoek van één uur. Warme kledij aanbevolen. Mogelijkheid tot combinatie met een bezoek en streekmaaltijd in het troglodytische restaurant.
+Nieuw: escape game.
+
+EN:
+This impressive cave was once a major centre for the production of the famous “pommes tapées”. A true industry in the 19th century, this activity later disappeared entirely. Today, this unique craft is being revived and visitors are invited to discover this mysterious local delicacy, featured in numerous TV reports. One-hour visit. Warm clothing recommended. Option to combine the visit with a local meal in the troglodyte restaurant.
+New: escape game.
+
+FR:
+Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparu. Aujourd’hui, seuls à perpétuer cet artisanat, nous vous invitons à découvrir ce mystérieux délice qui a fait l’objet de nombreux reportages TV. Visite d’une heure. Prévoir un vêtement chaud. Possibilité de visite et repas terroir dans le restaurant troglodytique.
+Nouveauté : Escape game.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Sentier de découverte - Turquant, un tendre cœur de pierre</name>
     <desc>Place de l&amp;rsquo;&amp;eacute;glise, se rendre &amp;agrave; la station de d&amp;eacute;part.&lt;br /&gt;&lt;br /&gt;Suivre ensuite les mains rouges sur des poteaux en bois ou en mosa&amp;iuml;que, pour aller de station en station.&lt;br /&gt;&lt;br /&gt;

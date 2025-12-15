@@ -1,84 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.25322421355415" lon="-0.06297098990597401">
-    <ele>30.0</ele>
-    <name>Patrimoine et histoire: Chapelle Notre-Dame des Ardilliers</name>
-    <desc>L'un des principaux lieux de pèlerinage à la Vierge au XVIe et XVIIe siècles.</desc>
-  </wpt>
-  <wpt lat="47.225730203988384" lon="0.02238549999267746">
-    <ele>34.0</ele>
-    <name>Patrimoine et histoire: Pommes Tapées</name>
-    <desc>Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparue. Aujourd'hui, seuls à perpétuer cet artisanat, nous vous invitons à découvrir ce mystérieux délice qui a fait l'objet de nombreux reportages TV. Visite d'une heure. Prévoir un vêtement chaud. Découvrez également notre offre visite et repas terroir dans notre restaurant troglodytique.
-Nouveauté : Escape game</desc>
-  </wpt>
-  <wpt lat="47.22108729948532" lon="0.04885519894524014">
-    <ele>31.0</ele>
-    <name>Patrimoine et histoire: Le Saut aux Loups</name>
-    <desc>A Montsoreau, entre Saumur et Chinon, dans le Val de Loire, le Saut aux Loups est un site troglo à flanc de coteau dominant la Loire. Occupé depuis la nuit des temps par l’homme, les loups aussi y élurent domicile. A la fin du XIX siècle, l’exploitation du tuffeau ayant cessé, ces vastes galeries ont été converties en cave à champignons ou champignonnière.
-Nous perpétuons cette tradition tout en permettant aux visiteurs de découvrir les différentes étapes de la culture des champignons dans ce site hors du commun.</desc>
-  </wpt>
-  <wpt lat="47.217826104454275" lon="0.053386810550516986">
-    <ele>33.0</ele>
-    <name>Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine</name>
-    <desc>De passage à Montsoreau, faites une halte à la Maison du Parc. Tout vous incite à la détente et à la découverte. Une exposition interactive et sensorielle vous conte la vie de la Loire et de ses habitants au fil des siècles. Chaque année, découvrez de nouvelles expositions temporaires pour percer les secrets de nos patrimoines. Et pas d’ennui possible avec les animations famille, de février à novembre.
-Notre équipe se tient à votre disposition pour vos loisirs ou votre séjour : randonnées, hébergements…
-Accueil et boutique partagés avec l’Office de Tourisme de Saumur Val de Loire.</desc>
-  </wpt>
-  <wpt lat="47.21781436365982" lon="0.05342380418703135">
-    <ele>33.0</ele>
-    <name>Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine</name>
-    <desc>De passage à Montsoreau, faites une halte à la Maison du Parc. Tout vous incite à la détente et à la découverte. Une exposition interactive et sensorielle vous conte la vie de la Loire et de ses habitants au fil des siècles. Chaque année, découvrez de nouvelles expositions temporaires pour percer les secrets de nos patrimoines. Et pas d’ennui possible avec les animations famille, de février à novembre.
-Notre équipe se tient à votre disposition pour vos loisirs ou votre séjour : randonnées, hébergements…
-Accueil et boutique partagés avec l’Office de Tourisme de Saumur Val de Loire.</desc>
-  </wpt>
-  <wpt lat="47.18190562561262" lon="0.05013386264393294">
-    <ele>79.0</ele>
-    <name>Patrimoine et histoire: Abbaye Royale de Fontevraud</name>
-    <desc>Au cœur du Val de Loire, inscrit au patrimoine mondial de l’UNESCO, Fontevraud est l’une des plus grandes cités monastiques héritées du Moyen-Âge.</desc>
-  </wpt>
-  <wpt lat="47.18176377534651" lon="0.05002101957497347">
-    <ele>79.0</ele>
-    <name>Patrimoine et histoire: Fontevraud, le musée d'Art moderne</name>
-    <desc>Grâce à la donation exceptionnelle de martine et Léon Cligman, le musée d’Art moderne de Fontevraud a ouvert ses portes le 19 mai 2021. cette collection riche et originale, visible en ligne, est constituée de peintures, de dessins, de sculptures, de verreries ainsi que d’objets antiques.</desc>
-  </wpt>
-  <wpt lat="47.18170631230979" lon="0.049980282783508044">
-    <ele>80.0</ele>
-    <name>Patrimoine et histoire: Abbaye Royale de Fontevraud</name>
-    <desc>Fondée en 1101 aux confins de l’Anjou, l’Abbaye royale de Fontevraud est la plus grande cité monastique d’Europe au cœur des châteaux de la Loire. 
-Son histoire vous étonnera : abbaye mère d’un ordre mixte dirigé par des femmes pendant 7 siècles, prison centrale redoutable de 1804 à 1963, centre de création artistique aujourd’hui, mais aussi hôtel et restaurant.
-Venez parcourir les chemins de Fontevraud et choisissez votre guide selon vos envies: le jeu de piste des boZZons sur iPad en famille, la visite guidée en solo ou en groupe, les visites insolites avec brunch en couple…</desc>
-  </wpt>
-  <wpt lat="47.171919211504516" lon="-0.05856556006758036">
-    <ele>61.0</ele>
-    <name>Patrimoine et histoire: Église Saint-Vincent de Brézé</name>
-    <desc>Découvrez l'église Saint-Vincent de Brézé à Bellevigne-les-Châteaux. Édifiée à la fin du XIXème siècle en tuffeau local, en lieu et place d'une ancienne chapelle dédiée à la Vierge Marie, l'église Saint Vincent fut consacrée en 1904.</desc>
-  </wpt>
-  <wpt lat="47.172131097550945" lon="-0.05862781776248399">
-    <ele>60.0</ele>
-    <name>Patrimoine et histoire: Château de Brézé</name>
-    <desc>Classé "Grand site du Val de Loire", Brézé est un château insolite en France. Attesté depuis 1063, il a la particularité d'avoir une immense forteresse souterraine.</desc>
-  </wpt>
-  <wpt lat="47.13253693732699" lon="-0.15397051351673557">
-    <ele>57.0</ele>
-    <name>Patrimoine et histoire: Château de Montreuil-Bellay</name>
-    <desc>Château XIème-XVème.
-La puissance du Moyen-Âge alliée à l'élégance de la Renaissance. Monument historique habité par la même famille depuis 200 ans et meublé. Dégustation-vente des vins du château en AOC saumur.</desc>
-  </wpt>
-  <wpt lat="47.132482763186744" lon="-0.15430528730486387">
-    <ele>58.0</ele>
-    <name>Patrimoine et histoire: Château de Montreuil-Bellay</name>
-    <desc>Le Château de Montreuil-Bellay, avec ses 15 tours de défense et ses 600 mètres de remparts, a des allures de forteresse imprenable !</desc>
-  </wpt>
-  <wpt lat="47.2627485932296" lon="-0.07940870611317716">
-    <ele>31.0</ele>
-    <name>Patrimoine et histoire: Eglise Saint-Nicolas</name>
-    <desc>Située dans un ancien quartier de négoce, à proximité du vieux port. Son architecture gothique inspirée de modèles poitevins et son riche mobilier en font l'une des plus originales de la ville.</desc>
-  </wpt>
-  <wpt lat="47.25881208995985" lon="-0.07495933956853904">
-    <ele>32.0</ele>
-    <name>Patrimoine et histoire: Eglise Saint-Pierre</name>
-    <desc>Derrière la façade classique du 17ème siècle nouvellement restaurée, se cache un bel édifice édifié à la charnière des styles roman et gothique angevin. Le mobilier comprend une remarquable série de stalles du 15ème siècle.</desc>
-  </wpt>
+  <ele>30.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kapel Notre-Dame des Ardilliers
+EN: Heritage & history: Notre-Dame des Ardilliers Chapel
+FR: Patrimoine et histoire: Chapelle Notre-Dame des Ardilliers
+]]></name>
+  <desc><![CDATA[
+NL:
+Een van de belangrijkste bedevaartsoorden gewijd aan Maria in de 16e en 17e eeuw.
+
+EN:
+One of the main pilgrimage sites dedicated to the Virgin Mary during the 16th and 17th centuries.
+
+FR:
+L’un des principaux lieux de pèlerinage dédiés à la Vierge aux XVIe et XVIIe siècles.
+]]></desc>
+</wpt>
+
+<wpt lat="47.225730203988384" lon="0.02238549999267746">
+  <ele>34.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Pommes Tapées
+EN: Heritage & history: Pommes Tapées
+FR: Patrimoine et histoire: Pommes Tapées
+]]></name>
+  <desc><![CDATA[
+NL:
+Deze indrukwekkende grot was in de vorige eeuw een belangrijk centrum voor de productie van de beroemde “pommes tapées”. Wat in de 19e eeuw een echte industrie was, verdween volledig. Vandaag wordt dit bijzondere ambacht opnieuw in ere gehouden en nodigt men je uit om dit mysterieuze streekproduct te ontdekken, dat het onderwerp was van talrijke tv-reportages. Bezoek van één uur. Warme kledij aanbevolen. Ontdek ook de formule bezoek en streekmaaltijd in het troglodytische restaurant.
+Nieuw: escape game.
+
+EN:
+This impressive cave was once a major centre for the production of the famous “pommes tapées”. A true industry in the 19th century, this activity later disappeared entirely. Today, this unique craft is being revived and visitors are invited to discover this mysterious local delicacy, featured in numerous TV reports. One-hour visit. Warm clothing recommended. You can also combine the visit with a local meal in the troglodyte restaurant.
+New: escape game.
+
+FR:
+Cette superbe cave fut, au siècle dernier, un haut lieu de la production des fameuses pommes tapées. Véritable industrie au XIXe siècle, cette activité avait complètement disparue. Aujourd'hui, seuls à perpétuer cet artisanat, nous vous invitons à découvrir ce mystérieux délice qui a fait l'objet de nombreux reportages TV. Visite d'une heure. Prévoir un vêtement chaud. Découvrez également notre offre visite et repas terroir dans notre restaurant troglodytique.
+Nouveauté : Escape game.
+]]></desc>
+</wpt>
+
+<wpt lat="47.22108729948532" lon="0.04885519894524014">
+  <ele>31.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Le Saut aux Loups
+EN: Heritage & history: Le Saut aux Loups
+FR: Patrimoine et histoire: Le Saut aux Loups
+]]></name>
+  <desc><![CDATA[
+NL:
+In Montsoreau, tussen Saumur en Chinon, ligt een troglodytische site tegen de helling boven de Loire. Al sinds de vroegste tijden werd deze plek door mensen bewoond; ook wolven vonden er ooit hun toevlucht. Na het stopzetten van de tufsteenwinning aan het einde van de 19e eeuw werden de uitgestrekte galerijen omgevormd tot champignonkwekerijen. Vandaag ontdek je hier de verschillende stappen van de champignonteelt in een uitzonderlijke omgeving.
+
+EN:
+Located in Montsoreau between Saumur and Chinon, this troglodyte site is carved into the hillside overlooking the Loire. Occupied since ancient times by humans — and once also by wolves — the vast galleries were converted into mushroom farms after tuffeau extraction stopped at the end of the 19th century. Today visitors can discover the different stages of mushroom cultivation in an extraordinary setting.
+
+FR:
+À Montsoreau, entre Saumur et Chinon, dans le Val de Loire, ce site troglodytique à flanc de coteau domine la Loire. Occupé depuis la nuit des temps par l’homme, les loups aussi y élurent domicile. À la fin du XIXe siècle, l’exploitation du tuffeau ayant cessé, ces vastes galeries ont été converties en champignonnières. Le site permet aujourd’hui de découvrir les différentes étapes de la culture des champignons dans un lieu hors du commun.
+]]></desc>
+</wpt>
+
+<wpt lat="47.217826104454275" lon="0.053386810550516986">
+  <ele>33.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Huis van het Regionaal Natuurpark Loire-Anjou-Touraine
+EN: Heritage & history: Loire-Anjou-Touraine Regional Nature Park House
+FR: Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine
+]]></name>
+  <desc><![CDATA[
+NL:
+Tijdens je bezoek aan Montsoreau is een halte hier zeker de moeite waard. Alles nodigt uit tot ontspanning en ontdekking. Een interactieve en zintuiglijke tentoonstelling vertelt het verhaal van de Loire en haar bewoners doorheen de eeuwen. Elk jaar zijn er tijdelijke tentoonstellingen en tal van familieactiviteiten van februari tot november. Het team staat klaar met informatie over wandelingen, verblijven en vrijetijdsbesteding. Onthaal en winkel worden gedeeld met het toeristenbureau van Saumur Val de Loire.
+
+EN:
+When visiting Montsoreau, this is a perfect place to stop. Everything invites relaxation and discovery. An interactive and sensory exhibition tells the story of the Loire and its inhabitants over the centuries. Each year, temporary exhibitions and many family activities are organised from February to November. The team is available to help with leisure ideas, hiking routes and accommodation. Reception and shop are shared with the Saumur Val de Loire Tourist Office.
+
+FR:
+De passage à Montsoreau, une halte s’impose ici. Tout invite à la détente et à la découverte. Une exposition interactive et sensorielle raconte la vie de la Loire et de ses habitants au fil des siècles. Chaque année, de nouvelles expositions temporaires et de nombreuses animations familiales sont proposées de février à novembre. L’équipe se tient à votre disposition pour vos loisirs ou votre séjour. Accueil et boutique partagés avec l’Office de Tourisme de Saumur Val de Loire.
+]]></desc>
+</wpt>
+
+<wpt lat="47.21781436365982" lon="0.05342380418703135">
+  <ele>33.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Huis van het Regionaal Natuurpark Loire-Anjou-Touraine
+EN: Heritage & history: Loire-Anjou-Touraine Regional Nature Park House
+FR: Patrimoine et histoire: Maison du Parc naturel régional Loire-Anjou-Touraine
+]]></name>
+  <desc><![CDATA[
+NL:
+Secundair waypoint, identiek aan het hoofdgebouw en gelegen op enkele meters afstand. Zie beschrijving bij het hoofdwaypoint.
+
+EN:
+Secondary waypoint identical to the main building, located just a few metres away. See description at the main waypoint.
+
+FR:
+Point secondaire correspondant au bâtiment principal, situé à quelques mètres. Voir description complète au waypoint principal.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18190562561262" lon="0.05013386264393294">
+  <ele>79.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Koninklijke Abdij van Fontevraud
+EN: Heritage & history: Royal Abbey of Fontevraud
+FR: Patrimoine et histoire: Abbaye Royale de Fontevraud
+]]></name>
+  <desc><![CDATA[
+NL:
+In het hart van de Loirevallei, die op de UNESCO-werelderfgoedlijst staat, ligt een van de grootste monastieke complexen uit de middeleeuwen.
+
+EN:
+In the heart of the Loire Valley, listed as a UNESCO World Heritage Site, lies one of the largest monastic complexes inherited from the Middle Ages.
+
+FR:
+Au cœur du Val de Loire, inscrit au patrimoine mondial de l’UNESCO, se trouve l’une des plus grandes cités monastiques héritées du Moyen Âge.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18176377534651" lon="0.05002101957497347">
+  <ele>79.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Fontevraud, het Museum voor Moderne Kunst
+EN: Heritage & history: Fontevraud, the Museum of Modern Art
+FR: Patrimoine et histoire: Fontevraud, le musée d'Art moderne
+]]></name>
+  <desc><![CDATA[
+NL:
+Dankzij de uitzonderlijke schenking van Martine en Léon Cligman opende het museum op 19 mei 2021 zijn deuren. De rijke en originele collectie, ook online te bekijken, bestaat uit schilderijen, tekeningen, beeldhouwwerken, glaswerk en antieke objecten.
+
+EN:
+Thanks to the exceptional donation by Martine and Léon Cligman, the museum opened on 19 May 2021. The rich and original collection, also viewable online, includes paintings, drawings, sculptures, glasswork and antique objects.
+
+FR:
+Grâce à la donation exceptionnelle de Martine et Léon Cligman, le musée a ouvert ses portes le 19 mai 2021. Cette collection riche et originale, visible en ligne, est constituée de peintures, de dessins, de sculptures, de verreries ainsi que d’objets antiques.
+]]></desc>
+</wpt>
+
+<wpt lat="47.18170631230979" lon="0.049980282783508044">
+  <ele>80.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Koninklijke Abdij van Fontevraud
+EN: Heritage & history: Royal Abbey of Fontevraud
+FR: Patrimoine et histoire: Abbaye Royale de Fontevraud
+]]></name>
+  <desc><![CDATA[
+NL:
+Opgericht in 1101 aan de grenzen van Anjou is dit de grootste monastieke stad van Europa. De geschiedenis is opmerkelijk: zeven eeuwen lang moederabdij van een gemengde orde geleid door vrouwen, daarna een beruchte centrale gevangenis van 1804 tot 1963, en vandaag een centrum voor artistieke creatie, met hotel en restaurant. Bezoekers kunnen de site ontdekken via uiteenlopende formules, van gezinsactiviteiten tot begeleide bezoeken.
+
+EN:
+Founded in 1101 on the borders of Anjou, this is the largest monastic city in Europe. Its history is remarkable: for seven centuries it was the mother abbey of a mixed order led by women, later a feared central prison from 1804 to 1963, and today a centre for artistic creation with a hotel and restaurant. Visitors can explore the site through various guided and themed experiences.
+
+FR:
+Fondée en 1101 aux confins de l’Anjou, il s’agit de la plus grande cité monastique d’Europe. Son histoire est singulière : abbaye mère d’un ordre mixte dirigé par des femmes pendant sept siècles, prison centrale redoutable de 1804 à 1963, puis centre de création artistique aujourd’hui, avec hôtel et restaurant. Le site se découvre à travers de nombreuses formules de visite.
+]]></desc>
+</wpt>
+
+<wpt lat="47.171919211504516" lon="-0.05856556006758036">
+  <ele>61.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Vincentiuskerk van Brézé
+EN: Heritage & history: Saint-Vincent Church of Brézé
+FR: Patrimoine et histoire: Église Saint-Vincent de Brézé
+]]></name>
+  <desc><![CDATA[
+NL:
+Gebouwd aan het einde van de 19e eeuw in lokale tufsteen op de plaats van een oudere kapel gewijd aan Maria. De kerk werd ingewijd in 1904 en maakt deel uit van het dorpsbeeld van Bellevigne-les-Châteaux.
+
+EN:
+Built at the end of the 19th century using local tuffeau stone on the site of an earlier chapel dedicated to the Virgin Mary. The church was consecrated in 1904 and forms an integral part of the village landscape.
+
+FR:
+Édifiée à la fin du XIXe siècle en tuffeau local à l’emplacement d’une ancienne chapelle dédiée à la Vierge Marie, l’église fut consacrée en 1904 et fait partie intégrante du paysage de Bellevigne-les-Châteaux.
+]]></desc>
+</wpt>
+
+<wpt lat="47.172131097550945" lon="-0.05862781776248399">
+  <ele>60.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Brézé
+EN: Heritage & history: Château de Brézé
+FR: Patrimoine et histoire: Château de Brézé
+]]></name>
+  <desc><![CDATA[
+NL:
+Geklasseerd als “Grand site du Val de Loire” en bekend als een van de meest uitzonderlijke kastelen van Frankrijk. Het domein is al sinds 1063 gedocumenteerd en onderscheidt zich door zijn immense ondergrondse vesting.
+
+EN:
+Classified as a “Grand Site du Val de Loire”, this is one of the most unusual castles in France. Documented since 1063, it is distinguished by its immense underground fortress.
+
+FR:
+Classé « Grand site du Val de Loire », ce château figure parmi les plus insolites de France. Attesté depuis 1063, il se distingue par son immense forteresse souterraine.
+]]></desc>
+</wpt>
+
+<wpt lat="47.13253693732699" lon="-0.15397051351673557">
+  <ele>57.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Montreuil-Bellay
+EN: Heritage & history: Château de Montreuil-Bellay
+FR: Patrimoine et histoire: Château de Montreuil-Bellay
+]]></name>
+  <desc><![CDATA[
+NL:
+Een kasteel uit de 11e tot 15e eeuw waar de kracht van de middeleeuwen wordt gecombineerd met de elegantie van de renaissance. Het historisch monument is al meer dan 200 jaar bewoond door dezelfde familie en is volledig ingericht. Proeverij en verkoop van de kasteelwijnen (AOC Saumur) behoren tot het bezoek.
+
+EN:
+Dating from the 11th to the 15th century, this castle combines medieval power with Renaissance elegance. The historic monument has been inhabited by the same family for over 200 years and is fully furnished. Tasting and sale of the estate’s wines (AOC Saumur) are part of the visit.
+
+FR:
+Datant du XIe au XVe siècle, le château associe la puissance du Moyen Âge à l’élégance de la Renaissance. Monument historique habité et meublé par la même famille depuis plus de 200 ans. Dégustation et vente des vins du château en AOC Saumur.
+]]></desc>
+</wpt>
+
+<wpt lat="47.132482763186744" lon="-0.15430528730486387">
+  <ele>58.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Montreuil-Bellay
+EN: Heritage & history: Château de Montreuil-Bellay
+FR: Patrimoine et histoire: Château de Montreuil-Bellay
+]]></name>
+  <desc><![CDATA[
+NL:
+Met zijn 15 verdedigingstorens en 600 meter lange omwallingen heeft dit kasteel de uitstraling van een onneembare vesting.
+
+EN:
+With its 15 defensive towers and 600 metres of ramparts, this castle has the appearance of an impregnable fortress.
+
+FR:
+Avec ses 15 tours de défense et ses 600 mètres de remparts, le château a des allures de forteresse imprenable.
+]]></desc>
+</wpt>
+
+<wpt lat="47.2627485932296" lon="-0.07940870611317716">
+  <ele>31.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Nicolaaskerk
+EN: Heritage & history: Saint-Nicolas Church
+FR: Patrimoine et histoire: Eglise Saint-Nicolas
+]]></name>
+  <desc><![CDATA[
+NL:
+Gelegen in een voormalige handelswijk nabij de oude haven. De gotische architectuur, geïnspireerd op poitevijnse voorbeelden, en het rijke meubilair maken dit tot een van de meest originele kerken van de stad.
+
+EN:
+Located in a former trading district near the old harbour. Its Gothic architecture inspired by Poitevin models and its rich furnishings make it one of the town’s most original churches.
+
+FR:
+Située dans un ancien quartier de négoce, à proximité du vieux port. Son architecture gothique inspirée de modèles poitevins et son riche mobilier en font l'une des plus originales de la ville.
+]]></desc>
+</wpt>
+
+<wpt lat="47.25881208995985" lon="-0.07495933956853904">
+  <ele>32.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Sint-Pieterskerk
+EN: Heritage & history: Saint-Pierre Church
+FR: Patrimoine et histoire: Eglise Saint-Pierre
+]]></name>
+  <desc><![CDATA[
+NL:
+Achter de recent gerestaureerde klassieke gevel uit de 17e eeuw schuilt een gebouw op de overgang tussen romaanse en angevijns-gotische stijlen. Het interieur omvat onder meer een opmerkelijke reeks koorbanken uit de 15e eeuw.
+
+EN:
+Behind the recently restored 17th-century classical façade lies a building at the transition between Romanesque and Angevin Gothic styles. Inside, the furnishings include a remarkable set of 15th-century choir stalls.
+
+FR:
+Derrière la façade classique du XVIIe siècle récemment restaurée se cache un édifice à la charnière des styles roman et gothique angevin. Le mobilier comprend notamment une remarquable série de stalles du XVe siècle.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Boucle vélo : D'Abbaye en châteaux</name>
     <desc>Modifié: 15 semaines</desc>

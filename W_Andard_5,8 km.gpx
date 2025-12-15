@@ -1,20 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
-  <wpt lat="47.45940441279823" lon="-0.37711858749389654">
-    <ele>17.0</ele>
-    <name>Flore: Bac à Chaîne de La Roselière</name>
-    <desc>Profitez du Bac de La Roseli&amp;egrave;re pour vous promener des deux c&amp;ocirc;t&amp;eacute;s de l'Authion sans engin motoris&amp;eacute; et de fa&amp;ccedil;on durable.&lt;br /&gt;&lt;br /&gt;Ouvert en avril, le bac &amp;agrave; cha&amp;icirc;ne de la roseli&amp;egrave;re est accessible jusqu'en octobre. Emprunter le bac permet de traverser l'Authion pour poursuivre le sentier de la Roseli&amp;egrave;re ou rejoindre les sentiers p&amp;eacute;destres ou VTC des bords de l'Authion.</desc>
-  </wpt>
-  <wpt lat="47.45879508172639" lon="-0.37942796945571916">
-    <ele>17.0</ele>
-    <name>Faune: La pêche au carrelet</name>
-    <desc>La p&amp;ecirc;che au carrelet se d&amp;eacute;veloppe au d&amp;eacute;but du si&amp;egrave;cle.&lt;br /&gt;Filet accroch&amp;eacute; sur deux cerceaux crois&amp;eacute;s, suspendu &amp;agrave; une perche, le poisson remonte.&amp;nbsp;&lt;br /&gt;Cette technique permet de p&amp;ecirc;cher des poissons blancs et carnassiers.&amp;nbsp;&lt;br /&gt;Depuis le 12 f&amp;eacute;vrier 2021, la p&amp;ecirc;che au carrelet est reconnue "patrimoine culturel immat&amp;eacute;riel national" par le Minist&amp;egrave;re de la Culture..</desc>
-  </wpt>
-  <wpt lat="47.4576924646935" lon="-0.3868952393531802">
-    <ele>17.0</ele>
-    <name>Faune: Pêche d'eau douce au bord de l'Authion</name>
-    <desc>Pour partager les joies simples d&amp;rsquo;une partie de p&amp;ecirc;che, dans un cadre bois&amp;eacute; et champ&amp;ecirc;tre, l&amp;rsquo;Authion offre de belles possibilit&amp;eacute;s de p&amp;ecirc;che sur son cours. Les bords de l&amp;rsquo;Authion, la rivi&amp;egrave;re qui traverse la commune de Loire-Authion, vous offrent le cadre id&amp;eacute;al !&lt;br /&gt;&lt;br /&gt;L&amp;rsquo;Authion poss&amp;egrave;de une bonne population piscicole en poissons blancs (gardon, br&amp;egrave;me, rotengle), en carnassiers (brochet, sandre, perche) et en carpes communes de taille interm&amp;eacute;diaire.</desc>
-  </wpt>
+ <wpt lat="47.45940441279823" lon="-0.37711858749389654">
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Flora: Kettingveer van La Roselière
+EN: Flora: La Roselière Chain Ferry
+FR: Flore: Bac à chaîne de La Roselière
+]]></name>
+  <desc><![CDATA[
+NL:
+Met dit veer kan je de Authion op een duurzame manier oversteken, zonder gemotoriseerd vervoer, en wandelingen maken aan beide oevers. Het veer is geopend van april tot oktober en maakt het mogelijk om het Roselièrepad te vervolgen of aansluiting te vinden op wandel- en VTC-routes langs de Authion.
+
+EN:
+This chain ferry allows you to cross the Authion in a sustainable way, without motorised transport, and enjoy walks on both riverbanks. Open from April to October, it provides access to the Roselière trail and to pedestrian and leisure cycling routes along the Authion.
+
+FR:
+Ce bac permet de traverser l’Authion de manière durable, sans engin motorisé, et de se promener sur les deux rives. Ouvert d’avril à octobre, il permet de poursuivre le sentier de la Roselière ou de rejoindre les itinéraires pédestres et VTC le long de l’Authion.
+]]></desc>
+</wpt>
+
+<wpt lat="47.45879508172639" lon="-0.37942796945571916">
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Fauna: Vissen met de carrelet
+EN: Fauna: Carrelet fishing
+FR: Faune: La pêche au carrelet
+]]></name>
+  <desc><![CDATA[
+NL:
+Deze vistechniek ontwikkelde zich aan het begin van de 20e eeuw. Het net, bevestigd aan twee gekruiste hoepels en opgehangen aan een lange stok, wordt verticaal opgehaald. Ze maakt het mogelijk om zowel witvis als roofvis te vangen. Sinds 12 februari 2021 is deze praktijk erkend als nationaal immaterieel cultureel erfgoed door het Franse ministerie van Cultuur.
+
+EN:
+This fishing technique developed at the beginning of the 20th century. A net attached to two crossed hoops and suspended from a pole is lifted vertically. It allows the catching of both white fish and predatory species. Since 12 February 2021, this practice has been recognised as National Intangible Cultural Heritage by the French Ministry of Culture.
+
+FR:
+Cette technique de pêche se développe au début du XXe siècle. Un filet accroché à deux cerceaux croisés, suspendu à une perche, est relevé verticalement. Elle permet de pêcher des poissons blancs et des carnassiers. Depuis le 12 février 2021, cette pratique est reconnue patrimoine culturel immatériel national par le ministère de la Culture.
+]]></desc>
+</wpt>
+
+<wpt lat="47.4576924646935" lon="-0.3868952393531802">
+  <ele>17.0</ele>
+  <name><![CDATA[
+NL: Fauna: Zoetwatervissen langs de Authion
+EN: Fauna: Freshwater fishing along the Authion
+FR: Faune: Pêche d’eau douce au bord de l’Authion
+]]></name>
+  <desc><![CDATA[
+NL:
+In een bosrijke en landelijke omgeving biedt de Authion tal van mogelijkheden om te genieten van recreatief vissen. De oevers van deze rivier vormen een ideale setting. De visstand bestaat uit witvis zoals voorn, brasem en rietvoorn, maar ook uit roofvis zoals snoek, snoekbaars en baars, evenals karpers van middelgrote omvang.
+
+EN:
+Set in a wooded and rural environment, the Authion offers many opportunities for enjoyable freshwater fishing. Its riverbanks provide an ideal setting. The river hosts a healthy fish population including white fish such as roach, bream and rudd, predatory species like pike, zander and perch, as well as medium-sized common carp.
+
+FR:
+Dans un cadre boisé et champêtre, l’Authion offre de belles possibilités de pêche de loisir. Ses berges constituent un environnement idéal. La rivière abrite une population piscicole variée composée de poissons blancs (gardon, brème, rotengle), de carnassiers (brochet, sandre, perche) et de carpes communes de taille intermédiaire.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] La Roselière - Andard</name>
     <desc>&lt;ol&gt;

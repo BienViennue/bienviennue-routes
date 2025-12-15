@@ -10,37 +10,75 @@
   <time>2025-02-04T02:10:52.000Z</time>
   <name>Abbaye de Seuilly</name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.13744" lon="0.166637">
+</wpt>
+
+<wpt lat="47.13744" lon="0.166637">
   <ele>88</ele>
   <time>2025-02-04T02:04:04.000Z</time>
-  <name>Descente du coteau de Seuilly</name>
+  <name><![CDATA[
+NL: Afdaling van de heuvelrug van Seuilly
+EN: Descent of the Seuilly hillside
+FR: Descente du coteau de Seuilly
+]]></name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.146402" lon="0.150029">
+</wpt>
+
+<wpt lat="47.146402" lon="0.150029">
   <ele>104</ele>
   <time>2025-02-04T01:26:09.000Z</time>
-  <name>Angle droit à gauche</name>
+  <name><![CDATA[
+NL: Haakse bocht naar links
+EN: Sharp left turn
+FR: Angle droit à gauche
+]]></name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.150605" lon="0.16462">
+</wpt>
+
+<wpt lat="47.150605" lon="0.16462">
   <ele>102</ele>
   <time>2025-02-04T01:02:02.000Z</time>
-  <name>En face sur le chemin</name>
+  <name><![CDATA[
+NL: Rechtdoor op het pad
+EN: Straight ahead on the path
+FR: En face sur le chemin
+]]></name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.148744" lon="0.177285">
+</wpt>
+
+<wpt lat="47.148744" lon="0.177285">
   <ele>104</ele>
   <time>2025-02-04T00:39:06.000Z</time>
-  <name>Chemin à droite, après l'oppidum</name>
+  <name><![CDATA[
+NL: Pad naar rechts, na het oppidum
+EN: Path to the right, after the oppidum
+FR: Chemin à droite, après l'oppidum
+]]></name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.149911" lon="0.180203">
+</wpt>
+
+<wpt lat="47.149911" lon="0.180203">
   <ele>91</ele>
   <time>2025-02-04T00:32:24.000Z</time>
-  <name>Patte d'oie</name>
+  <name><![CDATA[
+NL: Patte d’oie (vork met drie wegen)
+EN: Three-way junction
+FR: Patte d'oie
+]]></name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.139316" lon="0.180504">
+</wpt>
+
+<wpt lat="47.139316" lon="0.180504">
   <ele>61</ele>
   <time>2025-02-03T23:58:15.000Z</time>
-  <name>Parking du Musée de la Devinière</name>
+  <name><![CDATA[
+NL: Parking van het Musée de la Devinière
+EN: Musée de la Devinière car park
+FR: Parking du Musée de la Devinière
+]]></name>
   <type>GENERIC</type>
-</wpt><wpt lat="47.135229" lon="0.170633">
+</wpt>
+
+<wpt lat="47.135229" lon="0.170633">
   <ele>56</ele>
   <time>2025-02-03T23:37:53.000Z</time>
   <name/>

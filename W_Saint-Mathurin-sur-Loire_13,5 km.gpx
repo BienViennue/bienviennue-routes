@@ -1,20 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.40978611100554" lon="-0.32354230061173417">
-    <ele>21.0</ele>
-    <name>Panoramas et point de vue: Panorama sur la Loire - Saint-Mathurin-sur-Loire</name>
-    <desc>Point de vue sur la Loire et sur le pont de Saint-Mathurin-sur-Loire (pont qui relie la commune de Saint-Mathurin-sur-Loire et Saint-R&amp;eacute;my-la-Varenne).</desc>
-  </wpt>
-  <wpt lat="47.43810265084398" lon="-0.3326510496845001">
-    <ele>21.0</ele>
-    <name>Patrimoine et histoire: Moulin de la Bougette</name>
-    <desc>Le Moulin Bougette est un moulin &amp;agrave; vent de type "tour".&lt;br /&gt;Le moulin-tour au lieu dit "la Bougette", proche de loire-Authion, est constitu&amp;eacute; d'une tour faite en pierre.&amp;nbsp;&amp;nbsp;</desc>
-  </wpt>
-  <wpt lat="47.41984127909978" lon="-0.34510374069213806">
-    <ele>20.0</ele>
-    <name>Patrimoine et histoire: Chapelle de la Marsaulaye</name>
-    <desc>Chapelle du XV&amp;egrave;me si&amp;egrave;cle inscrite sur la liste des Monuments Historiques. &amp;nbsp;Le premier hameau s&amp;rsquo;&amp;eacute;tant constitu&amp;eacute; sur l&amp;rsquo;actuelle commune de Saint-Mathurin-sur-Loire &amp;eacute;tait situ&amp;eacute; au lieu-dit &amp;laquo; La Marsaulaye &amp;raquo;. C&amp;rsquo;est donc tout naturellement &amp;agrave; cet endroit qu&amp;rsquo;une chapelle a &amp;eacute;t&amp;eacute; fond&amp;eacute;e en 1335. Elle fut reconstruite en 1500.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;A ses c&amp;ocirc;t&amp;eacute;s, se trouve le manoir de la Marsaulaye (XVI&amp;egrave;me-XVIII&amp;egrave;me s.) qui faisait partie d&amp;rsquo;un m&amp;ecirc;me ensemble. En 1848, ces deux &amp;eacute;difices furent s&amp;eacute;par&amp;eacute;s par la construction de la voie de chemin de fer.&lt;br /&gt;L'int&amp;eacute;rieur de la chapelle n'est pas accessible.</desc>
-  </wpt>
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Panorama’s en uitzichtpunt: Panorama over de Loire – Saint-Mathurin-sur-Loire
+EN: Panoramas and viewpoints: Panorama over the Loire – Saint-Mathurin-sur-Loire
+FR: Panoramas et point de vue: Panorama sur la Loire - Saint-Mathurin-sur-Loire
+]]></name>
+  <desc><![CDATA[
+NL:
+Uitzicht over de Loire en over de brug van Saint-Mathurin-sur-Loire, die de gemeenten Saint-Mathurin-sur-Loire en Saint-Rémy-la-Varenne met elkaar verbindt.
+
+EN:
+View over the Loire River and the bridge of Saint-Mathurin-sur-Loire, which connects the towns of Saint-Mathurin-sur-Loire and Saint-Rémy-la-Varenne.
+
+FR:
+Point de vue sur la Loire et sur le pont de Saint-Mathurin-sur-Loire, qui relie la commune de Saint-Mathurin-sur-Loire à celle de Saint-Rémy-la-Varenne.
+]]></desc>
+</wpt>
+
+<wpt lat="47.43810265084398" lon="-0.3326510496845001">
+  <ele>21.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Moulin de la Bougette
+EN: Heritage & history: Moulin de la Bougette
+FR: Patrimoine et histoire: Moulin de la Bougette
+]]></name>
+  <desc><![CDATA[
+NL:
+Dit is een windmolen van het type torenmolen. Hij bestaat uit een stenen toren en ligt in de omgeving van Loire-Authion, waar hij deel uitmaakt van het lokale landschap.
+
+EN:
+This is a tower-type windmill. It consists of a stone tower and is located near Loire-Authion, forming part of the surrounding landscape.
+
+FR:
+Il s’agit d’un moulin à vent de type « tour ». Le moulin-tour, situé au lieu-dit « la Bougette », à proximité de Loire-Authion, est constitué d’une tour construite en pierre.
+]]></desc>
+</wpt>
+
+<wpt lat="47.41984127909978" lon="-0.34510374069213806">
+  <ele>20.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kapel van La Marsaulaye
+EN: Heritage & history: Chapel of La Marsaulaye
+FR: Patrimoine et histoire: Chapelle de la Marsaulaye
+]]></name>
+  <desc><![CDATA[
+NL:
+Kapel uit de 15e eeuw, opgenomen op de lijst van beschermde monumenten. Het eerste gehucht van de huidige gemeente Saint-Mathurin-sur-Loire bevond zich op deze plek, wat verklaart waarom hier in 1335 een kapel werd gesticht. In 1500 werd het gebouw heropgebouwd. Naast de kapel staat het landhuis van La Marsaulaye, dat oorspronkelijk deel uitmaakte van hetzelfde geheel. In 1848 werden beide gebouwen van elkaar gescheiden door de aanleg van de spoorlijn. Het interieur van de kapel is niet toegankelijk.
+
+EN:
+A 15th-century chapel listed as a Historic Monument. The first hamlet of what is now Saint-Mathurin-sur-Loire was located here, which explains why a chapel was founded on this site in 1335. The building was rebuilt in 1500. Nearby stands the manor of La Marsaulaye, originally part of the same ensemble. In 1848, the two buildings were separated by the construction of the railway line. The interior of the chapel is not accessible.
+
+FR:
+Chapelle du XVe siècle inscrite à l’inventaire des Monuments Historiques. Le premier hameau de l’actuelle commune de Saint-Mathurin-sur-Loire était situé en ce lieu, ce qui explique la fondation d’une chapelle en 1335. Elle fut reconstruite en 1500. À ses côtés se trouve le manoir de la Marsaulaye (XVIe–XVIIIe siècle), qui faisait partie du même ensemble. En 1848, les deux édifices furent séparés par la construction de la voie ferrée. L’intérieur de la chapelle n’est pas accessible.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Entre Loire et Authion - Saint - Mathurin - sur - Loire</name>
     <desc>&lt;ol&gt;

@@ -1,25 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
   <wpt lat="47.48986196300234" lon="-0.3262276947498315">
-    <ele>53.0</ele>
-    <name>Panoramas et point de vue: Un Panorama sur les Coteaux</name>
-    <desc>Du sommet de ces collines, on peut admirer la beaut&amp;eacute; naturelle de la r&amp;eacute;gion et profiter d&amp;rsquo;un moment de calme et de d&amp;eacute;tente.</desc>
-  </wpt>
-  <wpt lat="47.49296474127696" lon="-0.31081438064575245">
-    <ele>46.0</ele>
-    <name>Patrimoine et histoire: La tour de Cornillés - les - Caves</name>
-    <desc>Construite au XVe, cet &amp;eacute;difice &amp;eacute;tait &amp;agrave; l&amp;rsquo;origine une tour de guet pour surveiller les environs.&lt;br /&gt;La tour de Cornill&amp;eacute;-les-Caves est &amp;eacute;galement connue sous le nom de &amp;laquo; Tour de l&amp;rsquo;Horloge &amp;raquo;, car elle abrite une horloge m&amp;eacute;canique datant du XIXe si&amp;egrave;cle. Cette horloge a &amp;eacute;t&amp;eacute; install&amp;eacute;e dans la tour en 1870 et fonctionne toujours aujourd&amp;rsquo;hui.</desc>
-  </wpt>
-  <wpt lat="47.511968881645174" lon="-0.304991975426673">
-    <ele>34.0</ele>
-    <name>Patrimoine et histoire: Château des Bruères</name>
-    <desc>&amp;Eacute;difice construit entre 1865 et 1868, dans le styles n&amp;eacute;ogothique, sur les plans de Charles Chesneau, architecte angevin.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Aujourd'hui le b&amp;acirc;timent est un h&amp;ocirc;tel.&lt;br /&gt;</desc>
-  </wpt>
-  <wpt lat="47.50198205611175" lon="-0.35018183290958377">
-    <ele>55.0</ele>
-    <name>Patrimoine et histoire: Château de Briançon</name>
-    <desc>Un lieu unique au c&amp;oelig;ur des Terres Angevines.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Les premi&amp;egrave;res traces du ch&amp;acirc;teau remontent au Xᵉ si&amp;egrave;cle. Il fut par la suite d&amp;eacute;truit.&amp;nbsp;&lt;br /&gt;Le ch&amp;acirc;teau que l'on retrouve actuellement fut b&amp;acirc;ti en 1530. La famille de Brian&amp;ccedil;on la habit&amp;eacute;e du XIe au XIIIe si&amp;egrave;cle.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Depuis 2013, le Ch&amp;acirc;teau de Brian&amp;ccedil;on est une plateforme socio-culturelle abritant un centre de loisirs avec h&amp;eacute;bergement adapt&amp;eacute; et accompagnement sp&amp;eacute;cifique ainsi qu'un h&amp;ocirc;tel compos&amp;eacute; de 14 chambres et class&amp;eacute; trois &amp;eacute;toiles en 2018.&amp;nbsp;</desc>
-  </wpt>
+  <ele>53.0</ele>
+  <name><![CDATA[
+NL: Panorama & uitzichtspunt: Panorama over de heuvels
+EN: Panoramas & viewpoints: Panorama over the hills
+FR: Panoramas et point de vue: Un panorama sur les coteaux
+]]></name>
+  <desc><![CDATA[
+NL:
+Vanaf de top van deze heuvels geniet je van een weids uitzicht over het landschap en van een moment van rust en ontspanning.
+
+EN:
+From the top of these hills, visitors can admire the natural beauty of the region and enjoy a peaceful, relaxing moment.
+
+FR:
+Du sommet de ces collines, on peut admirer la beauté naturelle de la région et profiter d’un moment de calme et de détente.
+]]></desc>
+</wpt>
+
+<wpt lat="47.49296474127696" lon="-0.31081438064575245">
+  <ele>46.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: De toren van Cornillé-les-Caves
+EN: Heritage & history: The tower of Cornillé-les-Caves
+FR: Patrimoine et histoire: La tour de Cornillé-les-Caves
+]]></name>
+  <desc><![CDATA[
+NL:
+Opgericht in de 15e eeuw deed dit gebouw oorspronkelijk dienst als uitkijktoren om de omgeving te bewaken. Later werd er een mechanisch uurwerk uit de 19e eeuw in ondergebracht, dat in 1870 werd geïnstalleerd en nog steeds functioneert.
+
+EN:
+Built in the 15th century, this structure originally served as a watchtower to monitor the surrounding area. It later housed a 19th-century mechanical clock, installed in 1870, which is still in operation today.
+
+FR:
+Construite au XVe siècle, cette tour servait à l’origine de poste de guet pour surveiller les environs. Elle abrite également une horloge mécanique datant du XIXe siècle, installée en 1870 et toujours en fonctionnement aujourd’hui.
+]]></desc>
+</wpt>
+
+<wpt lat="47.511968881645174" lon="-0.304991975426673">
+  <ele>34.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Les Bruères
+EN: Heritage & history: Château des Bruères
+FR: Patrimoine et histoire: Château des Bruères
+]]></name>
+  <desc><![CDATA[
+NL:
+Het gebouw werd opgetrokken tussen 1865 en 1868 in neogotische stijl, naar plannen van de Angevijnse architect Charles Chesneau. Vandaag doet het dienst als hotel.
+
+EN:
+The building was constructed between 1865 and 1868 in a Neo-Gothic style, based on plans by the Anjou architect Charles Chesneau. Today, it operates as a hotel.
+
+FR:
+Édifice construit entre 1865 et 1868 dans un style néogothique, sur les plans de l’architecte angevin Charles Chesneau. Aujourd’hui, le bâtiment est exploité comme hôtel.
+]]></desc>
+</wpt>
+
+<wpt lat="47.50198205611175" lon="-0.35018183290958377">
+  <ele>55.0</ele>
+  <name><![CDATA[
+NL: Erfgoed & geschiedenis: Kasteel van Briançon
+EN: Heritage & history: Château de Briançon
+FR: Patrimoine et histoire: Château de Briançon
+]]></name>
+  <desc><![CDATA[
+NL:
+Een bijzondere plek in het hart van de Anjou. De oudste sporen van het kasteel dateren uit de 10e eeuw; het oorspronkelijke bouwwerk werd later verwoest. Het huidige kasteel werd in 1530 gebouwd en was eeuwenlang verbonden met de familie de Briançon. Sinds 2013 heeft het domein een socio-culturele functie, met aangepaste verblijven, begeleide activiteiten en een driesterrenhotel met veertien kamers.
+
+EN:
+A unique site in the heart of Anjou. The earliest traces of the castle date back to the 10th century, though the original structure was later destroyed. The current castle was built in 1530 and long associated with the Briançon family. Since 2013, the estate has served a socio-cultural role, offering adapted accommodation, specialised support and a three-star hotel with fourteen rooms.
+
+FR:
+Lieu unique au cœur des terres angevines. Les premières traces du château remontent au Xe siècle, mais l’édifice d’origine fut détruit. Le château actuel fut construit en 1530 et resta longtemps lié à la famille de Briançon. Depuis 2013, le site accueille une plateforme socio-culturelle comprenant des hébergements adaptés, un accompagnement spécifique ainsi qu’un hôtel de quatorze chambres classé trois étoiles.
+]]></desc>
+</wpt>
   <trk>
     <name>[Itinéraire] Tuffeau et bois - Bauné</name>
     <desc>Parking face &amp;agrave; la mairie. Du parking prendre &amp;agrave; droite. Continuez sur la rue en laissant l'ancien moulin d'eau sur votre gauche le chemin de Chasteney&amp;nbsp;&lt;br /&gt;
