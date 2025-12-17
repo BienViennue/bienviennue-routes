@@ -1,7 +1,7 @@
 # --- generate-index.ps1 ---
-# Bouwt index.html op basis van alle GPX / PDF / PNG-bestanden in de huidige map
+# Bouwt index.html op basis van alle GPX / PDF / PNG / WEBP-bestanden in de huidige map
 
-$routes = Get-ChildItem -File | Where-Object { $_.Extension -in '.gpx', '.pdf', '.png' }
+$routes = Get-ChildItem -File | Where-Object { $_.Extension -in '.gpx', '.pdf', '.png', '.webp' }
 $groups = $routes | Group-Object { $_.BaseName }
 
 $head = @'
@@ -41,6 +41,7 @@ $head = @'
     .gpx{background:#5BA9C2}
     .pdf{background:#d9534f}
     .png{background:#5cb85c}
+    .webp{background:#6f42c1}
   </style>
 </head>
 <body>
@@ -53,13 +54,15 @@ foreach ($g in $groups | Sort-Object Name) {
 
   $name = $g.Name
 
-  $gpx = $g.Group | Where-Object { $_.Extension -ieq '.gpx' } | Select-Object -First 1
-  $pdf = $g.Group | Where-Object { $_.Extension -ieq '.pdf' } | Select-Object -First 1
-  $png = $g.Group | Where-Object { $_.Extension -ieq '.png' } | Select-Object -First 1
+  $gpx  = $g.Group | Where-Object { $_.Extension -ieq '.gpx'  } | Select-Object -First 1
+  $pdf  = $g.Group | Where-Object { $_.Extension -ieq '.pdf'  } | Select-Object -First 1
+  $png  = $g.Group | Where-Object { $_.Extension -ieq '.png'  } | Select-Object -First 1
+  $webp = $g.Group | Where-Object { $_.Extension -ieq '.webp' } | Select-Object -First 1
 
-  $gpxHref = if ($gpx) { [uri]::EscapeDataString($gpx.Name) } else { $null }
-  $pdfHref = if ($pdf) { [uri]::EscapeDataString($pdf.Name) } else { $null }
-  $pngHref = if ($png) { [uri]::EscapeDataString($png.Name) } else { $null }
+  $gpxHref  = if ($gpx)  { [uri]::EscapeDataString($gpx.Name)  } else { $null }
+  $pdfHref  = if ($pdf)  { [uri]::EscapeDataString($pdf.Name)  } else { $null }
+  $pngHref  = if ($png)  { [uri]::EscapeDataString($png.Name)  } else { $null }
+  $webpHref = if ($webp) { [uri]::EscapeDataString($webp.Name) } else { $null }
 
   $null = $body.AppendLine('  <div class="route">')
   $null = $body.AppendLine("    <p class=""name"">$name</p>")
@@ -73,6 +76,9 @@ foreach ($g in $groups | Sort-Object Name) {
   }
   if ($pngHref) {
     $null = $body.AppendLine("      <a class=""png"" href=""$pngHref"" download>Download PNG</a>")
+  }
+  if ($webpHref) {
+    $null = $body.AppendLine("      <a class=""webp"" href=""$webpHref"" download>Download WEBP</a>")
   }
 
   $null = $body.AppendLine('    </div>')
