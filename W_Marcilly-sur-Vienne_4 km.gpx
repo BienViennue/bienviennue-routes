@@ -1,48 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="RouteYou" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx creator="RouteYou" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>W_Marcilly-sur-Vienne_4 km - kopie</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
   <wpt lat="47.04444" lon="0.54028">
-  <name>Marcilly-sur-Vienne</name>
-  <desc><![CDATA[
-NL: Marcilly-sur-Vienne is een Franse gemeente in het departement Indre-et-Loire, in de regio Centre-Val de Loire. Canton Sainte-Maure - arrondissement Chinon - oppervlakte: 1 099 hectare op 42 meter hoogte - aantal inwoners: 513 - waterlopen: de Vienne en de beekjes "Le ruisseau de la Fontaine, du Ceps et du Sourd" - aangrenzende gemeenten: Ports, Luzé, Rilly-sur-Vienne, Pouzay en Nouâtre - departementale wegen: D18 en D 108.
-EN: Marcilly-sur-Vienne is a French municipality in the Indre-et-Loire department, in the Centre-Val de Loire region. Sainte-Maure canton - Chinon arrondissement - area: 1,099 hectares at an altitude of 42 metres - number of inhabitants: 513 - waterways: the Vienne and the streams "Le ruisseau de la Fontaine, du Ceps et du Sourd" - neighbouring municipalities: Ports, Luzé, Rilly-sur-Vienne, Pouzay and Nouâtre - departmental roads: D18 and D 108.
-FR: Marcilly-sur-Vienne est une commune française du département d'Indre-et-Loire, en région Centre-Val de Loire. Canton de Sainte-Maure - Arrondissement de Chinon - Superficie : 1 099 hectares à 42 mètres d'altitude - nombre d'habitants : 513 - Voies d'eau : La Vienne et les ruisseaux "Le ruisseau de la Fontaine, du Ceps et du Sourd" - Communes frontalières : Ports, Luzé, Rilly-sur-Vienne, Pouzay et Nouâtre - Routes départementales : D18 et D 108 .
-]]></desc>
-  <type>Gemeente</type>
-</wpt>
-
-<wpt lat="47.04262" lon="0.54042">
-  <name>Église Saint-Blaise</name>
-  <desc><![CDATA[
+    <name>Marcilly-sur-Vienne</name>
+    <desc>
+NL: Marcilly-sur-Vienne is een Franse gemeente in het departement Indre-et-Loire, in de regio Centre-Val de Loire. Canton Sainte-Maure - arrondissement Chinon - oppervlakte: 1 099 hectare op 42 meter hoogte - aantal inwoners: 513 - waterlopen: de Vienne en de beekjes &quot;Le ruisseau de la Fontaine, du Ceps et du Sourd&quot; - aangrenzende gemeenten: Ports, Luzé, Rilly-sur-Vienne, Pouzay en Nouâtre - departementale wegen: D18 en D 108.
+EN: Marcilly-sur-Vienne is a French municipality in the Indre-et-Loire department, in the Centre-Val de Loire region. Sainte-Maure canton - Chinon arrondissement - area: 1,099 hectares at an altitude of 42 metres - number of inhabitants: 513 - waterways: the Vienne and the streams &quot;Le ruisseau de la Fontaine, du Ceps et du Sourd&quot; - neighbouring municipalities: Ports, Luzé, Rilly-sur-Vienne, Pouzay and Nouâtre - departmental roads: D18 and D 108.
+FR: Marcilly-sur-Vienne est une commune française du département d&apos;Indre-et-Loire, en région Centre-Val de Loire. Canton de Sainte-Maure - Arrondissement de Chinon - Superficie : 1 099 hectares à 42 mètres d&apos;altitude - nombre d&apos;habitants : 513 - Voies d&apos;eau : La Vienne et les ruisseaux &quot;Le ruisseau de la Fontaine, du Ceps et du Sourd&quot; - Communes frontalières : Ports, Luzé, Rilly-sur-Vienne, Pouzay et Nouâtre - Routes départementales : D18 et D 108 .
+</desc>
+    <type>Gemeente</type>
+  </wpt>
+  <wpt lat="47.04262" lon="0.54042">
+    <name>Église Saint-Blaise</name>
+    <desc>
 NL: De kerk is een mooi gebouw uit de 15e eeuw met de uitstraling van een seigneuriële kapel. Ze werd gebouwd door de familie de la Jaille en herbergde tot in de 19e eeuw de grafmonumenten, ligbeelden en graven van de verschillende eigenaars van het Château de la Motte. Achter de kerk vind je, met gele kruisen gemarkeerd, de verschillende overstromingspeilen van de Vienne. De zwaarste (op 1 meter boven je hoofd!) dateert van 13 juli 1792. Daarna kan men, in afnemende volgorde, lezen “L’AN 1638, le 4ième FEVRIER LA RIVIE…” en “L’AN MIL 5 C XXX (1530) LA RIVIERE FUT ICY” en lager: 1740, misschien 1636, 1896, 1689, en helemaal onderaan: 1982. Andere graffiti, op de noordmuur, zijn geïnspireerd door de vroegere scheepvaart op de Vienne, waaronder een boot met bol staand zeil, met zijn twee riemen en zijn roer.
 EN: The church is a fine 15th-century building with the look of a seigneurial chapel. Built by the de la Jaille family, it housed until the 19th century the tombs, effigies and burials of the various owners of the Château de la Motte. Behind the church you will find, marked with yellow crosses, the different flood levels of the Vienne. The most severe (1 metre above your head!) dates from 13 July 1792. Then, in decreasing order, you can read “L’AN 1638, le 4ième FEVRIER LA RIVIE…” and “L’AN MIL 5 C XXX (1530) LA RIVIERE FUT ICY”, and lower down: 1740, perhaps 1636, 1896, 1689, and at the very bottom: 1982. Other graffiti on the north wall is inspired by the former river navigation on the Vienne, including a boat with a billowing sail, with its two oars and its rudder.
-FR: L’église est un bel édifice du XVe siècle aux allures de chapelle seigneuriale. Construite par la famille de la Jaille, elle a abrité jusqu’au XIXe siècle les tombeaux, gisants et sépultures des différents propriétaires du Château de la Motte. Derrière l'église vous trouverez marquées de croix jaunes les différentes crues de la Vienne. La plus grave, (à 1 mètre au-dessus de votre tête !), du 13 juillet 1792. Puis, par ordre décroissant, on peut lire « L’AN 1638, le 4ième FEVRIER LA RIVIE… » et « L’AN MIL 5 C XXX (1530) LA RIVIERE FUT ICY » plus bas : 1740, peut-être 1636, 1896, 1689, puis tout en bas : 1982. D’autres graffitis, sur le mur nord, sont inspirés par l’ancienne marine de Vienne dont un bateau à la voile gonflée avec ses deux rames et sa gouverne.
-]]></desc>
-  <type>Église</type>
-</wpt>
-
-<wpt lat="47.04261" lon="0.53999">
-  <name>Le Marais: Ferme seigneuriale</name>
-  <desc><![CDATA[
+FR: L’église est un bel édifice du XVe siècle aux allures de chapelle seigneuriale. Construite par la famille de la Jaille, elle a abrité jusqu’au XIXe siècle les tombeaux, gisants et sépultures des différents propriétaires du Château de la Motte. Derrière l&apos;église vous trouverez marquées de croix jaunes les différentes crues de la Vienne. La plus grave, (à 1 mètre au-dessus de votre tête !), du 13 juillet 1792. Puis, par ordre décroissant, on peut lire « L’AN 1638, le 4ième FEVRIER LA RIVIE… » et « L’AN MIL 5 C XXX (1530) LA RIVIERE FUT ICY » plus bas : 1740, peut-être 1636, 1896, 1689, puis tout en bas : 1982. D’autres graffitis, sur le mur nord, sont inspirés par l’ancienne marine de Vienne dont un bateau à la voile gonflée avec ses deux rames et sa gouverne.
+</desc>
+    <type>Église</type>
+  </wpt>
+  <wpt lat="47.04261" lon="0.53999">
+    <name>Le Marais: Ferme seigneuriale</name>
+    <desc>
 NL: Le Marais was een seigneuriële hoeve die onder het Château de la Motte viel. Vandaag is alleen nog de mooie vierkante duiventil over, waarvan de begane grond, die als poort diende, in de 17e eeuw de ingang vormde.
 EN: Le Marais was a seigneurial farm estate belonging to the Château de la Motte. Today only the fine square dovecote remains, whose ground floor, forming a porch, served as the entrance in the 17th century.
 FR: Le Marais était une ferme seigneuriale relevant du château de la Motte. Il n’en subsiste aujourd’hui que la belle fuie carrée, dont le rez-de-chaussée, formant porche, en constituait l’entrée au XVIIe siècle.
-]]></desc>
-  <type>Ferme</type>
-</wpt>
-
-<wpt lat="47.03773" lon="0.53416">
-  <name>Point de vue</name>
-  <desc><![CDATA[
+</desc>
+    <type>Ferme</type>
+  </wpt>
+  <wpt lat="47.03773" lon="0.53416">
+    <name>Point de vue</name>
+    <desc>
 NL: Uitzichtpunt op de tegenoverliggende hellingen met talrijke aanplantingen van truffeleiken.
 EN: Viewpoint over the opposite hillsides with many plantings of truffle oaks.
 FR: Point de vue sur les coteaux d’en face avec de nombreuses plantations de chênes truffiers.
-]]></desc>
-  <type>Point de vue</type>
-</wpt>
-
+</desc>
+    <type>Point de vue</type>
+  </wpt>
   <trk>
     <name>Marcilly-sur-Vienne: Sentier pédestre (4 km)</name>
-    <desc></desc>
     <trkseg>
       <trkpt lat="47.04259" lon="0.54025">
         <ele>42</ele>
@@ -317,14 +319,35 @@ FR: Point de vue sur les coteaux d’en face avec de nombreuses plantations de c
       <trkpt lat="47.04311" lon="0.537">
         <ele>42</ele>
       </trkpt>
-      <trkpt lat="47.04307" lon="0.53793">
+      <trkpt lat="47.043103" lon="0.536988">
+        <ele>44</ele>
+      </trkpt>
+      <trkpt lat="47.043089" lon="0.53756">
+        <ele>42.75</ele>
+      </trkpt>
+      <trkpt lat="47.04306" lon="0.53808">
+        <ele>42.25</ele>
+      </trkpt>
+      <trkpt lat="47.043021" lon="0.538513">
         <ele>42</ele>
       </trkpt>
-      <trkpt lat="47.04267" lon="0.5386">
+      <trkpt lat="47.04302" lon="0.538533">
         <ele>42</ele>
       </trkpt>
-      <trkpt lat="47.04259" lon="0.54025">
-        <ele>42</ele>
+      <trkpt lat="47.042809" lon="0.538578">
+        <ele>42.25</ele>
+      </trkpt>
+      <trkpt lat="47.042599" lon="0.538586">
+        <ele>42.25</ele>
+      </trkpt>
+      <trkpt lat="47.042599" lon="0.539111">
+        <ele>42.75</ele>
+      </trkpt>
+      <trkpt lat="47.042596" lon="0.539398">
+        <ele>42.75</ele>
+      </trkpt>
+      <trkpt lat="47.042587" lon="0.540249">
+        <ele>41.75</ele>
       </trkpt>
     </trkseg>
   </trk>
